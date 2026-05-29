@@ -49,6 +49,10 @@ function renderParagraph(paragraph: BlogParagraph) {
     );
 }
 
+function isEmphasizedItem(item: string) {
+    return /^\d+\.\s/.test(item) || /:$/.test(item);
+}
+
 export const metadata = meta;
 
 export default function ComplianceAndCustomsHandlingPage() {
@@ -113,7 +117,15 @@ export default function ComplianceAndCustomsHandlingPage() {
                                                 {section.items.map((item) => (
                                                     <li key={item} className="flex gap-3 text-gray-300">
                                                         <CheckCircle2 size={18} className="mt-1 text-[#f23410]" />
-                                                        <span className="leading-7">{item}</span>
+                                                        <span
+                                                            className={
+                                                                isEmphasizedItem(item)
+                                                                    ? "text-lg font-semibold leading-7 text-white md:text-xl"
+                                                                    : "leading-7 text-gray-300"
+                                                            }
+                                                        >
+                                                            {item}
+                                                        </span>
                                                     </li>
                                                 ))}
                                             </ul>
