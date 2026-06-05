@@ -1814,6 +1814,7 @@ export const blogs: BlogPost[] = [
     },
 ];
 
+
 export const findBlogByTitle = (title?: string) =>
     blogs.find((blog) => blog.title === title);
 
