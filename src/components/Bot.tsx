@@ -326,6 +326,7 @@ const Bot = () => {
         </div>
       )}
 
+
       <style jsx>{`
         @keyframes bounce-subtle {
           0%,
