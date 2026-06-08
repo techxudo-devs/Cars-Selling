@@ -118,7 +118,7 @@ export default function BlogsContent() {
                         <article className="space-y-16">
                             {/* Introduction */}
                             <div className="relative border-l-2 border-[#f23410] pl-8">
-                                <p className="text-base leading-normal text-gray-200 md:text-lg font-medium">
+                                <p className="text-base leading-normal text-gray-200 md:text-lg font-medium whitespace-pre-line">
                                     {renderParagraph(selectedBlog.introduction)}
                                 </p>
                             </div>
@@ -137,7 +137,7 @@ export default function BlogsContent() {
                                             {section.paragraphs.map((paragraph, pIdx) => (
                                                 <p
                                                     key={pIdx}
-                                                    className="text-base leading-7 text-gray-300 md:text-lg opacity-90"
+                                                    className="text-base leading-7 text-gray-300 md:text-lg opacity-90 whitespace-pre-line"
                                                 >
                                                     {renderParagraph(paragraph)}
                                                 </p>
