@@ -134,7 +134,7 @@ export default function BlogsContent() {
                                             </h2>
                                         </div>
                                         <div className="space-y-4">
-                                            {section.paragraphs.map((paragraph, pIdx) => (
+                                            {section.paragraphs?.map((paragraph, pIdx) => (
                                                 <p
                                                     key={pIdx}
                                                     className="text-base leading-7 text-gray-300 md:text-lg opacity-90 whitespace-pre-line"
@@ -159,6 +159,18 @@ export default function BlogsContent() {
                                                         </li>
                                                     ))}
                                                 </ul>
+                                            ) : null}
+                                            {section.postItemsParagraphs?.length ? (
+                                                <div className="space-y-4">
+                                                    {section.postItemsParagraphs.map((paragraph, pIdx) => (
+                                                        <p
+                                                            key={pIdx}
+                                                            className="text-base leading-7 text-gray-300 md:text-lg opacity-90 whitespace-pre-line"
+                                                        >
+                                                            {renderParagraph(paragraph)}
+                                                        </p>
+                                                    ))}
+                                                </div>
                                             ) : null}
                                         </div>
                                     </div>
