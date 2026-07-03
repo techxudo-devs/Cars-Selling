@@ -5,6 +5,12 @@ import { Toaster } from "sonner";
 import QueryProvider from "@/providers/QueryProvider";
 import Script from "next/script";
 import SiteChrome from "@/components/SiteChrome";
+import JsonLd from "@/components/JsonLd";
+import {
+  buildLocalBusinessSchema,
+  buildOrganizationSchema,
+  buildWebsiteSchema,
+} from "@/lib/structuredData";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -67,6 +73,9 @@ export default function RootLayout({
         <Script id="google-analytics" strategy="afterInteractive">
           {googleAnalyticsScript}
         </Script>
+        <JsonLd id="organization-schema" data={buildOrganizationSchema()} />
+        <JsonLd id="local-business-autodealer-schema" data={buildLocalBusinessSchema()} />
+        <JsonLd id="website-schema" data={buildWebsiteSchema()} />
       </head>
       <body className={bodyClassName}>
         <QueryProvider>

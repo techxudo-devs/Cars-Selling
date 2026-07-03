@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { Plus, HelpCircle, ArrowRight } from "lucide-react";
+import JsonLd from "@/components/JsonLd";
+import { buildBreadcrumbListSchema, buildFaqPageSchema } from "@/lib/structuredData";
 
 interface faqItem {
     question: string;
@@ -35,6 +37,14 @@ const Faqs = () => {
 
     return (
         <section className="py-10 sm:py-16 bg-black relative">
+            <JsonLd id="faq-page-schema" data={buildFaqPageSchema(faqData)} />
+            <JsonLd
+                id="faq-breadcrumb-schema"
+                data={buildBreadcrumbListSchema([
+                    { name: "Home", path: "/" },
+                    { name: "FAQ's", path: "/faqs" },
+                ])}
+            />
             <div className="container mx-auto px-4 sm:px-6">
 
                 {/* Header Section: Fully Responsive */}

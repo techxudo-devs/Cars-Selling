@@ -137,7 +137,7 @@ const Navbar2 = () => {
                     {/* Logo */}
                     <div className={`rounded-full shadow-lg z-[110] absolute transition-all duration-500 ease-in-out bg-black flex items-center justify-center ${isScrolled ? "top-1 left-4 w-[55px] h-[55px]" : "-top-13 left-6 w-[140px] h-[90px]"}`}>
                         <Link href="/" className="relative">
-                            <Image src={logo} alt="Car From Japan" width={200} height={200} className="object-contain rounded-full" />
+                            <Image src={logo} alt="Elite Motor Cars" width={200} height={200} className="object-contain rounded-full" />
                         </Link>
                     </div>
 
@@ -335,7 +335,7 @@ const Navbar2 = () => {
                                     <div className="bg-white p-2 rounded-full shadow-sm"><Mail size={16} /></div>
                                     <div>
                                         <p className="text-[10px] text-gray-500 font-bold uppercase">Email Us</p>
-                                        <p className="text-sm font-bold">sales@carfromjapan.com</p>
+                                        <p className="text-sm font-bold">sales@elitemotorcars.com.au</p>
                                     </div>
                                 </div>
                             </div>

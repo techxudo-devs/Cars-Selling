@@ -48,5 +48,5 @@ export function getInventoryRoute(type: InventoryRouteType) {
 
 export function getCarDetailRoute(carId: string, sold: boolean) {
   const type = sold ? "sold" : "available";
-  return "/car-details?id=" + encodeURIComponent(carId) + "&type=" + type;
+  return "/" + type + "-cars/" + encodeURIComponent(carId);
 }

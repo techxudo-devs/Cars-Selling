@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import {
   Check,
   MapPin,
@@ -16,13 +17,23 @@ import {
 } from "lucide-react";
 import { useCarById } from "@/hooks/useCars";
 import { isSoldCar } from "@/lib/carRoutes";
+import JsonLd from "@/components/JsonLd";
+import { buildBreadcrumbListSchema, buildVehicleSchema } from "@/lib/structuredData";
 import AddToCartButton from "./AddToCartButton";
 import ImageGallery from "./ImageGallery";
+import type { FrontendCar } from "@/types/car";
 
-export default function CarDetailsContent({ id }: { id: string }) {
+export default function CarDetailsContent({ id, initialCarData }: { id: string; initialCarData?: FrontendCar }) {
   const { data: carData, isLoading, isError, error } = useCarById(id);
+  const [renderCar, setRenderCar] = useState<FrontendCar | undefined>(initialCarData);
 
-  if (isLoading) {
+  useEffect(() => {
+    if (carData) {
+      setRenderCar(carData);
+    }
+  }, [carData]);
+
+  if (renderCar == null && isLoading) {
     return (
       <div className="min-h-screen bg-black pb-10 px-4 pt-10">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 animate-pulse">
@@ -39,7 +50,7 @@ export default function CarDetailsContent({ id }: { id: string }) {
     );
   }
 
-  if (isError || carData == null) {
+  if (renderCar == null && (isError || carData == null)) {
     return (
       <div className="h-96 flex items-center justify-center px-4">
         <div className="text-center">
@@ -50,32 +61,42 @@ export default function CarDetailsContent({ id }: { id: string }) {
     );
   }
 
-  const sold = isSoldCar(carData);
+  const activeCar = (renderCar ?? carData) as FrontendCar;
+  const sold = isSoldCar(activeCar);
 
   return (
     <div className="min-h-screen bg-black pb-10">
+      <JsonLd id="vehicle-car-product-schema" data={buildVehicleSchema(activeCar)} />
+      <JsonLd
+        id="car-detail-breadcrumb-schema"
+        data={buildBreadcrumbListSchema([
+          { name: "Home", path: "/" },
+          { name: sold ? "Sold Cars" : "Available Cars", path: sold ? "/sold-cars" : "/available-cars" },
+          { name: activeCar.name, path: "/" + (sold ? "sold" : "available") + "-cars/" + encodeURIComponent(activeCar.id) },
+        ])}
+      />
       <div className="bg-black border-b border-[#f23410] orb">
         <div className="container mx-auto px-4 py-4 flex items-center text-sm text-gray-400">
           <Link href="/" className="hover:text-[#f23410] transition">Home</Link>
           <ChevronRight size={16} className="mx-2" />
-          <span className="text-[#f23410] font-semibold truncate">{carData.name}</span>
+          <span className="text-[#f23410] font-semibold truncate">{activeCar.name}</span>
         </div>
       </div>
 
       <div className="container mx-auto px-4 mt-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           <div className="lg:col-span-7 space-y-4">
-            <ImageGallery images={carData.images} carName={carData.name} isSold={sold} />
+          <ImageGallery images={activeCar.images} carName={activeCar.name} isSold={sold} />
 
             <div className="bg-black rounded-2xl p-6 sm:p-8 shadow-sm border border-[#f23410] mt-8">
               <h3 className="text-xl font-bold orb text-[#f23410] mb-4 flex items-center gap-2">
                 Vehicle Overview
               </h3>
-              <p className="text-gray-400 leading-relaxed mb-6">{carData.description}</p>
+              <p className="text-gray-400 leading-relaxed mb-6">{activeCar.description}</p>
 
               <h4 className="font-bold text-[#f23410] mb-4 orb">Vehicle Highlights:</h4>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {carData.highlights.map((item, idx) => (
+                {activeCar.highlights.map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-sm sm:text-base text-[#f23410]">
                     <span className="mt-1 text-[#f23410] shrink-0">
                       <Check size={18} strokeWidth={3} />
@@ -101,13 +122,13 @@ export default function CarDetailsContent({ id }: { id: string }) {
               </div>
 
               <h1 className="text-2xl sm:text-3xl orb font-extrabold text-[#f23410] leading-none mb-2">
-                {carData.name}
+                {activeCar.name}
               </h1>
-              <p className="text-gray-400 text-sm mb-6">{carData.tagline}</p>
+              <p className="text-gray-400 text-sm mb-6">{activeCar.tagline}</p>
 
               <div className="flex items-center gap-2 mb-6 border-b border-orange-100 pb-6">
                 <h2 className="text-2xl font-bold text-[#f23410] orb">
-                  {sold ? "SOLD" : "AUD \u0024" + carData.price}
+                  {sold ? "SOLD" : "AUD \u0024" + activeCar.price}
                 </h2>
                 {sold ? null : <span className="text-gray-400 font-medium text-sm">Excl. Gov Charges</span>}
               </div>
@@ -117,28 +138,28 @@ export default function CarDetailsContent({ id }: { id: string }) {
                   <div className="bg-orange-300 p-2 rounded-lg shadow-sm text-gray-700"><Gauge size={20} /></div>
                   <div>
                     <p className="text-xs text-gray-500 uppercase font-bold">Mileage</p>
-                    <p className="font-semibold orb text-[#f23410]">{carData.specs.mileage}</p>
+                <p className="font-semibold orb text-[#f23410]">{activeCar.specs.mileage}</p>
                   </div>
                 </div>
                 <div className="bg-orange-100 p-3 rounded-xl flex items-center gap-3">
                   <div className="bg-orange-300 p-2 rounded-lg shadow-sm text-gray-700"><Cog size={20} /></div>
                   <div>
                     <p className="text-xs text-gray-500 uppercase font-bold">Engine</p>
-                    <p className="font-semibold orb text-[#f23410]">{carData.specs.engine}</p>
+                <p className="font-semibold orb text-[#f23410]">{activeCar.specs.engine}</p>
                   </div>
                 </div>
                 <div className="bg-orange-100 p-3 rounded-xl flex items-center gap-3">
                   <div className="bg-orange-300 p-2 rounded-lg shadow-sm text-gray-700"><Settings size={20} /></div>
                   <div>
                     <p className="text-xs text-gray-500 uppercase font-bold">Transmission</p>
-                    <p className="font-semibold orb text-[#f23410]">{carData.specs.transmission}</p>
+                <p className="font-semibold orb text-[#f23410]">{activeCar.specs.transmission}</p>
                   </div>
                 </div>
                 <div className="bg-orange-100 p-3 rounded-xl flex items-center gap-3">
                   <div className="bg-orange-300 p-2 rounded-lg shadow-sm text-gray-700"><Calendar size={20} /></div>
                   <div>
                     <p className="text-xs text-gray-500 uppercase font-bold">Year</p>
-                    <p className="font-semibold orb text-[#f23410]">{carData.specs.year}</p>
+                <p className="font-semibold orb text-[#f23410]">{activeCar.specs.year}</p>
                   </div>
                 </div>
               </div>
@@ -152,14 +173,14 @@ export default function CarDetailsContent({ id }: { id: string }) {
                 >
                   {sold ? "Reserved" : "Reserve Now"}
                 </button>
-                <AddToCartButton carData={carData} />
+                  <AddToCartButton carData={activeCar} />
               </div>
             </div>
 
             <div className="bg-gradient-to-br from-[#241a0b] to-[#4d1f00] text-white rounded-2xl p-6 sm:p-8 shadow-sm">
               <div className="flex items-center justify-between mb-6">
                 <div>
-                  <h3 className="text-xl font-bold mb-1 orb">{carData.dealer}</h3>
+                  <h3 className="text-xl font-bold mb-1 orb">{activeCar.dealer}</h3>
                   <div className="flex items-center gap-1 text-yellow-400 text-sm">
                     <Star fill="currentColor" size={14} />
                     <Star fill="currentColor" size={14} />
@@ -177,11 +198,11 @@ export default function CarDetailsContent({ id }: { id: string }) {
               <div className="space-y-4 text-sm text-gray-300 mb-6">
                 <div className="flex items-start gap-3">
                   <MapPin className="shrink-0 text-[#f23410]" size={18} />
-                  <p>{carData.dealerLocation}</p>
+                  <p>{activeCar.dealerLocation}</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <ShieldCheck className="shrink-0 text-[#f23410]" size={18} />
-                  <p>Dealer Licence: {carData.license}</p>
+                  <p>Dealer Licence: {activeCar.license}</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <Check className="shrink-0 text-[#f23410]" size={18} />

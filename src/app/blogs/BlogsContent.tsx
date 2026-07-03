@@ -13,7 +13,9 @@ import {
     MapPin,
 } from "lucide-react";
 
+import JsonLd from "@/components/JsonLd";
 import { BlogParagraph, blogs, findBlogByTitle } from "@/data/blogs";
+import { buildBlogPostingSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 
 const descriptionClampStyle = {
     display: "-webkit-box",
@@ -70,6 +72,18 @@ export default function BlogsContent() {
     if (selectedBlog) {
         return (
             <main className="min-h-screen bg-black text-white selection:bg-[#f23410] selection:text-white">
+                <JsonLd id="blog-posting-article-schema" data={buildBlogPostingSchema(selectedBlog)} />
+                <JsonLd
+                    id="blog-detail-breadcrumb-schema"
+                    data={buildBreadcrumbListSchema([
+                        { name: "Home", path: "/" },
+                        { name: "Blogs", path: "/blogs" },
+                        {
+                            name: selectedBlog.title,
+                            path: "/blogs?title=" + encodeURIComponent(selectedBlog.title),
+                        },
+                    ])}
+                />
                 {/* Hero Header Section */}
                 <section className="relative w-full border-b border-white/5 py-10">
                     <div className="mx-auto max-w-6xl px-6">
@@ -225,6 +239,13 @@ export default function BlogsContent() {
 
     return (
         <main className="bg-black text-white">
+            <JsonLd
+                id="blogs-breadcrumb-schema"
+                data={buildBreadcrumbListSchema([
+                    { name: "Home", path: "/" },
+                    { name: "Blogs", path: "/blogs" },
+                ])}
+            />
             <section className="px-4 py-10 md:px-8">
                 <div className="mx-auto max-w-7xl">
                     <div className="">

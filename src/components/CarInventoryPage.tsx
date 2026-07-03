@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Gauge, Cog, Settings } from "lucide-react";
 import { useAvailableCars, useSoldCars } from "@/hooks/useCars";
@@ -9,6 +9,8 @@ import type { FrontendCar } from "@/types/car";
 
 interface CarInventoryPageProps {
   mode: InventoryRouteType;
+  initialAvailableCars?: FrontendCar[];
+  initialSoldCars?: FrontendCar[];
 }
 
 const filterButtonBaseClass =
@@ -99,15 +101,33 @@ function InventoryGrid({ cars }: { cars: FrontendCar[] }) {
   );
 }
 
-export default function CarInventoryPage({ mode }: CarInventoryPageProps) {
+export default function CarInventoryPage({
+  mode,
+  initialAvailableCars = [],
+  initialSoldCars = [],
+}: CarInventoryPageProps) {
   const availableQuery = useAvailableCars();
   const soldQuery = useSoldCars();
   const [activeFilter, setActiveFilter] = useState<InventoryRouteType>(
     mode === "all" ? "all" : mode
   );
+  const [availableCarsState, setAvailableCarsState] = useState<FrontendCar[]>(initialAvailableCars);
+  const [soldCarsState, setSoldCarsState] = useState<FrontendCar[]>(initialSoldCars);
 
-  const availableCars = availableQuery.data?.data ?? [];
-  const soldCars = soldQuery.data?.data ?? [];
+  useEffect(() => {
+    if (availableQuery.data?.data) {
+      setAvailableCarsState(availableQuery.data.data);
+    }
+  }, [availableQuery.data]);
+
+  useEffect(() => {
+    if (soldQuery.data?.data) {
+      setSoldCarsState(soldQuery.data.data);
+    }
+  }, [soldQuery.data]);
+
+  const availableCars = availableCarsState;
+  const soldCars = soldCarsState;
   const filteredCars =
     activeFilter === "available"
       ? availableCars
@@ -121,6 +141,7 @@ export default function CarInventoryPage({ mode }: CarInventoryPageProps) {
       : activeFilter === "sold"
         ? soldQuery.isLoading
         : availableQuery.isLoading || soldQuery.isLoading;
+  const showLoading = isLoading && filteredCars.length === 0;
 
   const error = activeFilter === "sold" ? soldQuery.error : availableQuery.error || soldQuery.error;
 
@@ -181,16 +202,16 @@ export default function CarInventoryPage({ mode }: CarInventoryPageProps) {
           </div>
         </div>
 
-        {isLoading ? <LoadingGrid /> : null}
+        {showLoading ? <LoadingGrid /> : null}
 
-        {isLoading === false && error ? (
+        {!showLoading && error ? (
           <div className="border border-[#E5E5E5] rounded-2xl p-6 text-white">
             <p className="text-lg orb text-[#f23410] mb-2">Unable to load inventory.</p>
             <p className="text-sm text-gray-400">{error instanceof Error ? error.message : "Please try again shortly."}</p>
           </div>
         ) : null}
 
-        {isLoading === false && error == null ? <InventoryGrid cars={filteredCars} /> : null}
+        {!showLoading && error == null ? <InventoryGrid cars={filteredCars} /> : null}
       </section>
     </div>
   );
