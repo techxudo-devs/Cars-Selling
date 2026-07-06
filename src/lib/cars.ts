@@ -40,13 +40,27 @@ export function isSoldCar(car: Pick<FrontendCar, "status" | "price">) {
   return car.status === "sold" || car.price === "SOLD";
 }
 
+export function slugifyCarRoute(name: string, id: string) {
+  const slugBase = name
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `${slugBase}-${id}`;
+}
+
 export function getInventoryRoute(type: InventoryRouteType) {
   if (type === "available") return "/available-cars";
   if (type === "sold") return "/sold-cars";
   return "/all-cars";
 }
 
-export function getCarDetailRoute(carId: string, sold: boolean) {
+export function getCarDetailRoute(carId: string, sold: boolean, carName?: string) {
   const type = sold ? "sold" : "available";
+  if (carName) {
+    return "/" + type + "-cars/" + encodeURIComponent(slugifyCarRoute(carName, carId));
+  }
+
   return "/" + type + "-cars/" + encodeURIComponent(carId);
 }

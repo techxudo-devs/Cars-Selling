@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
 import CarDetailsContent from "@/app/cars/[id]/CarDetailsContent";
 import { allCars } from "@/data/cars";
-import { toFrontendCar } from "@/lib/cars";
+import { slugifyCarRoute, toFrontendCar } from "@/lib/cars";
 import { buildBreadcrumbListSchema, buildVehicleSchema } from "@/lib/structuredData";
 
 type Params = {
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
         updatedAt: "",
       } as any),
     )
-    .find((item) => item.id === slug);
+    .find((item) => slug === slugifyCarRoute(item.name, String(item.id)) || item.id === slug || slug.endsWith(`-${item.id}`));
 
   if (!car) {
     return {};
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: `${car.name} | Sold Cars`,
     description: car.description,
     alternates: {
-      canonical: `/sold-cars/${slug}`,
+      canonical: `/sold-cars/${slugifyCarRoute(car.name, car.id)}`,
     },
   };
 }
@@ -64,7 +64,7 @@ export async function generateStaticParams() {
   return allCars
     .filter((car) => car.price === "SOLD")
     .map((car) => ({
-      slug: String(car.id),
+      slug: slugifyCarRoute(car.name, String(car.id)),
     }));
 }
 
@@ -102,7 +102,7 @@ export default async function SoldCarPage({ params }: Params) {
         updatedAt: "",
       } as any),
     )
-    .find((item) => item.id === slug);
+    .find((item) => slug === slugifyCarRoute(item.name, String(item.id)) || item.id === slug || slug.endsWith(`-${item.id}`));
 
   if (!car) {
     notFound();
@@ -116,7 +116,7 @@ export default async function SoldCarPage({ params }: Params) {
         data={buildBreadcrumbListSchema([
           { name: "Home", path: "/" },
           { name: "Sold Cars", path: "/sold-cars" },
-          { name: car.name, path: `/sold-cars/${car.id}` },
+          { name: car.name, path: `/sold-cars/${slugifyCarRoute(car.name, car.id)}` },
         ])}
       />
       <CarDetailsContent id={car.id} initialCarData={car} />

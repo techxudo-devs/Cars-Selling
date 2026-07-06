@@ -41,7 +41,7 @@ function InventoryGrid({ cars }: { cars: FrontendCar[] }) {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4">
       {cars.map((car) => {
         const sold = isSoldCar(car);
-        const detailHref = getCarDetailRoute(car.id, sold);
+        const detailHref = getCarDetailRoute(car.id, sold, car.name);
 
         return (
           <div

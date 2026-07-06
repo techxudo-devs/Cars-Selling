@@ -136,7 +136,7 @@ const SearchResultsContent = () => {
 
                                     {/* Action Buttons */}
                                     <div className="flex gap-2">
-                                        <Link href={getCarDetailRoute(car.id, isSoldCar(car))} className="flex-1">
+                                        <Link href={getCarDetailRoute(car.id, isSoldCar(car), car.name)} className="flex-1">
                                             <button className="w-full bg-[#f23410] hover:bg-[#d92c0d] text-white font-semibold py-2.5 rounded-lg transition-all duration-300 cursor-pointer text-sm">
                                                 View Details
                                             </button>

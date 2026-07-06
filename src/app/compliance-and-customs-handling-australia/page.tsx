@@ -11,6 +11,9 @@ const selectedBlog = blog ?? notFound();
 const meta: Metadata = {
     title: selectedBlog.metaTitle ?? selectedBlog.title,
     description: selectedBlog.metaDescription ?? selectedBlog.description,
+    alternates: {
+        canonical: "/compliance-and-customs-handling-australia",
+    },
 };
 
 const metaItems = [
@@ -168,7 +171,7 @@ export default function ComplianceAndCustomsHandlingPage() {
                             <div className="rounded-2xl border border-white/5 bg-zinc-900/30 p-6">
                                 <p className="mb-4 text-sm font-bold text-white">Need professional advice?</p>
                                 <Link
-                                    href="/contact"
+                                    href="/#contact"
                                     className="flex items-center justify-between rounded-xl bg-[#f23410] px-5 py-3 text-sm font-bold text-white transition hover:brightness-110"
                                 >
                                     Contact Us

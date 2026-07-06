@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 
 import { allCars } from "@/data/cars";
 import { blogs, slugifyBlogSlug } from "@/data/blogs";
+import { slugifyCarRoute } from "@/lib/cars";
 
 export const dynamic = "force-static";
 
@@ -27,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const carRoutes = allCars.map((car) => ({
-    url: `${siteUrl}/${car.price === "SOLD" ? "sold-cars" : "available-cars"}/${encodeURIComponent(String(car.id))}`,
+    url: `${siteUrl}/${car.price === "SOLD" ? "sold-cars" : "available-cars"}/${encodeURIComponent(slugifyCarRoute(car.name, String(car.id)))}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
     priority: 0.7,
