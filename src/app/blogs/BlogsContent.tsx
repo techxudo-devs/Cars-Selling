@@ -1,8 +1,5 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import { useParams, useSearchParams } from "next/navigation";
 import {
     ArrowLeft,
     ArrowRight,
@@ -13,9 +10,7 @@ import {
     MapPin,
 } from "lucide-react";
 
-import JsonLd from "@/components/JsonLd";
 import { BlogParagraph, blogs, findBlogBySlug, findBlogByTitle, slugifyBlogSlug } from "@/data/blogs";
-import { buildBlogPostingSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 
 const descriptionClampStyle = {
     display: "-webkit-box",
@@ -68,33 +63,12 @@ function isEmphasizedItem(item: string) {
     return /^\d+\.\s/.test(item) || /:$/.test(item);
 }
 
-export default function BlogsContent() {
-    const params = useParams<{ slug?: string }>();
-    const searchParams = useSearchParams();
-    const slugFromPath = typeof params.slug === "string" ? params.slug : undefined;
-    const slugParam = searchParams.get("slug") ?? undefined;
-    const titleParam = searchParams.get("title") ?? undefined;
-    const selectedBlog =
-        findBlogBySlug(slugFromPath) ??
-        findBlogByTitle(slugFromPath) ??
-        findBlogBySlug(slugParam) ??
-        findBlogByTitle(titleParam);
+export default function BlogsContent({ slug }: { slug?: string }) {
+    const selectedBlog = findBlogBySlug(slug) ?? findBlogByTitle(slug);
 
     if (selectedBlog) {
         return (
             <main className="min-h-screen bg-black text-white selection:bg-[#f23410] selection:text-white">
-                <JsonLd id="blog-posting-article-schema" data={buildBlogPostingSchema(selectedBlog)} />
-                <JsonLd
-                    id="blog-detail-breadcrumb-schema"
-                    data={buildBreadcrumbListSchema([
-                        { name: "Home", path: "/" },
-                        { name: "Blogs", path: "/blogs" },
-                        {
-                            name: selectedBlog.title,
-                            path: "/blogs/" + encodeURIComponent(slugifyBlogSlug(selectedBlog.slug ?? selectedBlog.title)),
-                        },
-                    ])}
-                />
                 {/* Hero Header Section */}
                 <section className="relative w-full border-b border-white/5 py-10">
                     <div className="mx-auto max-w-6xl px-6">
@@ -233,7 +207,7 @@ export default function BlogsContent() {
                                 <div className="rounded-2xl border border-white/5 bg-zinc-900/30 p-6">
                                     <p className="mb-4 text-sm font-bold text-white">Need professional advice?</p>
                                     <Link 
-                                        href="/contact" 
+                                        href="/contact-us" 
                                         className="flex items-center justify-between rounded-xl bg-[#f23410] px-5 py-3 text-sm font-bold text-white transition hover:brightness-110"
                                     >
                                         Contact Us
@@ -250,13 +224,6 @@ export default function BlogsContent() {
 
     return (
         <main className="bg-black text-white">
-            <JsonLd
-                id="blogs-breadcrumb-schema"
-                data={buildBreadcrumbListSchema([
-                    { name: "Home", path: "/" },
-                    { name: "Blogs", path: "/blogs" },
-                ])}
-            />
             <section className="px-4 py-10 md:px-8">
                 <div className="mx-auto max-w-7xl">
                     <div className="">

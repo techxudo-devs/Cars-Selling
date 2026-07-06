@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import JsonLd from "@/components/JsonLd";
 import CarDetailsContent from "@/app/cars/[id]/CarDetailsContent";
 import { allCars } from "@/data/cars";
 import { toFrontendCar } from "@/lib/cars";
+import { buildBreadcrumbListSchema, buildVehicleSchema } from "@/lib/structuredData";
 
 type Params = {
   params: Promise<{ slug: string }>;
@@ -106,5 +108,18 @@ export default async function SoldCarPage({ params }: Params) {
     notFound();
   }
 
-  return <CarDetailsContent id={car.id} initialCarData={car} />;
+  return (
+    <>
+      <JsonLd id={`vehicle-schema-${car.id}`} data={buildVehicleSchema(car)} />
+      <JsonLd
+        id={`vehicle-breadcrumb-schema-${car.id}`}
+        data={buildBreadcrumbListSchema([
+          { name: "Home", path: "/" },
+          { name: "Sold Cars", path: "/sold-cars" },
+          { name: car.name, path: `/sold-cars/${car.id}` },
+        ])}
+      />
+      <CarDetailsContent id={car.id} initialCarData={car} />
+    </>
+  );
 }

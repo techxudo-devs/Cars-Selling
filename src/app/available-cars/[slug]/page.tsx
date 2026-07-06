@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import JsonLd from "@/components/JsonLd";
 import CarDetailsContent from "@/app/cars/[id]/CarDetailsContent";
 import { allCars } from "@/data/cars";
 import { toFrontendCar } from "@/lib/cars";
+import { buildBreadcrumbListSchema, buildVehicleSchema } from "@/lib/structuredData";
 
 type Params = {
   params: Promise<{ slug: string }>;
@@ -20,7 +22,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
         name: item.name,
         tagline: item.tagline,
         description: item.description,
-        priceAUD: Number(item.price.replace(/,/g, "")),
+        priceAUD: Number(String(item.price).replace(/[^\d.]/g, "")),
         status: "available",
         specs: {
           mileageKm: Number(item.specs.mileage.replace(/[^0-9]/g, "")),
@@ -106,5 +108,18 @@ export default async function AvailableCarPage({ params }: Params) {
     notFound();
   }
 
-  return <CarDetailsContent id={car.id} initialCarData={car} />;
+  return (
+    <>
+      <JsonLd id={`vehicle-schema-${car.id}`} data={buildVehicleSchema(car)} />
+      <JsonLd
+        id={`vehicle-breadcrumb-schema-${car.id}`}
+        data={buildBreadcrumbListSchema([
+          { name: "Home", path: "/" },
+          { name: "Available Cars", path: "/available-cars" },
+          { name: car.name, path: `/available-cars/${car.id}` },
+        ])}
+      />
+      <CarDetailsContent id={car.id} initialCarData={car} />
+    </>
+  );
 }

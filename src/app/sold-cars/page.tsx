@@ -6,8 +6,9 @@ import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structured
 import { toFrontendCar } from "@/lib/cars";
 
 export const metadata: Metadata = {
-  title: "Sold Cars",
-  description: "Browse recently sold cars and past inventory from Elite Motor Cars.",
+  title: "Recently Sold Imported Cars in Australia",
+  description:
+    "View recently sold imported and premium vehicles from Elite Motor Cars and request help sourcing a similar car for Australia.",
   alternates: {
     canonical: "/sold-cars",
   },

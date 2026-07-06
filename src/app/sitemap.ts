@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { allCars } from "@/data/cars";
-import { blogs } from "@/data/blogs";
+import { blogs, slugifyBlogSlug } from "@/data/blogs";
 
 export const dynamic = "force-static";
 
@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const blogRoutes = blogs.map((blog) => ({
-    url: `${siteUrl}/blogs/${encodeURIComponent(blog.slug ?? blog.title)}`,
+    url: `${siteUrl}/blogs/${encodeURIComponent(slugifyBlogSlug(blog.slug ?? blog.title))}`,
     lastModified: blog.createdAt ? new Date(blog.createdAt) : new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.6,

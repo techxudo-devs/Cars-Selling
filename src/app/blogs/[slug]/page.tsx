@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
 
 import BlogsContent from "../BlogsContent";
 import { blogs, findBlogBySlug, findBlogByTitle, slugifyBlogSlug } from "@/data/blogs";
+import JsonLd from "@/components/JsonLd";
+import { buildBlogPostingSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 
 type Params = {
   params: Promise<{ slug: string }>;
@@ -39,9 +40,24 @@ export default async function BlogDetailPage({ params }: Params) {
     notFound();
   }
 
+  const blog = findBlogBySlug(slug) ?? findBlogByTitle(slug);
+
   return (
-    <Suspense fallback={null}>
-      <BlogsContent />
-    </Suspense>
+    <>
+      {blog ? (
+        <>
+          <JsonLd id={`blog-posting-schema-${slug}`} data={buildBlogPostingSchema(blog)} />
+          <JsonLd
+            id={`blog-breadcrumb-schema-${slug}`}
+            data={buildBreadcrumbListSchema([
+              { name: "Home", path: "/" },
+              { name: "Blogs", path: "/blogs" },
+              { name: blog.title, path: `/blogs/${slugifyBlogSlug(slug)}` },
+            ])}
+          />
+        </>
+      ) : null}
+      <BlogsContent slug={slug} />
+    </>
   );
 }

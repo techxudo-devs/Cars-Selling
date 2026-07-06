@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 
 import BlogsContent from "./BlogsContent";
+import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
     title: "Blogs | Elite Motor Cars",
@@ -14,8 +16,17 @@ export const metadata: Metadata = {
 
 export default function BlogsPage() {
     return (
-        <Suspense fallback={null}>
-            <BlogsContent />
-        </Suspense>
+        <>
+            <JsonLd
+                id="blogs-breadcrumb-schema"
+                data={buildBreadcrumbListSchema([
+                    { name: "Home", path: "/" },
+                    { name: "Blogs", path: "/blogs" },
+                ])}
+            />
+            <Suspense fallback={null}>
+                <BlogsContent />
+            </Suspense>
+        </>
     );
 }

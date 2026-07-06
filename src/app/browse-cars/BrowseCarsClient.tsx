@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { ArrowUpRight, Calendar } from "lucide-react";
 import carsData from "../../../browse_all_cars.json";
@@ -36,8 +37,9 @@ const BrowseCarsClient = () => {
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {displayedCars.map((car, index) => (
-          <a
+          <Link
             key={index}
+            href={`/contact-us?car=${encodeURIComponent(car.name)}`}
             className="group relative bg-zinc-950 border border-zinc-800 hover:border-[#F23410] transition-colors duration-500 overflow-hidden"
           >
             <div className="relative aspect-[16/10] overflow-hidden bg-zinc-900">
@@ -76,7 +78,7 @@ const BrowseCarsClient = () => {
                 <div className="h-1.5 w-1.5 rounded-full bg-zinc-800 group-hover:bg-[#F23410] transition-colors" />
               </div>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
 

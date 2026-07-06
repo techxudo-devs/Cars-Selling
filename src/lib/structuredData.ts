@@ -9,9 +9,9 @@ export const SITE_URL = (
 ).replace(/\/$/, "");
 
 export const BUSINESS_NAME = "Elite Motor Cars";
-export const BUSINESS_PHONE = "+61 2 9832 3300";
-export const BUSINESS_EMAIL = "info@elitemotorcars.com.au";
-export const BUSINESS_STREET = "Sydney";
+export const BUSINESS_PHONE = "+61 466 318 074";
+export const BUSINESS_EMAIL = "sales@elitemotorcars.com.au";
+export const BUSINESS_STREET = "";
 export const BUSINESS_CITY = "Sydney";
 export const BUSINESS_REGION = "NSW";
 export const BUSINESS_POSTCODE = "2000";
@@ -103,11 +103,6 @@ export function buildWebsiteSchema() {
     publisher: {
       "@id": organizationId,
     },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: absoluteUrl("/search-results?q={search_term_string}"),
-      "query-input": "required name=search_term_string",
-    },
   };
 }
 
@@ -123,14 +118,19 @@ export function buildContactPointSchema() {
 }
 
 export function buildPostalAddressSchema() {
-  return {
+  const address: Record<string, string> = {
     "@type": "PostalAddress",
-    streetAddress: BUSINESS_STREET,
     addressLocality: BUSINESS_CITY,
     addressRegion: BUSINESS_REGION,
     postalCode: BUSINESS_POSTCODE,
     addressCountry: BUSINESS_COUNTRY,
   };
+
+  if (BUSINESS_STREET) {
+    address.streetAddress = BUSINESS_STREET;
+  }
+
+  return address;
 }
 
 export function buildOpeningHoursSpecificationSchema() {
