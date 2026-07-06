@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     title: "Blogs | Elite Motor Cars",
     description:
         "Read the latest Elite Motor Cars blogs about imports, compliance, logistics, and premium vehicle buying across Australia.",
+    alternates: {
+        canonical: "/blogs",
+    },
 };
 
 export default function BlogsPage() {

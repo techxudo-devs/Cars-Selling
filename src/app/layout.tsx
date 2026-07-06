@@ -50,9 +50,16 @@ const googleAnalyticsScript = [
 ].join("\n");
 
 export const metadata: Metadata = {
-  title: "Elite Motor Cars – Buy & Sell Used Cars in Australia | 10K+ Second-Hand Cars",
+  metadataBase: new URL("https://elitemotorcars.com.au"),
+  title: {
+    default: "Elite Motor Cars | Buy & Sell Used Cars in Australia",
+    template: "%s | Elite Motor Cars",
+  },
   description:
     "Explore over 10,000 fully inspected second-hand cars at Elite Motor Cars. Buy and sell used cars with confidence, book a test drive, and enjoy a 5-day money-back guarantee plus a free one-year comprehensive service warranty.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

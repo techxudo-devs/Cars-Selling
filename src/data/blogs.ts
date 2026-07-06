@@ -21,6 +21,9 @@ export type BlogParagraph =
     | string
     | {
         text: string;
+    }
+    | {
+        text: string;
         linkLabel: string;
         linkHref: string;
         linkSuffix?: string;
@@ -2493,5 +2496,12 @@ export const blogs: BlogPost[] = [
 export const findBlogByTitle = (title?: string) =>
     blogs.find((blog) => blog.title === title);
 
+export const slugifyBlogSlug = (value?: string) =>
+    (value ?? "")
+        .toLowerCase()
+        .replace(/['’]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+
 export const findBlogBySlug = (slug?: string) =>
-    blogs.find((blog) => blog.slug === slug);
+    blogs.find((blog) => blog.slug === slug || slugifyBlogSlug(blog.slug ?? blog.title) === slug);

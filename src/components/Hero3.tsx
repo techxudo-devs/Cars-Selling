@@ -12,7 +12,7 @@ const Hero3 = () => {
                 {/* --- Heading --- */}
                 <div className="container px-4 text-center mb-12 md:mb-10 z-20 relative">
                     <h1 className="text-3xl sm:text-4xl md:text-[43px] font-bold text-black tracking-tight leading-[1.1]">
-                        <span className="text-[#f23410]">Elite Car Motors - </span> Premium Car Import Services Across Australia.
+                        <span className="text-[#f23410]">Elite Motor Cars - </span> Premium Car Import Services Across Australia.
                     </h1>
                     <p className="mx-auto max-w-5xl font-medium text-gray-800 pt-4">Import Cars from Japan & Europe to Australia with Confidence, Quality Assurance, and Complete Peace of Mind.</p>
                 </div>

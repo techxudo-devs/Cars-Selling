@@ -1,8 +1,17 @@
+import type { Metadata } from "next";
 import CarInventoryPage from "@/components/CarInventoryPage";
 import JsonLd from "@/components/JsonLd";
 import { allCars } from "@/data/cars";
 import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
 import { toFrontendCar } from "@/lib/cars";
+
+export const metadata: Metadata = {
+  title: "Sold Cars",
+  description: "Browse recently sold cars and past inventory from Elite Motor Cars.",
+  alternates: {
+    canonical: "/sold-cars",
+  },
+};
 
 export default async function SoldCarsPage() {
   const initialSoldCars = allCars

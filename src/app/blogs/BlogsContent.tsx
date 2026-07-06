@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import {
     ArrowLeft,
     ArrowRight,
@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 
 import JsonLd from "@/components/JsonLd";
-import { BlogParagraph, blogs, findBlogByTitle } from "@/data/blogs";
+import { BlogParagraph, blogs, findBlogBySlug, findBlogByTitle, slugifyBlogSlug } from "@/data/blogs";
 import { buildBlogPostingSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 
 const descriptionClampStyle = {
@@ -44,6 +44,10 @@ function renderParagraph(paragraph: BlogParagraph) {
         return paragraph;
     }
 
+    if (!("linkHref" in paragraph)) {
+        return paragraph.text;
+    }
+
     return (
         <>
             {paragraph.text}
@@ -65,9 +69,16 @@ function isEmphasizedItem(item: string) {
 }
 
 export default function BlogsContent() {
+    const params = useParams<{ slug?: string }>();
     const searchParams = useSearchParams();
+    const slugFromPath = typeof params.slug === "string" ? params.slug : undefined;
+    const slugParam = searchParams.get("slug") ?? undefined;
     const titleParam = searchParams.get("title") ?? undefined;
-    const selectedBlog = findBlogByTitle(titleParam);
+    const selectedBlog =
+        findBlogBySlug(slugFromPath) ??
+        findBlogByTitle(slugFromPath) ??
+        findBlogBySlug(slugParam) ??
+        findBlogByTitle(titleParam);
 
     if (selectedBlog) {
         return (
@@ -80,7 +91,7 @@ export default function BlogsContent() {
                         { name: "Blogs", path: "/blogs" },
                         {
                             name: selectedBlog.title,
-                            path: "/blogs?title=" + encodeURIComponent(selectedBlog.title),
+                            path: "/blogs/" + encodeURIComponent(slugifyBlogSlug(selectedBlog.slug ?? selectedBlog.title)),
                         },
                     ])}
                 />
@@ -276,7 +287,7 @@ export default function BlogsContent() {
                             .map((blog) => (
                                 <Link
                                     key={blog.title}
-                                    href={`/blogs?title=${encodeURIComponent(blog.title)}`}
+                                    href={`/blogs/${encodeURIComponent(slugifyBlogSlug(blog.slug ?? blog.title))}`}
                                     className="group overflow-hidden rounded-xl border border-white/10 bg-white/5 transition-all duration-300 hover:-translate-y-1 hover:border-[#f23410]/70"
                                 >
                                 <div className="relative h-[600px] overflow-hidden">

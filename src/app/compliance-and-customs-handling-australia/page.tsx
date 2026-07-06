@@ -33,6 +33,10 @@ function renderParagraph(paragraph: BlogParagraph) {
         return paragraph;
     }
 
+    if (!("linkHref" in paragraph)) {
+        return paragraph.text;
+    }
+
     return (
         <>
             {paragraph.text}
@@ -107,7 +111,7 @@ export default function ComplianceAndCustomsHandlingPage() {
                                         </h2>
                                     </div>
                                     <div className="space-y-4">
-                                        {section.paragraphs.map((paragraph, pIdx) => (
+                                        {section.paragraphs?.map((paragraph, pIdx) => (
                                             <p key={pIdx} className="text-base leading-7 text-gray-300 md:text-lg opacity-90">
                                                 {renderParagraph(paragraph)}
                                             </p>

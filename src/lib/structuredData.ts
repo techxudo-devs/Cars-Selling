@@ -1,6 +1,7 @@
 import type { StaticImageData } from "next/image";
 
 import type { BlogPost } from "@/data/blogs";
+import { slugifyBlogSlug } from "@/data/blogs";
 import type { FrontendCar } from "@/types/car";
 
 export const SITE_URL = (
@@ -187,7 +188,7 @@ export function buildFaqPageSchema(faqs: Array<{ question: string; answer: strin
 
 export function buildBlogPostingSchema(blog: BlogPost) {
   const url = absoluteUrl(
-    "/blogs?title=" + encodeURIComponent(blog.title),
+    "/blogs/" + encodeURIComponent(slugifyBlogSlug(blog.slug ?? blog.title)),
   );
 
   return {
