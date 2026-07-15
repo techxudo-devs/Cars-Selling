@@ -64,7 +64,7 @@ function isEmphasizedItem(item: string) {
 }
 
 export default function BlogsContent({ slug }: { slug?: string }) {
-    const selectedBlog = findBlogBySlug(slug) ?? findBlogByTitle(slug);
+    const selectedBlog = slug ? (findBlogBySlug(slug) ?? findBlogByTitle(slug)) : undefined;
 
     if (selectedBlog) {
         return (
