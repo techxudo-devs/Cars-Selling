@@ -72,7 +72,7 @@ export default function CarDetailsContent({ id, initialCarData }: { id: string; 
         data={buildBreadcrumbListSchema([
           { name: "Home", path: "/" },
           { name: sold ? "Sold Cars" : "Available Cars", path: sold ? "/sold-cars" : "/available-cars" },
-          { name: activeCar.name, path: "/" + (sold ? "sold" : "available") + "-cars/" + encodeURIComponent(activeCar.id) },
+          { name: activeCar.name, path: "/" + (sold ? "sold" : "available") + "-cars/" + encodeURIComponent(activeCar.slug || activeCar.id) },
         ])}
       />
       <div className="bg-black border-b border-[#f23410] orb">
