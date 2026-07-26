@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/why-choose-us",
     "/how-we-deliver",
     "/compliance-and-customs-handling-australia",
+    "/contact-us",
     "/import-cars-from-japan-to-australia",
     "/japanese-imported-cars-for-sale-australia",
     "/japanese-used-cars-australia",
