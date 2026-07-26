@@ -3,12 +3,12 @@ import CarInventoryPage from "@/components/CarInventoryPage";
 import JsonLd from "@/components/JsonLd";
 import { allCars } from "@/data/cars";
 import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
-import { toFrontendCar } from "@/lib/cars";
+import { slugifyCarRoute, toFrontendCar } from "@/lib/cars";
 
 export const metadata: Metadata = {
-  title: "Recently Sold Imported Cars in Australia",
+  title: "Recently Imported and Sold Cars | Elite Motor Cars Australia",
   description:
-    "View recently sold imported and premium vehicles from Elite Motor Cars and request help sourcing a similar car for Australia.",
+    "View Japanese and premium imported vehicles recently sourced, imported and sold by Elite Motor Cars in Australia.",
   alternates: {
     canonical: "/sold-cars",
   },
@@ -62,7 +62,9 @@ export default async function SoldCarsPage() {
         data={buildItemListSchema(
           initialSoldCars.map((car) => ({
             name: car.name,
-            path: "/sold-cars/" + encodeURIComponent(car.id),
+            path:
+              "/sold-cars/" +
+              encodeURIComponent(slugifyCarRoute(car.name, car.id)),
           })),
           "Sold Cars",
         )}

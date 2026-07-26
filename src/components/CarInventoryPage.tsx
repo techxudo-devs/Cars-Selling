@@ -17,8 +17,8 @@ const filterButtonBaseClass =
   "px-3 py-1 rounded-full border text-sm font-semibold transition-colors cursor-pointer";
 
 function getPageTitle(mode: InventoryRouteType) {
-  if (mode === "available") return "AVAILABLE CARS";
-  if (mode === "sold") return "SOLD CARS";
+  if (mode === "available") return "AVAILABLE JAPANESE IMPORTED CARS IN AUSTRALIA";
+  if (mode === "sold") return "RECENTLY IMPORTED AND SOLD CARS";
   return "ALL CARS";
 }
 
@@ -50,7 +50,7 @@ function InventoryGrid({ cars }: { cars: FrontendCar[] }) {
           >
             <div className="flex items-center gap-3 mb-4">
               <div className="relative w-12 h-12 rounded-lg overflow-hidden shrink-0 bg-zinc-900">
-                <img src={car.images[0]} alt={car.name} className="w-full h-full object-cover object-center" />
+                <img src={car.images[0]} alt={`${car.name} imported car in Australia`} className="w-full h-full object-cover object-center" />
               </div>
               <div>
                 <h3 className="font-semibold orb text-base sm:text-lg leading-none text-white">
@@ -63,7 +63,7 @@ function InventoryGrid({ cars }: { cars: FrontendCar[] }) {
             <div className="relative h-[400px] sm:h-[450px] w-full mb-4 rounded-xl overflow-hidden group bg-zinc-900">
               <img
                 src={car.images[0]}
-                alt={car.name}
+                alt={`${car.name} imported car in Australia`}
                 className="w-full h-full object-cover object-center transition-transform duration-500 ease-out group-hover:scale-105 cursor-pointer"
               />
             </div>
@@ -161,9 +161,9 @@ export default function CarInventoryPage({
 
       <section className="px-4 sm:px-10 py-10 bg-black">
         <div className="flex sm:flex-row flex-col gap-3 items-center justify-between mb-10">
-          <h2 className="text-2xl sm:text-3xl font-bold orb text-[#f23410]">
+          <h1 className="text-2xl sm:text-3xl font-bold orb text-[#f23410]">
             {getPageTitle(mode)}
-          </h2>
+          </h1>
           <div className="flex flex-row-reverse sm:items-center gap-2">
             <p className="text-[#f23410] underline text-sm">
               Showing all {filteredCars.length} vehicles

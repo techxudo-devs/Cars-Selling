@@ -602,7 +602,7 @@ export const allCars: CarDetails[] = [
         tagline: "Dual-zone automatic Climate Control",
         price: "29,000",
         description: "The LS600hL is the long-wheelbase hybrid version of the LS460. It offers rear-seat luxury and a powerful V8 hybrid system for effortless cruising.",
-        specs: { mileage: "72,000 km", engine: "5.0L V8 Hybrid", transmission: "Hyrid", fuel: "Hybrid", year: "2007", color: "Black" },
+        specs: { mileage: "72,000 km", engine: "5.0L V8 Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2007", color: "Black" },
         highlights: [
             "439hp stock", "Fledermaus Cuervo 21 inch wheels", "Long wheel base", "Rare spec in prestine condition", "Mark levinson Sound system", "Adjustable suspension", "Soft closing doors", "2x keys", "Dual-zone automatic Climate Control", "Power-Adjustable Front Seats", "Memory Front Seats", "Front & rear Heated & ventilated seats", "Keyless Entry & Push-button start", "Pre-Collision System", "Lane Departure Alert", "Adaptive Cruise Control", "Premium wood trim"
         ],
@@ -655,11 +655,11 @@ export const allCars: CarDetails[] = [
     },
     {
         id: 27,
-        name: "2018 Toyota Prius C Hyrbid",
+        name: "2018 Toyota Prius C Hybrid",
         tagline: "Eligible for Uber X , Didi, Ubereats Etc",
         price: "SOLD",
         description: "This 2018 Toyota Prius C Hybrid is a reliable and fuel-efficient hybrid vehicle. With only 109,000 km on the odometer, it's in excellent condition and ready for immediate delivery. The Prius C is perfect for city driving, offering a compact size and impressive fuel economy. Whether you're looking for a daily commuter or a practical ride for ridesharing, this Prius C delivers on all fronts.",
-        specs: { mileage: "109,000 km", engine: "4.0L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2018", color: "Blue" },
+        specs: { mileage: "109,000 km", engine: "1.5L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2018", color: "Blue" },
         highlights: [
             "1 Year rego & ctp", "Keyless entry + Push Start", "Cruise control", "2x keys", "Hybrid", "Multimedia Steering wheel", "360 Parking sensors", "Auto mirrors", "Driving modes,(Sports,Eco,Ev)", "Reverse camera + Dashcam", "Optional 1, 3 & 5 Years Hybrid battery warranty Available", "Alot more"],
         images: [car24_1, car24_2, car24_3, car24_4, car24_5, car24_6, car24_7, car24_8],
@@ -673,7 +673,7 @@ export const allCars: CarDetails[] = [
         tagline: "Eligible for Uber X, UberEats, Didi, DoorDash etc",
         price: "SOLD",
         description: "This 2014 Toyota Prius c / Aqua is a reliable and fuel-efficient hybrid vehicle. With only 14,300 km on the odometer, it's in excellent condition and ready for immediate delivery. The Prius c is perfect for city driving, offering a compact size and impressive fuel economy. Whether you're looking for a daily commuter or a practical ride for ridesharing, this Prius c delivers on all fronts.",
-        specs: { mileage: "14,300 km", engine: "3.9L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2014", color: "Red" },
+        specs: { mileage: "14,300 km", engine: "1.5L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2014", color: "Red" },
         highlights: [
             "1 year Rego & Ctp", "Has a sporty look and feel to it with a very comfortable drive and cheap to run.", "Has a sporty look and feel to it with a very comfortable drive and cheap to run.", "Retractable mirrors", "Reverse camera", "Push start", "Keyless entry", "Cruise control", "Multimedia steering wheel", "Parking sensors", "Apple carply", "Traction control", "Eco mode", "Sports mode", "All 4 tyres like new"],
         images: [car25_1, car25_2, car25_3, car25_4, car25_5],
@@ -687,7 +687,7 @@ export const allCars: CarDetails[] = [
         tagline: "1 year Rego & Ctp",
         price: "SOLD",
         description: "This 2020 Toyota Yaris Hybrid X 4WD is a reliable and fuel-efficient hybrid vehicle. With only 117,000 km on the odometer, it's in excellent condition and ready for immediate delivery. The Yaris Hybrid is perfect for city driving, offering a compact size and impressive fuel economy. Whether you're looking for a daily commuter or a practical ride for ridesharing, this Yaris Hybrid delivers on all fronts.",
-        specs: { mileage: "117,000 km", engine: "3.0L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2020", color: "White" },
+        specs: { mileage: "117,000 km", engine: "1.5L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2020", color: "White" },
         highlights: [
             "Keyless entry (2x keys)", "Hybrid", "Premium audio system with six speakers and DAB+ for rich sound clarity", "Parking sensors", "Safety levels equipped with multiple airbags, ABS, EBD, brake assist, traction and stability control, hill-start assist, and lane departure warning", "Also include cross-traffic alert, blind-spot monitoring automatic braking for pedestrian and collision avoidance", "Premium fabric seats", "4 Driving modes Eco/Ev/Normal/Sports", "Push Start", "Infotainment system", "Gps Navigation", "New tyres", "ALOT MORE"],
         images: [car26_1, car26_2, car26_3, car26_4, car26_5, car26_6],
@@ -715,7 +715,7 @@ export const allCars: CarDetails[] = [
         tagline: "1 year Rego & Ctp",
         price: "SOLD",
         description: "This 2014 Lexus CT200H F Sport is a stylish and well-maintained hybrid luxury vehicle. With only 79,000 km on the odometer, it's in excellent condition and ready for immediate delivery. The CT200H F Sport combines luxury with practicality, offering a comfortable ride and advanced features. Whether you're looking for a daily commuter or a premium ride for business or leisure, this CT200H delivers on all fronts.",
-        specs: { mileage: "79,000 km", engine: "4.0L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2014", color: "Silver" },
+        specs: { mileage: "79,000 km", engine: "1.8L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2014", color: "Silver" },
         highlights: [
             "Aggressive grille, spoiler, 17″ wheels, unique colours", "Plush F Sport seats, steering wheel, pedals, premium trims", "Enhancement packs for added luxury and tech features", "Hybrid", "Full Service History & Log books", "Well Maintained", "Heated seats", "Electric seats", "4 Driving modes Eco/Ev/Normal/Sports", "Push Start", "Electric Folding mirrors", "Reverse Camera", "Infotainment system", "Gps Navigation", "Automatic seats with Lumbar Support", "ALOT MORE"],
         images: [car28_1, car28_2, car28_3, car28_4, car28_5, car28_6, car28_7],
@@ -729,7 +729,7 @@ export const allCars: CarDetails[] = [
         tagline: "4 months rego",
         price: "SOLD",
         description: "This 2020 Lexus CT200H Hybrid is a well-maintained hybrid luxury vehicle. With only 188,000 km on the odometer, it's in excellent condition and ready for immediate delivery. The CT200H Hybrid combines luxury with practicality, offering a comfortable ride and advanced features. Whether you're looking for a daily commuter or a premium ride for business or leisure, this CT200H delivers on all fronts.",
-        specs: { mileage: "188,000 km", engine: "4.2L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2020", color: "Silver" },
+        specs: { mileage: "188,000 km", engine: "1.8L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2020", color: "Silver" },
         highlights: [
             "Range: 650-800 kms on full tank", "Hybrid engine", "Eco mode", "Traction control", "2x keys", "Log books & Service history", "Reverse camera", "Parking sensors", "15” Wheels with Good Tyres", "Bluetooth Connectivity", "Recently Serviced", "Registration & CTP"],
         images: [car29_1, car29_2, car29_3, car29_4, car29_5],
@@ -740,7 +740,7 @@ export const allCars: CarDetails[] = [
     {
         id: 33,
         name: "2015 Audi A4 Quattro Sedan",
-        tagline: "Great condition - full service history with Audi",
+        tagline: "Great condition - full service history with Toyota",
         price: "SOLD",
         description: "This 2015 Audi A4 Quattro Sedan is in excellent condition with a full service history from Audi. It has been meticulously maintained and is ready for immediate delivery. The vehicle features a powerful 2.0L engine, all-wheel drive, and a range of premium features including a sunroof, Bang and Olufsen sound system, and upgraded infotainment screen with Apple CarPlay and Android Auto.",
         specs: { mileage: "131,000 km", engine: "2.0L Hybrid", transmission: "Automatic", fuel: "Automatic", year: "2015", color: "Gray" },
@@ -754,10 +754,10 @@ export const allCars: CarDetails[] = [
     {
         id: 34,
         name: "2020 Toyota Vitz / Yaris Hybrid",
-        tagline: "Great condition - full service history with Audi",
+        tagline: "Great condition - full service history with Toyota",
         price: "SOLD",
         description: "This 2020 Toyota Vitz / Yaris Hybrid is in excellent condition with a full service history from Toyota. It has been meticulously maintained and is ready for immediate delivery. The vehicle features a fuel-efficient hybrid engine, all-wheel drive, and a range of premium features including a sunroof, Bang and Olufsen sound system, and upgraded infotainment screen with Apple CarPlay and Android Auto.",
-        specs: { mileage: "43,000 km", engine: "3.5L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2020", color: "Silver" },
+        specs: { mileage: "43,000 km", engine: "1.5L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2020", color: "Silver" },
         highlights: [
             "Has a sporty look and feel to it", "With a very comfortable drive and cheap to run", "Hybrid engine", "Eco mode", "Traction control", "Dashcam installed", "Log books & Service history", "Reverse camera", "15” Wheels with Good Tyres", "Bluetooth Connectivity", "Recently Serviced", "Registration & CTP", "Fresh Japanese import"],
         images: [car31_1, car31_2, car31_3, car31_4, car31_5, car31_6],
@@ -771,7 +771,7 @@ export const allCars: CarDetails[] = [
         tagline: "Eligible for Uber X, UberEats, Didi, DoorDash etc",
         price: "SOLD",
         description: "This 2014 Honda vezel / Hrv Hybrid is in excellent condition with a full service history from Honda. It has been meticulously maintained and is ready for immediate delivery. The vehicle features a fuel-efficient hybrid engine, all-wheel drive, and a range of premium features including a sunroof, Bang and Olufsen sound system, and upgraded infotainment screen with Apple CarPlay and Android Auto.",
-        specs: { mileage: "102,000 km", engine: "5.0L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2014", color: "Silver" },
+        specs: { mileage: "102,000 km", engine: "1.5L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2014", color: "Silver" },
         highlights: [
             "Has a sporty look and feel to it", "With a very comfortable drive and cheap to run", "1 year Rego & Ctp", "2x keys", "Paddle shifters", "Push start", "Keyless entry", "Cruise control", "Multimedia steering wheel", "Parking sensors", "Apple carply", "Traction control", "Eco mode", "Sports mode", "Dual climate zone", "All 4 brand new tyres just installed", "Fresh Japanese import"],
         images: [car32_1, car32_2, car32_3, car32_4],
@@ -785,7 +785,7 @@ export const allCars: CarDetails[] = [
         tagline: "1 year rego",
         price: "SOLD",
         description: "This 2019 Toyota Vitz / Yaris Hybrid is in excellent condition with a full service history from Toyota. It has been meticulously maintained and is ready for immediate delivery. The vehicle features a fuel-efficient hybrid engine, all-wheel drive, and a range of premium features including a sunroof, Bang and Olufsen sound system, and upgraded infotainment screen with Apple CarPlay and Android Auto.",
-        specs: { mileage: "92,000 km", engine: "4.0L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2019", color: "Silver" },
+        specs: { mileage: "92,000 km", engine: "1.5L Hybrid", transmission: "Hybrid", fuel: "Hybrid", year: "2019", color: "Silver" },
         highlights: [
             "Has a sporty look and feel to it", "With a very comfortable drive and cheap to run", "Hybrid engine", "Eco mode", "Traction control", "Dashcam installed", "Log books & Service history", "Reverse camera", "Parking sensors", "15” Wheels with Good Tyres", "Bluetooth Connectivity", "Recently Serviced", "Registration & CTP", "Fresh Japanese import"],
         images: [car33_1, car33_2, car33_3],

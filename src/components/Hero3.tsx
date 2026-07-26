@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import heroImg1 from "@/assets/hero1.webp"; // MUST BE RED TRUCK
 import heroImg2 from "@/assets/hero2.webp"; // MUST BE LIGHT BLUE SUV
 import heroImg3 from "@/assets/hero3.webp"; // MUST BE DARK BLUE SUV
@@ -12,9 +13,17 @@ const Hero3 = () => {
                 {/* --- Heading --- */}
                 <div className="container px-4 text-center mb-12 md:mb-10 z-20 relative">
                     <h1 className="text-3xl sm:text-4xl md:text-[43px] font-bold text-black tracking-tight leading-[1.1]">
-                        <span className="text-[#f23410]">Elite Motor Cars - </span> Premium Car Import Services Across Australia.
+                        <span className="text-[#f23410]">Import and Buy </span>Japanese Cars in Australia
                     </h1>
-                    <p className="mx-auto max-w-5xl font-medium text-gray-800 pt-4">Import Cars from Japan & Europe to Australia with Confidence, Quality Assurance, and Complete Peace of Mind.</p>
+                    <p className="mx-auto max-w-5xl font-medium text-gray-800 pt-4">Browse Japanese vehicles already imported and available for sale, or ask Elite Motor Cars to source, inspect and import a specific new or used car from Japan.</p>
+                    <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+                        <Link href="/available-cars/" className="rounded-full bg-[#f23410] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#d92c0f]">
+                            Browse Available Cars
+                        </Link>
+                        <Link href="/how-we-deliver/" className="rounded-full border border-[#f23410] px-6 py-3 text-sm font-semibold text-[#f23410] transition hover:bg-[#f23410] hover:text-white">
+                            Request a Car from Japan
+                        </Link>
+                    </div>
                 </div>
 
                 {/* --- Images Row --- */}

@@ -2,6 +2,7 @@ import type { StaticImageData } from "next/image";
 
 import type { BlogPost } from "@/data/blogs";
 import { slugifyBlogSlug } from "@/data/blogs";
+import { slugifyCarRoute } from "@/lib/cars";
 import type { FrontendCar } from "@/types/car";
 
 export const SITE_URL = (
@@ -9,6 +10,7 @@ export const SITE_URL = (
 ).replace(/\/$/, "");
 
 export const BUSINESS_NAME = "Elite Motor Cars";
+export const BUSINESS_SCHEMA_NAME = "Elite Motor Cars Australia";
 export const BUSINESS_PHONE = "+61 466 318 074";
 export const BUSINESS_EMAIL = "sales@elitemotorcars.com.au";
 export const BUSINESS_STREET = "";
@@ -16,6 +18,7 @@ export const BUSINESS_CITY = "Sydney";
 export const BUSINESS_REGION = "NSW";
 export const BUSINESS_POSTCODE = "2000";
 export const BUSINESS_COUNTRY = "AU";
+export const BUSINESS_DEALER_LICENCE = "MD100405";
 
 const businessId = SITE_URL + "/#autodealer";
 const organizationId = SITE_URL + "/#organization";
@@ -61,9 +64,11 @@ export function buildOrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": organizationId,
-    name: BUSINESS_NAME,
+    name: BUSINESS_SCHEMA_NAME,
+    alternateName: BUSINESS_NAME,
     url: SITE_URL,
     email: BUSINESS_EMAIL,
+    identifier: BUSINESS_DEALER_LICENCE,
     telephone: BUSINESS_PHONE,
     contactPoint: buildContactPointSchema(),
     address: buildPostalAddressSchema(),
@@ -75,10 +80,12 @@ export function buildLocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "AutoDealer"],
     "@id": businessId,
-    name: BUSINESS_NAME,
+    name: BUSINESS_SCHEMA_NAME,
+    alternateName: BUSINESS_NAME,
     url: SITE_URL,
     telephone: BUSINESS_PHONE,
     email: BUSINESS_EMAIL,
+    identifier: BUSINESS_DEALER_LICENCE,
     priceRange: "$$",
     address: buildPostalAddressSchema(),
     openingHoursSpecification: buildOpeningHoursSpecificationSchema(),
@@ -236,7 +243,12 @@ export function buildVehicleSchema(car: FrontendCar) {
     color: car.specs.color,
     offers: {
       "@type": "Offer",
-      url: absoluteUrl("/" + (sold ? "sold" : "available") + "-cars/" + encodeURIComponent(car.id)),
+      url: absoluteUrl(
+        "/" +
+          (sold ? "sold" : "available") +
+          "-cars/" +
+          encodeURIComponent(slugifyCarRoute(car.name, car.id)),
+      ),
       priceCurrency: "AUD",
       price,
       availability: sold ? "https://schema.org/SoldOut" : "https://schema.org/InStock",

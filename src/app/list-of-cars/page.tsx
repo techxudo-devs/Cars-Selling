@@ -76,13 +76,11 @@ const Page = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="w-full mx-auto">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-black uppercase text-[#F23410] tracking-tighter text-center">
-              Cars We Can Import To Australia
+              List of Cars Eligible for Import to Australia
             </h1>
             <p className="text-zinc-500 mt-2 font-medium text-sm md:text-base leading-normal max-w-5xl mx-auto text-center">
-              Elite Motor Cars The Most Trusted Way to Buy and Sell Used Cars in
-              Australia Choose from over 10,000 fully inspected second-hand car
-              models at Elite Motor Cars. Buy used cars online and book a test
-              drive at your home or visit an Elite Motor Cars location near you.
+              Review cars that may be eligible to import from Japan to Australia.
+              Final eligibility depends on the exact model, variant and build date.
             </p>
           </div>
         </div>

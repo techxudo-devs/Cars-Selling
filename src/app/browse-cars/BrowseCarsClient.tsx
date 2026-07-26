@@ -1,19 +1,20 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
 import { ArrowUpRight, Calendar } from "lucide-react";
 import carsData from "../../../browse_all_cars.json";
 
-const BrowseCarsClient = () => {
-  const [displayCount, setDisplayCount] = useState(20);
+const PAGE_SIZE = 20;
 
-  const displayedCars = carsData.slice(0, displayCount);
-  const hasMoreCars = displayCount < carsData.length;
+type BrowseCarsClientProps = {
+  page?: number;
+};
 
-  const handleLoadMore = () => {
-    setDisplayCount((prev) => Math.min(prev + 20, carsData.length));
-  };
+const BrowseCarsClient = ({ page = 1 }: BrowseCarsClientProps) => {
+  const totalPages = Math.ceil(carsData.length / PAGE_SIZE);
+  const safePage = Math.min(Math.max(page, 1), totalPages);
+  const pageStart = (safePage - 1) * PAGE_SIZE;
+  const displayedCars = carsData.slice(pageStart, pageStart + PAGE_SIZE);
 
   const getOptimizedUrl = (url: string) => {
     if (url && url.includes("cloudinary.com")) {
@@ -26,12 +27,11 @@ const BrowseCarsClient = () => {
     <div className="min-h-screen bg-black text-white py-10 px-4 sm:px-6 md:px-10">
       <div className="max-w-7xl mx-auto text-center mb-16">
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-black leading-none uppercase mb-4 text-[#F23410]">
-          Browse Cars We Can Import to Australia
+          Browse Cars Available to Import from Japan
         </h1>
         <p className="max-w-2xl mx-auto text-zinc-400 text-sm md:text-base leading-normal md:leading-6">
-          Elite Motor Cars The Most Trusted Way to Buy and Sell Used Cars in
-          Australia Choose from over 10,000 fully inspected second-hand car
-          models at Elite Motor Cars.
+          Explore vehicles available to source from Japan with support for
+          selection, inspections, shipping, customs and Australian compliance.
         </p>
       </div>
 
@@ -46,7 +46,7 @@ const BrowseCarsClient = () => {
               <img
                 loading="lazy"
                 src={getOptimizedUrl(car.image)}
-                alt={car.name}
+                alt={`${car.name} available to import to Australia`}
                 className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
               />
               <div className="absolute top-0 right-0 bg-[#F23410] text-black font-bold text-[10px] px-3 py-1 uppercase">
@@ -82,16 +82,32 @@ const BrowseCarsClient = () => {
         ))}
       </div>
 
-      {hasMoreCars && (
-        <div className="max-w-7xl mx-auto flex justify-center mt-16">
-          <button
-            onClick={handleLoadMore}
-            className="px-10 py-3 bg-[#F23410] text-white cursor-pointer font-semibold uppercase tracking-wide hover:bg-[#E01D00] transition-all duration-300 hover:scale-105 active:scale-95"
+      <nav
+        aria-label="Browse cars pagination"
+        className="max-w-7xl mx-auto flex items-center justify-center gap-4 mt-16"
+      >
+        {safePage > 1 ? (
+          <Link
+            rel="prev"
+            href={safePage === 2 ? "/browse-cars/" : `/browse-cars/page/${safePage - 1}/`}
+            className="px-8 py-3 border border-[#F23410] text-white font-semibold uppercase tracking-wide hover:bg-[#F23410] transition-all duration-300"
           >
-            Load More Cars
-          </button>
-        </div>
-      )}
+            Previous
+          </Link>
+        ) : null}
+        <span className="text-sm text-zinc-400">
+          Page {safePage} of {totalPages}
+        </span>
+        {safePage < totalPages ? (
+          <Link
+            rel="next"
+            href={`/browse-cars/page/${safePage + 1}/`}
+            className="px-10 py-3 bg-[#F23410] text-white font-semibold uppercase tracking-wide hover:bg-[#E01D00] transition-all duration-300 hover:scale-105 active:scale-95"
+          >
+            Next
+          </Link>
+        ) : null}
+      </nav>
     </div>
   );
 };

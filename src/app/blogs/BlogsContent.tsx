@@ -43,13 +43,15 @@ function renderParagraph(paragraph: BlogParagraph) {
         return paragraph.text;
     }
 
+    const external = /^https?:\/\//i.test(paragraph.linkHref);
+
     return (
         <>
             {paragraph.text}
             <a
                 href={paragraph.linkHref}
-                target="_blank"
-                rel="noopener noreferrer"
+                target={external ? "_blank" : undefined}
+                rel={external ? "noopener noreferrer" : undefined}
                 className="font-semibold text-[#f23410] underline underline-offset-4 transition hover:text-white"
             >
                 {paragraph.linkLabel}
@@ -83,7 +85,7 @@ export default function BlogsContent({ slug }: { slug?: string }) {
                         <div className="space-y-6">
                             <div className="flex items-center gap-3 text-xs font-bold text-[#f23410]">
                                 <span className="h-[1px] w-8 bg-[#f23410]"></span>
-                                {selectedBlog.readTime} read
+                                {selectedBlog.readTime.replace(/\s+read$/i, "")} read
                             </div>
                             <h1 className="orb text-3xl font-extrabold leading-[1] md:text-4xl lg:text-5xl">
                                 {selectedBlog.title}
@@ -101,7 +103,7 @@ export default function BlogsContent({ slug }: { slug?: string }) {
                     <div className="relative aspect-[21/9] w-full overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
                         <Image
                             src={selectedBlog.image}
-                            alt={selectedBlog.title}
+                            alt={selectedBlog.imageAlt || selectedBlog.title}
                             fill
                             priority
                             className="object-cover"
@@ -127,7 +129,7 @@ export default function BlogsContent({ slug }: { slug?: string }) {
                                 {selectedBlog.sections.map((section, idx) => (
                                     <div key={section.heading} className="space-y-8">
                                         <div className="space-y-2">
-                                            <span className="text-xs font-bold text-[#f23410]">0{idx + 1}</span>
+                                            <span aria-hidden="true" className="text-xs font-bold text-[#f23410]">0{idx + 1}</span>
                                             <h2 className="orb text-2xl font-bold tracking-tight text-white md:text-3xl uppercase">
                                                 {section.heading}
                                             </h2>
@@ -175,6 +177,22 @@ export default function BlogsContent({ slug }: { slug?: string }) {
                                     </div>
                                 ))}
                             </div>
+
+                            {selectedBlog.faqs?.length ? (
+                                <section className="space-y-8">
+                                    <h2 className="orb text-2xl font-bold tracking-tight text-white md:text-3xl uppercase">
+                                        Frequently Asked Questions
+                                    </h2>
+                                    <div className="space-y-6">
+                                        {selectedBlog.faqs.map((faq) => (
+                                            <div key={faq.question} className="rounded-xl border border-white/10 bg-zinc-900/30 p-6">
+                                                <h3 className="mb-3 text-lg font-bold text-white">{faq.question}</h3>
+                                                <p className="leading-7 text-gray-300">{faq.answer}</p>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </section>
+                            ) : null}
 
                             {/* Conclusion */}
                             <div className="rounded-2xl border border-[#f23410]/20 bg-gradient-to-br from-zinc-900/50 to-black p-8 md:p-10">

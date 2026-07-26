@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import BlogsContent from "../BlogsContent";
 import { blogs, findBlogBySlug, findBlogByTitle, slugifyBlogSlug } from "@/data/blogs";
 import JsonLd from "@/components/JsonLd";
-import { buildBlogPostingSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
+import { buildBlogPostingSchema, buildBreadcrumbListSchema, buildFaqPageSchema } from "@/lib/structuredData";
 
 type Params = {
   params: Promise<{ slug: string }>;
@@ -47,6 +47,9 @@ export default async function BlogDetailPage({ params }: Params) {
       {blog ? (
         <>
           <JsonLd id={`blog-posting-schema-${slug}`} data={buildBlogPostingSchema(blog)} />
+          {blog.faqs?.length ? (
+            <JsonLd id={`blog-faq-schema-${slug}`} data={buildFaqPageSchema(blog.faqs)} />
+          ) : null}
           <JsonLd
             id={`blog-breadcrumb-schema-${slug}`}
             data={buildBreadcrumbListSchema([

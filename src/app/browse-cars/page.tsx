@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 import BrowseCarsClient from "./BrowseCarsClient";
 
 export const metadata: Metadata = {
-  title: "Browse Cars We Can Import to Australia",
+  title: "Browse Cars Available to Import from Japan",
   description:
-    "Explore the cars Elite Motor Cars can import to Australia, with a searchable catalogue of makes and models.",
+    "Browse cars available to import from Japan through Elite Motor Cars, including Japanese makes, models and specialist vehicles.",
   alternates: {
     canonical: "/browse-cars",
   },
 };
 
 export default function Page() {
-  return <BrowseCarsClient />;
+  return <BrowseCarsClient page={1} />;
 }

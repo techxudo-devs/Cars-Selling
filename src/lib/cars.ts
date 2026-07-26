@@ -46,8 +46,13 @@ export function slugifyCarRoute(name: string, id: string) {
     .replace(/['’]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+  const normalizedId = id.toLowerCase().replace(/^\/+|\/+$/g, "");
 
-  return `${slugBase}-${id}`;
+  if (normalizedId === slugBase || normalizedId.startsWith(slugBase + "-")) {
+    return normalizedId;
+  }
+
+  return `${slugBase}-${normalizedId}`;
 }
 
 export function getInventoryRoute(type: InventoryRouteType) {
@@ -57,5 +62,8 @@ export function getInventoryRoute(type: InventoryRouteType) {
 }
 
 export function getCarDetailRoute(carId: string, sold: boolean, _carName?: string) {
-  return "/car-details?id=" + encodeURIComponent(carId);
+  const inventoryRoute = sold ? "/sold-cars/" : "/available-cars/";
+  const routeSlug = slugifyCarRoute(_carName || "vehicle", carId);
+
+  return inventoryRoute + encodeURIComponent(routeSlug);
 }
