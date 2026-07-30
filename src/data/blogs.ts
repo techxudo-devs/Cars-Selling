@@ -16,6 +16,8 @@ import blog12Img from "@/assets/blogElite12.png"
 import blog15Img from "@/assets/blog15.png"
 import blog13Img from "@/assets/blogElite13.png"
 import blog14Img from "@/assets/eliteBlog10.png"
+import blog16Img from "@/assets/eliteBlog11.png"
+import blog17Img from "@/assets/eliteBlog12.png"
 
 export type BlogParagraph =
     | string
@@ -2489,6 +2491,1542 @@ export const blogs: BlogPost[] = [
         ],
         conclusion:
             "To import cars from Japan successfully, buyers need to understand the full process—from selecting a vehicle and managing auctions to handling shipping, customs, and compliance. While it requires planning and attention to detail, the benefits often outweigh the challenges. With access to high-quality vehicles, competitive pricing, and rare models, Japan remains one of the world’s most trusted sources for vehicle imports. Whether you're a car enthusiast or a practical buyer, importing from Japan can be a smart and rewarding choice when done with the right guidance.",
+    },
+    {
+        title: "Vehicle Import Approval Australia: ROVER, SEVS and Compliance Explained",
+        description: "Before importing a vehicle into Australia, buyers must identify the correct approval pathway and obtain the required permission. This guide explains ROVER, SEVS eligibility, Model Reports, registered workshops, RAV entry, compliance and registration.",
+        image: blog17Img,
+        postedDate: "30 July 2026",
+        createdAt: "2026-07-30T12:00:00.000Z",
+        readTime: "16 min read",
+        location: "Australia",
+        slug: "vehicle-import-approval-australia",
+        metaTitle: "Vehicle Import Approval Australia: ROVER & SEVS Guide",
+        metaDescription: "Learn how vehicle import approval works in Australia, including ROVER, SEVS, Model Reports, RAW compliance, RAV entry and NSW registration.",
+        introduction: "Importing a vehicle into Australia involves more than finding a suitable car overseas and arranging shipping. Before a road vehicle can legally enter the country, the importer generally needs the appropriate vehicle import approval in Australia.\n\nThe exact process depends on the vehicle, its build date, specification, intended use and the approval pathway under which it will be imported.\n\nThis is especially important when purchasing Japanese imported cars, JDM performance vehicles, luxury models, hybrids or specialist variants. Two cars with the same general model name can have different eligibility outcomes because of differences in chassis code, engine, drivetrain, body type or manufacturing date.\n\nAustralian Government guidance states that approval must be obtained before importing a road vehicle. Importing without approval is an offence under the Road Vehicle Standards Act 2018. Applications are managed through ROVER, the government's online approval system. [1]\n\nThis guide explains:\n\u2022 how vehicle import approval works;\n\u2022 what ROVER is;\n\u2022 how the SEVS Register affects eligibility;\n\u2022 the roles of Model Reports, registered workshops and vehicle verifiers;\n\u2022 what the Register of Approved Vehicles means;\n\u2022 and what buyers should check before purchasing or shipping a vehicle.\n\nImportant\nThis article provides general information. Eligibility and compliance must be confirmed for the exact vehicle before purchase or shipment.",
+        sections: [
+            {
+                heading: "Quick Answer: How Do You Get Vehicle Import Approval in Australia?",
+                paragraphs: [
+                    "The normal process begins by identifying the exact vehicle and checking which import pathway may apply."
+                ],
+                items: [
+                    "Confirm the vehicle's identity and eligibility.",
+                    "Check the relevant approval pathway.",
+                    "Check the SEVS Register and Model Report availability where applicable.",
+                    "Create or access a ROVER account.",
+                    "Submit the correct application and supporting evidence.",
+                    "Pay the applicable application fee.",
+                    "Wait for the assessment and respond to any information requests.",
+                    "Receive approval before arranging international shipment.",
+                    "Complete customs, biosecurity and any required compliance work.",
+                    "Complete RAV entry and state or territory registration where required.",
+                ],
+                postItemsParagraphs: [
+                    "The Department of Infrastructure's published process tells importers to apply through ROVER, receive approval and only then arrange shipping. [2]"
+                ]
+            },
+            {
+                heading: "What Is Vehicle Import Approval?",
+                paragraphs: [
+                    "A vehicle import approval is permission granted under Australia's Road Vehicle Standards framework to import a particular vehicle, vehicle type or category of vehicle.",
+                    "It does not necessarily mean that the vehicle:",
+                    "Import approval is one stage of a broader process.",
+                    "Depending on the approval pathway, additional work can include:",
+                    "A vehicle can have federal import approval but still fail to satisfy a state registration authority's requirements. NSW guidance specifically tells buyers to check NSW registration requirements before importing because registration can be refused when those requirements are not met. [3]"
+                ],
+                items: [
+                    "Is ready to drive;",
+                    "Has cleared customs;",
+                    "Has passed biosecurity inspection;",
+                    "Complies with every applicable Australian standard;",
+                    "Has been entered on the RAV;",
+                    "Or can automatically be registered in every state.",
+                    "Customs declaration and tax assessment;",
+                    "Cleaning or biosecurity treatment;",
+                    "Modifications under an approved Model Report;",
+                    "Verification by an approved verifier;",
+                    "Entry on the Register of Approved Vehicles;",
+                    "State inspection;",
+                    "Compliance certification;",
+                    "Compulsory insurance;",
+                    "And registration.",
+                ]
+            },
+            {
+                heading: "What Is ROVER?",
+                paragraphs: [
+                    "ROVER is the Australian Government's online vehicle approval portal.",
+                    "It is used to:",
+                    "ROVER also provides access to public approval information, including:",
+                    "Creating a ROVER account does not itself provide permission to import a car. The correct application must be lodged and approved.",
+                    "Important 2026 ROVER Update\nFrom 1 July 2026, RAV submissions for applicable vehicle categories must include motive-power data. ROVER states that submissions for category L, M or N vehicles without this information will fail, except for trailers where the field does not apply. This requirement is mainly relevant to approval holders, workshops and parties submitting vehicles to the RAV, but buyers may encounter delays if vehicle data is incomplete. [4]"
+                ],
+                items: [
+                    "Submit and pay for applications;",
+                    "Monitor an application's progress;",
+                    "Receive requests for additional information;",
+                    "Respond to those requests;",
+                    "And receive the final decision.",
+                    "Road vehicle type approvals;",
+                    "The Specialist and Enthusiast Vehicles Register;",
+                    "Approved Model Reports;",
+                    "Registered Automotive Workshops;",
+                    "Authorised vehicle verifiers;",
+                    "And the Register of Approved Vehicles. [4]",
+                ]
+            },
+            {
+                heading: "Which Vehicle Import Approval Pathway Applies?",
+                paragraphs: [
+                    "There is no single approval pathway for every imported vehicle.",
+                    "The appropriate route can depend on:",
+                    "Vehicle Type Approval",
+                    "Vehicle type approval is generally intended for commercial supply of an approved vehicle type.",
+                    "The Department states that a vehicle type approval permits an unlimited number of vehicles of a particular type to be imported and is generally used for commercial importation. [1]",
+                    "This pathway is different from a buyer importing one specific vehicle.",
+                    "Concessional RAV Entry Approval",
+                    "A concessional RAV entry approval may apply to eligible categories including:",
+                    "A vehicle granted the relevant approval can proceed toward RAV entry after its approval conditions have been satisfied. RAV entry then makes the vehicle available for consideration by a state or territory registration authority, subject to local requirements. [5]",
+                    "Non-RAV Entry Approval",
+                    "Some vehicles may qualify for an approval that does not involve entry on the RAV.",
+                    "These pathways can apply to specific purposes or circumstances and should not be assumed to provide a route to normal road registration. Applications must still be made before import, and the applicant should allow sufficient assessment time. [6]"
+                ],
+                items: [
+                    "Whether one vehicle or multiple vehicles are being imported;",
+                    "Whether the vehicle will be sold commercially;",
+                    "Whether it is a specialist or enthusiast model;",
+                    "Whether it is over 25 years old;",
+                    "Whether it is being imported as personal effects;",
+                    "Whether it requires modification;",
+                    "And whether it will be used on public roads.",
+                    "Certain older vehicles;",
+                    "Specialist and enthusiast vehicles requiring modification by a Registered Automotive Workshop;",
+                    "Some personal-effects vehicles;",
+                    "Eligible special-purpose vehicles;",
+                    "Certain trailers;",
+                    "And other vehicles satisfying the relevant criteria.",
+                ]
+            },
+            {
+                heading: "What Is the SEVS Register?",
+                paragraphs: [
+                    "SEVS stands for Specialist and Enthusiast Vehicles.",
+                    "The SEVS Register is a public database of vehicle models and variants assessed as meeting specialist and enthusiast eligibility criteria.",
+                    "It is relevant to many buyers looking for:",
+                    "Common misunderstanding",
+                    "A vehicle appearing on the SEVS Register is not the same as having approval to import that vehicle. ROVER expressly states that SEVS entry is not an import approval. A separate approval is still required for the individual vehicle or relevant supply pathway. [7]",
+                    "Why the Exact Variant Matters",
+                    "SEVS eligibility can apply to particular variants rather than every version sharing the same model name.",
+                    "Relevant differences can include:",
+                    "For example, one drivetrain or model code may appear on the Register while another version of the same vehicle does not.",
+                    "Therefore, do not check eligibility using only broad names such as:",
+                    "Check the exact:"
+                ],
+                items: [
+                    "JDM performance vehicles;",
+                    "Rare Japanese variants;",
+                    "Specialist luxury cars;",
+                    "Unique hybrid models;",
+                    "Limited-production vehicles;",
+                    "Or specifications not generally supplied through the Australian market.",
+                    "Engine configuration;",
+                    "Transmission;",
+                    "Drivetrain;",
+                    "Body type;",
+                    "Model code;",
+                    "Build period;",
+                    "And other design characteristics.",
+                    "Toyota Crown",
+                    "Nissan Skyline",
+                    "Honda Civic",
+                    "Lexus LS",
+                    "Mitsubishi Evolution",
+                    "Make",
+                    "Model",
+                    "Variant",
+                    "Chassis or model code",
+                    "Build month and year",
+                    "Engine",
+                    "Transmission",
+                    "Drivetrain",
+                    "Body type",
+                ]
+            },
+            {
+                heading: "Does a SEVS Vehicle Need a Model Report?",
+                paragraphs: [
+                    "A vehicle imported through the pathway involving modification by a Registered Automotive Workshop generally needs access to an approved Model Report.",
+                    "A Model Report contains the information and work instructions needed to bring the covered vehicle into conformity with the applicable requirements.",
+                    "Government guidance recommends checking whether an approved Model Report exists before purchasing a SEVS vehicle and discussing the proposed vehicle with a Registered Automotive Workshop. [8]",
+                    "A Model Report may define:",
+                    "The existence of a Model Report does not mean every condition of every vehicle will be acceptable. The exact car must still match the scope of the report and satisfy the applicable approval conditions."
+                ],
+                items: [
+                    "The precise vehicles it covers;",
+                    "Identification requirements;",
+                    "Inspection procedures;",
+                    "Required modifications;",
+                    "Testing requirements;",
+                    "Evidence requirements;",
+                    "And instructions for verifying the completed vehicle.",
+                ]
+            },
+            {
+                heading: "What Is a Registered Automotive Workshop?",
+                paragraphs: [
+                    "A Registered Automotive Workshop, commonly shortened to RAW, is an approved workshop authorised under the Road Vehicle Standards framework to perform applicable vehicle modifications in accordance with approved Model Reports.",
+                    "For an eligible SEVS vehicle, the process can involve:",
+                    "The Road Vehicle Standards glossary describes a RAW as an approval holder that can modify applicable vehicles according to Model Reports. [9]",
+                    "A dealer, importer or ordinary mechanical workshop should not be described as a RAW unless it actually holds the required approval."
+                ],
+                items: [
+                    "Obtaining the relevant concessional approval;",
+                    "Importing the approved vehicle;",
+                    "Delivering it to an approved RAW;",
+                    "Completing the work required by the Model Report;",
+                    "Having the vehicle checked by an Authorised Vehicle Verifier;",
+                    "And entering the vehicle on the RAV after successful verification.",
+                ]
+            },
+            {
+                heading: "What Is an Authorised Vehicle Verifier?",
+                paragraphs: [
+                    "An Authorised Vehicle Verifier, or AVV, independently checks applicable vehicles after the necessary work has been completed.",
+                    "For a relevant specialist and enthusiast vehicle, the AVV verifies that the vehicle and its modifications conform to the approved Model Report and applicable requirements.",
+                    "Once verification is successfully completed, the vehicle can be entered on the Register of Approved Vehicles.",
+                    "Government guidance explains that Model Report modifications must be completed and verified before RAV entry. [8]"
+                ]
+            },
+            {
+                heading: "What Is the Register of Approved Vehicles?",
+                paragraphs: [
+                    "The Register of Approved Vehicles, commonly known as the RAV, is a publicly searchable online database.",
+                    "It contains vehicles that have met the applicable Road Vehicle Standards requirements and have been approved for provision to the Australian market. [10]",
+                    "The public RAV search allows a vehicle to be checked using its permanently marked VIN. [11]",
+                    "RAV entry is important, but it does not replace:",
+                    "A RAV entry makes a vehicle available for registration consideration, but the final registration decision remains with the relevant state or territory authority."
+                ],
+                items: [
+                    "Customs clearance;",
+                    "Biosecurity clearance;",
+                    "State-specific inspections;",
+                    "Compulsory insurance;",
+                    "Registration fees;",
+                    "Or state registration requirements.",
+                ]
+            },
+            {
+                heading: "Does an Imported Car Still Need a Compliance Plate?",
+                paragraphs: [
+                    "The phrase \u201ccompliance plate for imported vehicle\u201d remains common in searches, but Australia's current system uses the online RAV for vehicles approved under the Road Vehicle Standards framework.",
+                    "Older vehicles approved under the previous Motor Vehicle Standards system may have physical identification plates rather than a modern RAV record.",
+                    "The government's public RAV search notes that some vehicles approved before the commencement of the current legislation may not appear on the RAV because physical identification plates were used under the earlier system. [12]",
+                    "Therefore:"
+                ],
+                items: [
+                    "A newer imported vehicle may be verified through its RAV record;",
+                    "An older import may have documentation or a physical plate under the previous system;",
+                    "And the appropriate evidence depends on the vehicle and its approval date.",
+                ]
+            },
+            {
+                heading: "Step 1: Identify the Exact Vehicle",
+                paragraphs: [
+                    "Collect the complete vehicle information before bidding or paying a deposit:",
+                    "Listing photographs and a general model name are not enough for an eligibility assessment."
+                ],
+                items: [
+                    "Make and model;",
+                    "Variant;",
+                    "Model or chassis code;",
+                    "VIN or chassis number;",
+                    "Build date;",
+                    "Engine;",
+                    "Transmission;",
+                    "Drivetrain;",
+                    "Body type;",
+                    "Seating capacity;",
+                    "Current modifications;",
+                    "And intended use.",
+                ]
+            },
+            {
+                heading: "Step 2: Check the Potential Approval Pathway",
+                paragraphs: [
+                    "Determine whether the proposed vehicle may qualify through:",
+                    "Do not purchase first and investigate the pathway later."
+                ],
+                items: [
+                    "A vehicle type approval;",
+                    "A SEVS and RAW pathway;",
+                    "The older-vehicle criterion;",
+                    "Personal effects;",
+                    "Another concessional RAV entry category;",
+                    "Or a non-RAV pathway.",
+                ]
+            },
+            {
+                heading: "Step 3: Check SEVS and Model Report Information",
+                paragraphs: [
+                    "For a specialist or enthusiast vehicle:",
+                    "SEVS entry alone is not sufficient approval. [7]"
+                ],
+                items: [
+                    "Search the exact variant on the SEVS Register;",
+                    "Confirm the entry is current;",
+                    "Check whether an approved Model Report exists;",
+                    "And discuss the proposed purchase with an appropriate RAW where necessary.",
+                ]
+            },
+            {
+                heading: "Step 4: Calculate the Full Budget",
+                paragraphs: [
+                    "Before purchase, calculate more than the overseas vehicle price.",
+                    "The budget may include:",
+                    "GST generally applies to most imported road vehicles at 10% of the value of the taxable importation. Customs duty depends on the tariff classification and customs value, while Luxury Car Tax can apply above the relevant threshold. [13]",
+                    "For the 2026-27 financial year, the published Luxury Car Tax thresholds are A$91,661 for fuel-efficient vehicles and A$80,809 for other luxury vehicles. The LCT rate remains 33% on the applicable value above the threshold, subject to the statutory formula and exemptions. [14]"
+                ],
+                items: [
+                    "Vehicle purchase: Auction or dealer price",
+                    "Japan-side costs: Auction fees, inland transport and export documents",
+                    "Inspection: Auction sheet, physical inspection and verification",
+                    "Import approval: Application and administration costs",
+                    "Shipping: Freight and marine insurance",
+                    "Customs: Brokerage, declaration and processing",
+                    "Taxes: GST, possible duty and possible Luxury Car Tax",
+                    "Biosecurity: Inspection, cleaning or treatment",
+                    "Compliance: Model Report work, workshop costs and verification",
+                    "Registration: State inspection, insurance, duty and registration",
+                    "Delivery: Transport to the buyer",
+                ]
+            },
+            {
+                heading: "Step 5: Submit the Application Through ROVER",
+                paragraphs: [
+                    "The applicant must complete the correct application, upload the required evidence and pay the applicable fee.",
+                    "Evidence may differ according to the pathway but can include:",
+                    "The applicant must respond accurately to any request for further information."
+                ],
+                items: [
+                    "Identification documents;",
+                    "Purchase or ownership evidence;",
+                    "Vehicle specifications;",
+                    "Build-date evidence;",
+                    "Photographs;",
+                    "VIN or chassis information;",
+                    "SEVS entry details;",
+                    "Model Report information;",
+                    "Evidence supporting an older-vehicle application;",
+                    "Or documents supporting another eligibility criterion.",
+                ]
+            },
+            {
+                heading: "Step 6: Receive Approval Before Shipping",
+                paragraphs: [
+                    "Do not arrange shipment merely because:",
+                    "Wait until the required approval has been granted and review all conditions attached to it.",
+                    "Government guidance requires approval before a road vehicle is imported. [1]"
+                ],
+                items: [
+                    "The model appears on SEVS;",
+                    "Another example has previously been imported;",
+                    "A seller says it is eligible;",
+                    "Or an application has been submitted.",
+                ]
+            },
+            {
+                heading: "Step 7: Purchase and Inspect the Vehicle",
+                paragraphs: [
+                    "When purchasing a Japanese used car, check:",
+                    "A vehicle that changes materially after approval may create additional complications."
+                ],
+                items: [
+                    "Auction sheet;",
+                    "Mileage evidence;",
+                    "Service history;",
+                    "Accident and repair history;",
+                    "Rust or corrosion;",
+                    "Flood indicators;",
+                    "Mechanical condition;",
+                    "Warning lights;",
+                    "Modifications;",
+                    "Missing components;",
+                    "And whether the vehicle still matches the approved specification.",
+                ]
+            },
+            {
+                heading: "Step 8: Arrange Shipping and Documentation",
+                paragraphs: [
+                    "Shipping documentation can include:",
+                    "Keep the documentation consistent. Differences in chassis details, purchase price or vehicle description can cause delays."
+                ],
+                items: [
+                    "Invoice or bill of sale;",
+                    "Export certificate;",
+                    "Deregistration records;",
+                    "Import approval;",
+                    "Bill of Lading;",
+                    "Freight and insurance records;",
+                    "Inspection reports;",
+                    "And ownership evidence.",
+                ]
+            },
+            {
+                heading: "Step 9: Complete Customs and Tax Processing",
+                paragraphs: [
+                    "When the vehicle reaches Australia, it must be declared to Australian Border Force.",
+                    "The process may involve:",
+                    "ABF advises that it assesses the amounts payable when the import declaration is processed. [13]"
+                ],
+                items: [
+                    "Customs valuation;",
+                    "Tariff classification;",
+                    "Payment of duty where applicable;",
+                    "GST;",
+                    "Luxury Car Tax where applicable;",
+                    "Import processing charges;",
+                    "And supporting purchase and freight documents.",
+                ]
+            },
+            {
+                heading: "Step 10: Complete Biosecurity Clearance",
+                paragraphs: [
+                    "Import approval does not replace Australia's biosecurity requirements.",
+                    "The vehicle should arrive free from:",
+                    "Vehicles may require inspection, cleaning or treatment before release. Additional intervention can lead to storage costs and delays."
+                ],
+                items: [
+                    "Soil;",
+                    "Plant material;",
+                    "Seeds;",
+                    "Insects;",
+                    "Animal material;",
+                    "And organic contamination.",
+                ]
+            },
+            {
+                heading: "Step 11: Complete Compliance and Verification",
+                paragraphs: [
+                    "When the approval pathway requires Model Report work:"
+                ],
+                items: [
+                    "The applicable RAW completes the required work;",
+                    "The vehicle is checked against the Model Report;",
+                    "An AVV performs the required verification;",
+                    "And the vehicle is entered on the RAV after successful completion.",
+                ]
+            },
+            {
+                heading: "Step 12: Complete State Registration",
+                paragraphs: [
+                    "Registration requirements differ by state or territory.",
+                    "For NSW, the buyer may need:",
+                    "NSW advises buyers to confirm registration requirements before importing the vehicle. [3]"
+                ],
+                items: [
+                    "Vehicle import approval;",
+                    "Appropriate compliance evidence;",
+                    "A compliance certificate from a licensed certifier where required;",
+                    "Vehicle inspection;",
+                    "Proof of identity and ownership;",
+                    "Compulsory third-party insurance;",
+                    "And payment of applicable registration charges.",
+                ],
+                postItemsParagraphs: [
+                    "Conversion point\nNot sure whether to buy available stock or request a car from Japan? Speak with Elite Motor Cars before placing a deposit."
+                ]
+            },
+            {
+                heading: "Can Vehicles Over 25 Years Old Be Imported?",
+                paragraphs: [
+                    "An older vehicle may qualify under the concessional RAV entry pathway when it was originally built, or significantly modified, more than 25 years before the relevant application.",
+                    "However, the \u201c25-year rule\u201d does not mean that a vehicle can simply be shipped without approval.",
+                    "A successful application is still required. The resulting approval can provide permission to import the eligible vehicle and allow it to proceed toward RAV entry. [15]",
+                    "Buyers should also check:"
+                ],
+                items: [
+                    "Exact build date;",
+                    "Originality or modification history;",
+                    "Structural condition;",
+                    "Asbestos-related issues;",
+                    "Parts availability;",
+                    "State registration requirements;",
+                    "And insurance availability.",
+                ]
+            },
+            {
+                heading: "Common Vehicle Import Approval Mistakes",
+                paragraphs: [
+                    "Purchasing Before Confirming Eligibility",
+                    "A low auction price does not make an ineligible vehicle importable.",
+                    "Checking Only the Model Name",
+                    "The exact model code, variant and build date can determine whether a pathway is available.",
+                    "Treating SEVS Entry as Import Approval",
+                    "SEVS entry is only one part of the process and is not permission to import an individual car.",
+                    "Ignoring Model Report Availability",
+                    "A SEVS-listed vehicle may still be impractical to import if no suitable Model Report or workshop pathway exists.",
+                    "Shipping While an Application Is Pending",
+                    "An application being submitted does not mean it has been approved.",
+                    "Underestimating Compliance Costs",
+                    "Workshop modifications, testing, verification, cleaning and registration can materially affect the final price.",
+                    "Assuming RAV Entry Guarantees Registration",
+                    "State and territory requirements still apply.",
+                    "Modifying the Vehicle Before the Process Is Complete",
+                    "Non-standard parts can complicate identification, Model Report coverage, compliance, insurance or registration.",
+                    "Using Inconsistent Documentation",
+                    "Differences between the invoice, export certificate, chassis number and application evidence can lead to delays or further questions."
+                ]
+            },
+            {
+                heading: "Buying an Already Imported Car vs Ordering a Custom Import",
+                paragraphs: [
+                    "Australian buyers generally have two routes.",
+                    "Buy an Imported Car Already Available in Australia",
+                    "This may provide:",
+                    "Before purchasing, verify:",
+                    "Request a Specific Vehicle from Japan",
+                    "Custom sourcing may suit buyers who need a particular:",
+                    "The correct vehicle and approval pathway should be reviewed before bidding or purchasing.",
+                    "Elite Motor Cars currently positions its service around both available imported vehicles and custom sourcing from Japan, with support described across inspection, shipping, customs, compliance and delivery. [16]",
+                    "Choose your route"
+                ],
+                items: [
+                    "A faster purchase;",
+                    "The ability to inspect a specific car;",
+                    "Clearer pricing;",
+                    "Less exposure to overseas shipping delays;",
+                    "And a simpler buying process.",
+                    "The VIN;",
+                    "RAV or previous compliance evidence;",
+                    "Registration status;",
+                    "Mileage evidence;",
+                    "Vehicle history;",
+                    "Warranty terms;",
+                    "And whether the quoted price is drive-away.",
+                    "Model;",
+                    "Variant;",
+                    "Year;",
+                    "Colour;",
+                    "Drivetrain;",
+                    "Mileage range;",
+                    "Condition;",
+                    "Or specification.",
+                ],
+                postItemsParagraphs: [
+                    {
+                        text: "",
+                        linkLabel: "Browse Available Cars",
+                        linkHref: "https://elitemotorcars.com.au/available-cars/",
+                        linkSuffix: " | Request Custom Sourcing",
+                    }
+                ]
+            },
+            {
+                heading: "How Elite Motor Cars Supports Buyers",
+                paragraphs: [
+                    {
+                        text: "Elite Motor Cars imports and sells selected new and used vehicles from Japan and allows buyers to either browse available stock or request a specific vehicle based on their requirements. [16]",
+                        linkLabel: "",
+                        linkHref: "https://elitemotorcars.com.au/",
+                    },
+                    "When contacting the team, provide:",
+                    "The team can then discuss:",
+                    "Import approvals, workshop modifications and verification must still be completed through the relevant government and approved-party processes."
+                ],
+                items: [
+                    "Required make and model;",
+                    "Exact variant where known;",
+                    "Preferred year range;",
+                    "Maximum mileage;",
+                    "Colour preferences;",
+                    "Required features;",
+                    "Total budget;",
+                    "Delivery location;",
+                    "And whether you prefer available Australian stock or custom sourcing.",
+                    "Available vehicles;",
+                    "Sourcing options;",
+                    "Inspection requirements;",
+                    "Likely import stages;",
+                    "Compliance considerations;",
+                    "And the appropriate next step.",
+                ]
+            },
+            {
+                heading: "Frequently Asked Questions",
+                paragraphs: [
+                    "Do I need vehicle import approval before shipping a car to Australia?",
+                    "Yes. A road vehicle generally needs the appropriate import approval before it is imported. Applying for approval is not the same as receiving approval. [1]",
+                    "Is being listed on SEVS enough to import a car?",
+                    "No. SEVS entry is not approval to import an individual vehicle. A relevant import or concessional RAV entry approval is still required. [7]",
+                    "What is ROVER used for?",
+                    "ROVER is the government portal used to submit, pay for and monitor vehicle approval applications and receive decisions or requests for additional information. [4]",
+                    "What is a Model Report?",
+                    "A Model Report contains the evidence and work instructions used for applicable vehicle modifications and verification under the Road Vehicle Standards framework.",
+                    "What does a Registered Automotive Workshop do?",
+                    "An approved RAW can modify applicable vehicles according to an approved Model Report so they can progress through the relevant compliance and RAV process. [9]",
+                    "What is the RAV?",
+                    "The Register of Approved Vehicles is a public database of vehicles that have met the applicable Road Vehicle Standards requirements and have been approved for provision to the Australian market. [10]",
+                    "Can I check whether a car is on the RAV?",
+                    "Yes. The public RAV search allows a buyer to search using the vehicle's permanently marked VIN. [11]",
+                    "Does RAV entry mean the vehicle is registered?",
+                    "No. RAV entry and state registration are separate. The vehicle must still meet the requirements of the relevant state or territory.",
+                    "Can any vehicle more than 25 years old be imported?",
+                    "No. An eligible older vehicle may qualify under the relevant concessional criterion, but an application and approval are still required. [15]",
+                    "How much does vehicle import approval cost?",
+                    "The application fee depends on the pathway and application type. Additional costs can include sourcing, freight, customs, taxes, cleaning, compliance, verification and registration. The current fee should be confirmed in ROVER before applying.",
+                    "Can an imported vehicle be registered in NSW?",
+                    "Yes, provided it has the appropriate approval and compliance evidence and satisfies NSW inspection and registration requirements. NSW recommends confirming those requirements before importing. [3]",
+                    "Is a compliance plate still required?",
+                    "Current Road Vehicle Standards approvals generally use the online RAV. Older imports approved under the former system may have a physical identification plate instead. [12]",
+                    {
+                        text: "\nLooking for an Imported Car in Australia?\nElite Motor Cars allows buyers to:\n\u2022 browse imported cars currently available for sale;\n\u2022 or request a specific new or used vehicle to be sourced from Japan.\n\n",
+                        linkLabel: "Browse Available Imported Cars",
+                        linkHref: "https://elitemotorcars.com.au/available-cars/",
+                    }
+                ]
+            },
+            {
+                heading: "Final Checklist Before Buying a Vehicle Overseas",
+                paragraphs: [
+                    "Before authorising a bid or purchase, confirm:"
+                ],
+                items: [
+                    "\u25a1 Exact make, model and variant",
+                    "\u25a1 Chassis or model code",
+                    "\u25a1 VIN or chassis number",
+                    "\u25a1 Build month and year",
+                    "\u25a1 Potential approval pathway",
+                    "\u25a1 SEVS entry where applicable",
+                    "\u25a1 Approved Model Report availability",
+                    "\u25a1 RAW availability where applicable",
+                    "\u25a1 Full purchase and landed-cost budget",
+                    "\u25a1 Auction sheet and inspection evidence",
+                    "\u25a1 Vehicle condition and modifications",
+                    "\u25a1 Insurance availability",
+                    "\u25a1 State registration requirements",
+                    "\u25a1 Approval before international shipment",
+                ]
+            },
+            {
+                heading: "Looking for an Imported Car in Australia?",
+                paragraphs: [
+                    {
+                        text: "Elite Motor Cars allows buyers to:\n\u2022 browse imported cars currently available for sale;\n\u2022 or request a specific new or used vehicle to be sourced from Japan.\n\n",
+                        linkLabel: "Browse Available Imported Cars",
+                        linkHref: "https://elitemotorcars.com.au/available-cars/",
+                    },
+                    {
+                        text: "",
+                        linkLabel: "Request a Car from Japan",
+                        linkHref: "https://elitemotorcars.com.au/",
+                    },
+                    "Contact details",
+                    "Phone: +61 466 318 074",
+                    "Email: sales@elitemotorcars.com.au",
+                    "Location: Sydney, NSW, Australia",
+                    "Dealer Licence: MD100405"
+                ]
+            }
+        ],
+        conclusion: "Understanding vehicle import approval in Australia protects buyers from purchasing an ineligible car, using the wrong approval pathway or discovering major compliance problems after the vehicle has already been shipped.\n\nThe most important rules are:\n1. check the exact vehicle rather than only its model name;\n2. identify the appropriate approval pathway;\n3. do not treat SEVS entry as import permission;\n4. check Model Report and workshop availability where required;\n5. obtain approval before shipping;\n6. calculate customs, biosecurity, compliance and registration costs;\n7. and confirm state registration requirements before purchase."
+    },
+    {
+        title: "Used Car Inspection Before Importing from Japan: Complete Buyer Checklist",
+        description: "A Japanese auction grade alone is not enough to judge a used vehicle. This guide explains how to verify the auction sheet, chassis number, mileage, repair history, mechanical condition, modifications, compliance risks and import documents before purchasing.",
+        image: blog16Img,
+        postedDate: "30 July 2026",
+        createdAt: "2026-07-30T12:00:00.000Z",
+        readTime: "15 min read",
+        location: "Australia",
+        slug: "used-car-inspection-before-importing-from-japan",
+        metaTitle: "Used Car Inspection Before Importing from Japan | Checklist",
+        metaDescription: "Learn how to inspect a used car before importing from Japan. Check auction sheets, mileage, repairs, rust, mechanical condition, compliance and documents.",
+        introduction: "Buying a used vehicle from Japan can give Australian buyers access to hybrids, luxury cars, family vehicles, people movers and JDM performance models that may be difficult to find locally.\n\nHowever, the vehicle is often thousands of kilometres away when the purchase decision is made. Buyers may need to assess photographs, an auction sheet, inspection comments, vehicle documents and reports without personally seeing or driving the car.\n\nThat makes a thorough used car inspection before importing from Japan one of the most important parts of the buying process.\n\nA high auction grade does not automatically mean the vehicle is mechanically perfect. A clean-looking exterior does not prove that the mileage is genuine. A translated auction sheet does not necessarily reveal every compliance, corrosion or maintenance issue.\n\nThe safest approach is to examine the vehicle through several separate checks:\n\u2022 identity and eligibility;\n\u2022 auction documentation;\n\u2022 mileage evidence;\n\u2022 accident and repair history;\n\u2022 structural and underbody condition;\n\u2022 mechanical inspection;\n\u2022 hybrid or electric system condition;\n\u2022 modifications;\n\u2022 Australian compliance requirements;\n\u2022 and supporting ownership documents.\n\nJapanese auction companies such as USS inspect vehicles and record photographs and inspection findings before an auction, but the auction report should still be treated as one source of evidence rather than a complete mechanical warranty. USS states that its inspectors assess vehicles using its own grading system and enter inspection results into its database. (USS Net)\n\nImportant: This article provides general buyer information. The exact vehicle, approval pathway, mechanical condition and compliance requirements should be verified before bidding, purchasing or shipping.",
+        sections: [
+            {
+                heading: "Quick Used Car Inspection Checklist",
+                paragraphs: [
+                    "Before placing a bid or paying a deposit, obtain and check:",
+                ],
+                items: [
+                    "Exact make, model and variant",
+                    "Model or chassis code",
+                    "VIN or chassis number",
+                    "Build month and year",
+                    "Original Japanese auction sheet",
+                    "Accurate auction-sheet translation",
+                    "Current vehicle photographs",
+                    "Underbody and engine-bay photographs",
+                    "Mileage evidence",
+                    "Service records where available",
+                    "Accident and repair history",
+                    "Rust and corrosion condition",
+                    "Mechanical inspection findings",
+                    "Hybrid battery diagnostic results where relevant",
+                    "Warning-light and diagnostic scan results",
+                    "Details of aftermarket modifications",
+                    "Tyre and brake condition",
+                    "Import eligibility",
+                    "SEVS and Model Report position where applicable",
+                    "Export certificate and ownership documents",
+                    "Estimated compliance and repair costs",
+                ],
+                postItemsParagraphs: [
+                    "A buyer should not assess the car from one item alone. The auction sheet, photographs, documents and physical inspection should support one another."
+                ]
+            },
+            {
+                heading: "Why Inspect a Car Before Buying It in Japan?",
+                paragraphs: [
+                    "The condition of the vehicle directly affects more than its purchase price.",
+                    "An undisclosed problem can increase:",
+                    "For example, a vehicle may look inexpensive at auction but become a poor purchase after accounting for:",
+                    "The inspection should therefore answer two different questions:"
+                ],
+                items: [
+                    "Repair costs;",
+                    "Australian compliance costs;",
+                    "Biosecurity delays;",
+                    "Registration difficulty;",
+                    "Insurance costs;",
+                    "Parts expenses;",
+                    "And the time required before the car can be sold or driven.",
+                ],
+                postItemsParagraphs: [
+                    "Structural repair;",
+                    "Severe corrosion;",
+                    "Hybrid battery replacement;",
+                    "Missing factory equipment;",
+                    "Non-compliant modifications;",
+                    "Worn tyres and brakes;",
+                    "Warning lights;",
+                    "Or incomplete documentation.",
+                    "1. Is this a good vehicle?",
+                    "2. Is this the right vehicle to import into Australia?",
+                    "A mechanically sound car may still be unsuitable if the exact variant is not eligible or cannot follow a practical compliance pathway."
+                ]
+            },
+            {
+                heading: "Step 1: Verify the Exact Vehicle Identity",
+                paragraphs: [
+                    "Begin by confirming the vehicle being inspected is the same vehicle described in the listing, auction report and supporting documents.",
+                    "Collect:",
+                    "The chassis or VIN shown on the vehicle should match:",
+                    "Do not accept a general model description such as:",
+                    "As sufficient identification.",
+                    "Different versions of the same model can have different:",
+                    "For SEVS vehicles, the Department of Infrastructure recommends checking that an approved Model Report exists and discussing the potential purchase with a Registered Automotive Workshop. The relevant eligibility may apply only to a particular model code or variant. (Infrastructure and Transport Department)"
+                ],
+                items: [
+                    "Manufacturer;",
+                    "Complete model name;",
+                    "Grade or trim level;",
+                    "Chassis or model code;",
+                    "VIN or Japanese chassis number;",
+                    "Engine code;",
+                    "Transmission;",
+                    "Drivetrain;",
+                    "Body type;",
+                    "Seating capacity;",
+                    "Month and year of manufacture;",
+                    "And current odometer reading.",
+                    "The auction sheet;",
+                    "Export certificate;",
+                    "Deregistration document;",
+                    "Inspection report;",
+                    "Purchase invoice;",
+                    "And shipping documentation.",
+                    "Toyota Crown",
+                    "Honda Vezel",
+                    "Nissan Skyline",
+                    "Lexus LS",
+                    "Toyota Alphard",
+                    "Engines;",
+                    "Drivetrains;",
+                    "Safety equipment;",
+                    "Model codes;",
+                    "Build periods;",
+                    "And Australian approval requirements.",
+                ]
+            },
+            {
+                heading: "Step 2: Confirm Import Eligibility Before Inspecting for Purchase",
+                paragraphs: [
+                    "A detailed inspection should not encourage you to buy a vehicle that cannot legally or practically be imported.",
+                    "Before bidding, check:",
+                    "A vehicle's entry on the SEVS Register is not itself permission to import that individual car. A separate approval and applicable compliance process may still be required. (ROVER)",
+                    "The correct order is:",
+                    "Not:"
+                ],
+                items: [
+                    "Whether the exact model and variant may be imported;",
+                    "Which approval pathway applies;",
+                    "Whether the build date is eligible;",
+                    "Whether it appears on the SEVS Register where relevant;",
+                    "Whether an approved Model Report is available;",
+                    "And whether an appropriate workshop can complete the required work.",
+                    "Confirm identity",
+                    "-> Check eligibility",
+                    "-> Assess compliance pathway",
+                    "-> Inspect vehicle",
+                    "-> Calculate total cost",
+                    "-> Bid or purchase",
+                ],
+                postItemsParagraphs: [
+                    "Buy vehicle",
+                    "-> Discover eligibility later",
+                    "Australian Government guidance requires the relevant import approval before a road vehicle is imported. (Infrastructure and Transport Department)"
+                ]
+            },
+            {
+                heading: "Step 3: Request the Original Japanese Auction Sheet",
+                paragraphs: [
+                    "The auction sheet is one of the most useful documents when purchasing a Japanese used car through an auction.",
+                    "It may contain:",
+                    "However, auction-sheet layouts and grading systems can vary between auction companies. A grade from one auction house should not automatically be treated as identical to the same grade from another.",
+                    "Request:",
+                    "Do not rely only on a retyped summary created by a seller.",
+                    "What an auction sheet can help reveal",
+                    "A properly reviewed auction sheet may identify:",
+                    "What an auction sheet may not fully reveal",
+                    "An auction sheet may not provide a complete diagnosis of:",
+                    "Treat it as an inspection snapshot, not a long-term mechanical guarantee."
+                ],
+                items: [
+                    "Vehicle identity;",
+                    "Chassis or model code;",
+                    "Recorded mileage;",
+                    "Overall auction grade;",
+                    "Interior grade;",
+                    "Visible body damage;",
+                    "Repair-history indicators;",
+                    "Equipment;",
+                    "Inspector comments;",
+                    "And a body-condition diagram.",
+                    "1. the original Japanese auction sheet;",
+                    "2. a high-resolution copy;",
+                    "3. a complete English translation;",
+                    "4. confirmation of the auction company;",
+                    "5. and proof that the chassis number matches the vehicle.",
+                    "Dents and scratches;",
+                    "Paint marks;",
+                    "Panel replacement;",
+                    "Corrosion;",
+                    "Interior wear;",
+                    "Odometer comments;",
+                    "Warning lights;",
+                    "Aftermarket parts;",
+                    "Accident-repair indicators;",
+                    "Or missing equipment.",
+                    "Engine compression;",
+                    "Transmission wear;",
+                    "Hybrid battery health;",
+                    "Intermittent electrical problems;",
+                    "Future repair requirements;",
+                    "Internal engine damage;",
+                    "Air-conditioning performance;",
+                    "Or every compliance issue relevant to Australia.",
+                ]
+            },
+            {
+                heading: "Step 4: Confirm the Auction Sheet Belongs to the Exact Car",
+                paragraphs: [
+                    "An attractive auction sheet is useless when it belongs to a different vehicle.",
+                    "Compare the chassis number on the sheet against:",
+                    "Also compare:",
+                    "Ask for a current photograph showing the chassis plate or permanently marked identification number.",
+                    "Warning signs include:"
+                ],
+                items: [
+                    "The chassis stamping;",
+                    "Manufacturer label;",
+                    "Export certificate;",
+                    "Current photographs;",
+                    "And purchase documentation.",
+                    "Body colour;",
+                    "Model code;",
+                    "Engine;",
+                    "Drivetrain;",
+                    "Equipment;",
+                    "Mileage;",
+                    "And visible damage.",
+                    "A blurred chassis number;",
+                    "A cropped auction sheet;",
+                    "Inconsistent model codes;",
+                    "Mileage that differs between documents;",
+                    "Vehicle photographs that do not match the damage diagram;",
+                    "And a seller unwilling to provide the original sheet.",
+                ]
+            },
+            {
+                heading: "Step 5: Understand the Auction Grade Carefully",
+                paragraphs: [
+                    "An auction grade is a general summary of the vehicle's observed condition at the time of inspection.",
+                    "It should not be used as the only buying decision.",
+                    "Two vehicles with the same grade can have very different:",
+                    "Pay attention to:",
+                    "The notes and damage map are often more useful than the headline grade.",
+                    "A higher-grade vehicle may still have:",
+                    "A lower grade may sometimes result from cosmetic damage rather than serious mechanical problems. The complete report is therefore more important than the grade alone."
+                ],
+                items: [
+                    "Repair histories;",
+                    "Interior conditions;",
+                    "Mechanical needs;",
+                    "Corrosion levels;",
+                    "Modifications;",
+                    "And long-term ownership costs.",
+                    "Overall grade;",
+                    "Interior grade;",
+                    "Exterior condition;",
+                    "Inspector comments;",
+                    "Repair-history indicators;",
+                    "And the body diagram.",
+                    "Ageing tyres;",
+                    "Weak hybrid battery performance;",
+                    "Overdue maintenance;",
+                    "Minor corrosion;",
+                    "Warning-light history;",
+                    "Or expensive electronic faults.",
+                ]
+            },
+            {
+                heading: "Step 6: Review the Body-Condition Diagram",
+                paragraphs: [
+                    "Japanese auction sheets commonly use letters, numbers and symbols to mark visible damage on a diagram of the vehicle.",
+                    "Depending on the auction company, the markings may refer to:",
+                    "Because notation systems can vary, obtain a translation that explains the symbols used by the specific auction house.",
+                    "Compare each reported mark with:",
+                    "Ask for additional photographs when an auction diagram shows damage that cannot be seen clearly in the listing images."
+                ],
+                items: [
+                    "Scratches;",
+                    "Dents;",
+                    "Paint waves;",
+                    "Panel replacement;",
+                    "Corrosion;",
+                    "Windscreen damage;",
+                    "Stone chips;",
+                    "Or other imperfections.",
+                    "High-resolution exterior photographs;",
+                    "Close-up images;",
+                    "Door gaps;",
+                    "Bonnet and boot alignment;",
+                    "Paint finish;",
+                    "And panel reflections.",
+                ]
+            },
+            {
+                heading: "Step 7: Investigate Accident and Repair History",
+                paragraphs: [
+                    "Previous repair work does not automatically make a vehicle unsuitable, but the type and quality of repair matter.",
+                    "Determine whether the car has experienced:",
+                    "Request photographs of:",
+                    "Signs requiring further investigation can include:",
+                    "A repaired vehicle may still be usable, but the purchase price, compliance pathway and insurance implications should reflect its history."
+                ],
+                items: [
+                    "Cosmetic panel repair;",
+                    "Panel replacement;",
+                    "Structural damage;",
+                    "Chassis repair;",
+                    "Airbag deployment;",
+                    "Flood exposure;",
+                    "Or significant accident damage.",
+                    "Front and rear chassis rails;",
+                    "Suspension mounting points;",
+                    "Inner guards;",
+                    "Radiator support;",
+                    "Boot floor;",
+                    "Door pillars;",
+                    "Panel seams;",
+                    "Spot welds;",
+                    "And the underside.",
+                    "Uneven panel gaps;",
+                    "Mismatched paint;",
+                    "Overspray;",
+                    "Disturbed factory seams;",
+                    "New bolts on old panels;",
+                    "Inconsistent welding;",
+                    "Or crumpling around structural areas.",
+                ]
+            },
+            {
+                heading: "Step 8: Verify the Mileage",
+                paragraphs: [
+                    "Do not treat an odometer display as proof of genuine mileage.",
+                    "Mileage evidence may include:",
+                    "Compare the recorded mileage with the physical wear on:",
+                    "Low mileage combined with heavy interior wear requires explanation.",
+                    "Also inspect the auction sheet for mileage-related marks, comments or symbols. Request a clear explanation when the sheet indicates that the mileage is:"
+                ],
+                items: [
+                    "Auction-history records;",
+                    "Japanese service records;",
+                    "Inspection documents;",
+                    "Previous auction sheets;",
+                    "Export documents;",
+                    "Maintenance stickers;",
+                    "And odometer verification results.",
+                    "Steering wheel;",
+                    "Driver's seat;",
+                    "Pedals;",
+                    "Gear selector;",
+                    "Switches;",
+                    "Floor mats;",
+                    "And door handles.",
+                    "Uncertain;",
+                    "Replaced;",
+                    "Inconsistent;",
+                    "Or not guaranteed.",
+                ],
+                postItemsParagraphs: [
+                    {
+                        text: "Found a Japanese vehicle you are considering?\nSend Elite Motor Cars the make, model, year, chassis code and budget before committing to the purchase.\n\n",
+                        linkLabel: "Request Vehicle Sourcing",
+                        linkHref: "https://elitemotorcars.com.au/",
+                        linkSuffix: "\nBrowse Available Cars"
+                    }
+                ]
+            },
+            {
+                heading: "Step 9: Request a Physical Mechanical Inspection",
+                paragraphs: [
+                    "An auction sheet should be supported by a physical inspection whenever possible.",
+                    "The inspector should assess:",
+                    "Request a cold-start video rather than only footage recorded after the engine has warmed up.",
+                    "A cold start can help reveal:",
+                    "A useful inspection report should distinguish between:",
+                    "Avoid reports that repeatedly use phrases such as:",
+                    "Without photographs, measurements or supporting evidence."
+                ],
+                items: [
+                    "Engine start-up;",
+                    "Idle quality;",
+                    "Smoke;",
+                    "Unusual noises;",
+                    "Oil leaks;",
+                    "Coolant leaks;",
+                    "Transmission behaviour;",
+                    "Steering;",
+                    "Suspension;",
+                    "Brakes;",
+                    "Air conditioning;",
+                    "Warning lights;",
+                    "Exhaust;",
+                    "Tyres;",
+                    "And underbody condition.",
+                    "Timing-chain noise;",
+                    "Smoke;",
+                    "Weak battery performance;",
+                    "Rough idle;",
+                    "Or delayed warning lights.",
+                    "Verified findings;",
+                    "Suspected issues;",
+                    "Inaccessible areas;",
+                    "And items that were not tested.",
+                    "Looks fine",
+                    "Seems good",
+                    "No visible problem",
+                    "Probably okay",
+                ]
+            },
+            {
+                heading: "Step 10: Conduct a Diagnostic Scan",
+                paragraphs: [
+                    "Modern vehicles can store fault codes even when no warning light remains visible on the dashboard.",
+                    "A diagnostic scan can help identify faults involving:",
+                    "Ask for:",
+                    "A scan result does not replace a mechanical inspection, but it can reveal problems not visible in photographs."
+                ],
+                items: [
+                    "Engine management;",
+                    "Transmission;",
+                    "Airbags;",
+                    "Anti-lock braking;",
+                    "Stability control;",
+                    "Hybrid system;",
+                    "Battery management;",
+                    "Parking sensors;",
+                    "Cameras;",
+                    "And other electronic modules.",
+                    "Current fault codes;",
+                    "Stored or historical codes;",
+                    "Readiness-monitor status;",
+                    "Dashboard warning-light check;",
+                    "And evidence that codes were not simply cleared before inspection.",
+                ]
+            },
+            {
+                heading: "Step 11: Inspect Hybrid and Electric Vehicles Separately",
+                paragraphs: [
+                    "Japanese used-car searches frequently involve hybrids and electric vehicles.",
+                    "For a hybrid, check:",
+                    "For an electric vehicle, investigate:",
+                    "Do not judge battery condition only from:",
+                    "Battery age, climate, charging history and previous usage can all affect future performance."
+                ],
+                items: [
+                    "High-voltage battery condition;",
+                    "Battery diagnostic results;",
+                    "State-of-health information where available;",
+                    "Battery cooling fan;",
+                    "Warning lights;",
+                    "Inverter performance;",
+                    "Charging behaviour;",
+                    "And previous battery repair or replacement.",
+                    "Battery state of health;",
+                    "Usable capacity;",
+                    "Charging-port type;",
+                    "Charging performance;",
+                    "Cell imbalance;",
+                    "Thermal-management condition;",
+                    "And Australian charging compatibility.",
+                    "Vehicle age;",
+                    "Mileage;",
+                    "Dashboard range estimate;",
+                    "Or a short test drive.",
+                ]
+            },
+            {
+                heading: "Step 12: Check for Rust, Corrosion and Flood Exposure",
+                paragraphs: [
+                    "Rust condition is especially important for vehicles from regions that experience:",
+                    "Request photographs of:",
+                    "Surface rust and structural corrosion are not the same issue. The inspector should explain the location, severity and likely repair requirement.",
+                    "Possible flood or water-exposure signs include:",
+                    "A freshly cleaned interior should not prevent inspection beneath mats, seats and trim-accessible areas."
+                ],
+                items: [
+                    "Snow;",
+                    "Salted roads;",
+                    "Coastal exposure;",
+                    "Or high moisture levels.",
+                    "Suspension arms;",
+                    "Chassis rails;",
+                    "Subframes;",
+                    "Wheel arches;",
+                    "Brake lines;",
+                    "Exhaust;",
+                    "Floor pan;",
+                    "Spare-wheel well;",
+                    "Engine bay;",
+                    "And mounting points.",
+                    "Damp or musty smell;",
+                    "Corrosion under seats;",
+                    "Staining beneath carpets;",
+                    "Silt in hidden areas;",
+                    "Discoloured wiring;",
+                    "Condensation in lights;",
+                    "Rust on unusual interior components;",
+                    "And water marks inside the boot or cabin.",
+                ]
+            },
+            {
+                heading: "Step 13: Inspect the Interior and Electronic Equipment",
+                paragraphs: [
+                    "Japanese-market vehicles can contain equipment not fitted to an equivalent Australian model.",
+                    "Test:",
+                    "Also verify:",
+                    "Luxury and people-mover models may contain many electronic features. A small fault can become expensive when a model has limited Australian parts support."
+                ],
+                items: [
+                    "Electric seats;",
+                    "Seat heating and ventilation;",
+                    "Powered doors;",
+                    "Sunroof;",
+                    "Windows;",
+                    "Mirrors;",
+                    "Climate control;",
+                    "Infotainment;",
+                    "Cameras;",
+                    "Parking sensors;",
+                    "Instrument display;",
+                    "Steering controls;",
+                    "And keyless entry.",
+                    "How many keys are supplied;",
+                    "Whether a spare key is available;",
+                    "Whether the infotainment can be used in Australia;",
+                    "Whether maps and radio frequencies are compatible;",
+                    "And whether replacement electronic modules can be sourced.",
+                ]
+            },
+            {
+                heading: "Step 14: Review Aftermarket Modifications",
+                paragraphs: [
+                    "Modifications can affect:",
+                    "Check for:",
+                    "Ask whether the original factory parts are included.",
+                    "A modification that is acceptable in Japan may not automatically satisfy Australian standards or state registration requirements.",
+                    "When importing through a pathway involving a Model Report, the vehicle must match the report's scope and complete the prescribed compliance work. (Infrastructure and Transport Department)"
+                ],
+                items: [
+                    "Import eligibility;",
+                    "Compliance;",
+                    "Registration;",
+                    "Insurance;",
+                    "Mechanical reliability;",
+                    "And the cost of returning the car to standard condition.",
+                    "Suspension modifications;",
+                    "Aftermarket wheels;",
+                    "Exhaust systems;",
+                    "Engine tuning;",
+                    "Turbo changes;",
+                    "Body kits;",
+                    "Lighting modifications;",
+                    "Replacement seats;",
+                    "Steering wheels;",
+                    "Roll cages;",
+                    "Altered emissions equipment;",
+                    "And non-standard safety components.",
+                ]
+            },
+            {
+                heading: "Step 15: Check Tyres, Brakes and Consumable Parts",
+                paragraphs: [
+                    "Consumable items can materially affect the immediate ownership cost.",
+                    "Inspect:",
+                    "Tyres can have acceptable tread but still require replacement because of age or deterioration.",
+                    "Request the tyre manufacturing date codes and confirm whether the tyre size is suitable for Australian registration and replacement availability."
+                ],
+                items: [
+                    "Tyre age;",
+                    "Tyre tread;",
+                    "Sidewall cracking;",
+                    "Tyre brand consistency;",
+                    "Brake-pad thickness;",
+                    "Brake-disc condition;",
+                    "Fluid leaks;",
+                    "Suspension bushes;",
+                    "Engine mounts;",
+                    "Drive belts;",
+                    "Hoses;",
+                    "And the 12-volt battery.",
+                ]
+            },
+            {
+                heading: "Step 16: Consider Australian Biosecurity Requirements",
+                paragraphs: [
+                    "Vehicle condition is not limited to mechanical and cosmetic quality.",
+                    "Australia requires imported vehicles to be clean and free from biosecurity risk material. Used vehicles can be inspected internally and externally on arrival, and contamination may lead to additional cleaning, treatment, reinspection, delay or, in serious cases, export or destruction at the owner's expense. (Department of Agriculture)",
+                    "Areas that should be photographed and cleaned include:",
+                    "Look for:",
+                    "A mechanically excellent vehicle can still create additional port costs when it arrives contaminated."
+                ],
+                items: [
+                    "Wheel arches;",
+                    "Underbody;",
+                    "Suspension;",
+                    "Engine bay;",
+                    "Radiator;",
+                    "Boot;",
+                    "Spare-wheel compartment;",
+                    "Beneath seats;",
+                    "Floor mats;",
+                    "Door seals;",
+                    "Vents;",
+                    "And small cavities.",
+                    "Soil;",
+                    "Leaves;",
+                    "Seeds;",
+                    "Insects;",
+                    "Animal material;",
+                    "Mud;",
+                    "Or organic debris.",
+                ]
+            },
+            {
+                heading: "Step 17: Verify the Documents",
+                paragraphs: [
+                    "Before purchase, request the documents relevant to the proposed vehicle and transaction.",
+                    "These may include:",
+                    "Check that the vehicle description is consistent across every document.",
+                    "Confirm:",
+                    "Documentation discrepancies should be resolved before payment or shipping."
+                ],
+                items: [
+                    "Original auction sheet;",
+                    "Auction-sheet translation;",
+                    "Japanese export certificate;",
+                    "Deregistration document;",
+                    "Purchase invoice;",
+                    "Ownership evidence;",
+                    "Inspection report;",
+                    "Service history;",
+                    "Mileage evidence;",
+                    "Vehicle photographs;",
+                    "And modification details.",
+                    "Chassis number;",
+                    "Make;",
+                    "Model;",
+                    "Model code;",
+                    "Engine;",
+                    "Build date;",
+                    "Mileage;",
+                    "Colour;",
+                    "And seller information.",
+                ]
+            },
+            {
+                heading: "Step 18: Check an Already Imported Vehicle in Australia",
+                paragraphs: [
+                    "When the car is already in Australia, the inspection process changes slightly.",
+                    "In addition to condition and history, verify:",
+                    "The public Register of Approved Vehicles can be searched using the permanently marked VIN. (ROVER)",
+                    "A PPSR search can also help identify whether an Australian vehicle is recorded with a security interest and may show stolen or written-off information. The PPSR recommends searching using the VIN or chassis number close to the time of purchase. (Personal Property Securities Register)",
+                    "The RAV and PPSR serve different purposes:",
+                    "None of these checks should be treated as a complete substitute for the others."
+                ],
+                items: [
+                    "Import approval;",
+                    "RAV status;",
+                    "Compliance documents;",
+                    "Registration status;",
+                    "Ownership;",
+                    "Warranty terms;",
+                    "And whether the advertised price is drive-away.",
+                ],
+                postItemsParagraphs: [
+                    "Check",
+                    "What it helps verify",
+                    "RAV search",
+                    "Road Vehicle Standards approval record",
+                    "PPSR search",
+                    "Security interest and available stolen/written-off information",
+                    "Physical inspection",
+                    "Actual mechanical and cosmetic condition",
+                    "Service documents",
+                    "Maintenance history where available",
+                    "Registration check",
+                    "Current Australian registration information",
+                ]
+            },
+            {
+                heading: "Questions to Ask the Vehicle Inspector",
+                paragraphs: [
+                    "Send the inspector a written checklist rather than asking only, \u201cIs the car good?\u201d",
+                    "Ask:"
+                ],
+                items: [
+                    "1. Does the chassis number match every document?",
+                    "2. Is the auction sheet original and vehicle-specific?",
+                    "3. Are there signs of structural repair?",
+                    "4. Are any panels replaced?",
+                    "5. Is there rust underneath the vehicle?",
+                    "6. Are there signs of flood or water exposure?",
+                    "7. Does the engine start correctly when cold?",
+                    "8. Are there oil or coolant leaks?",
+                    "9. Are any warning lights active?",
+                    "10. What diagnostic fault codes are present?",
+                    "11. Does the transmission operate normally?",
+                    "12. What is the condition of the tyres and brakes?",
+                    "13. Are any aftermarket modifications fitted?",
+                    "14. Are the factory parts available?",
+                    "15. Does the recorded mileage appear consistent?",
+                    "16. Are there unusual noises or vibrations?",
+                    "17. Does every electronic feature work?",
+                    "18. Is the vehicle clean enough for export preparation?",
+                    "19. Is additional inspection recommended?",
+                    "20. Which areas could not be inspected?",
+                ],
+                postItemsParagraphs: [
+                    "Ask for photographs or videos supporting each significant answer."
+                ]
+            },
+            {
+                heading: "Major Red Flags Before Importing",
+                paragraphs: [
+                    "Pause the purchase when you find:",
+                    "A rare model or attractive price should not override unresolved documentation and condition problems."
+                ],
+                items: [
+                    "Chassis numbers that do not match;",
+                    "No original auction sheet;",
+                    "An unreadable or cropped report;",
+                    "Unexplained mileage differences;",
+                    "Missing export documents;",
+                    "Structural repair not reflected in the price;",
+                    "Severe underbody corrosion;",
+                    "Flood indicators;",
+                    "Active airbag or safety-system faults;",
+                    "Engine or transmission warning codes;",
+                    "Extensive modifications;",
+                    "Missing emissions equipment;",
+                    "Seller pressure to pay immediately;",
+                    "Refusal to provide additional photographs;",
+                    "Or uncertainty about import eligibility.",
+                ]
+            },
+            {
+                heading: "Available Imported Stock vs Custom Sourcing",
+                paragraphs: [
+                    "Australian buyers can generally choose between:",
+                    "Buying an imported car already available in Australia",
+                    "This may offer:",
+                    "Asking for a car to be sourced from Japan",
+                    "This may offer:",
+                    "Custom sourcing requires a disciplined pre-purchase process because the exact vehicle must be assessed before bidding.",
+                    "A good sourcing decision combines:"
+                ],
+                items: [
+                    "Faster delivery;",
+                    "Local physical inspection;",
+                    "Clearer final pricing;",
+                    "Completed or advanced compliance;",
+                    "And less exposure to overseas purchasing risk.",
+                    "Broader model choice;",
+                    "Preferred colour or specification;",
+                    "Target mileage;",
+                    "Selected condition;",
+                    "And access to variants not currently available locally.",
+                    "Eligibility",
+                    "+ inspection",
+                    "+ documentation",
+                    "+ compliance",
+                    "+ landed cost",
+                    "= informed purchase decision",
+                ],
+                postItemsParagraphs: [
+                    {
+                        text: "Prefer a vehicle you can inspect locally?\nExplore imported cars already available in Australia, or request a specific model from Japan.",
+                        linkLabel: "",
+                        linkHref: "https://elitemotorcars.com.au/available-cars/",
+                    }
+                ]
+            },
+            {
+                heading: "How Elite Motor Cars Can Support the Buying Process",
+                paragraphs: [
+                    {
+                        text: "Elite Motor Cars imports and sells selected new and used vehicles from Japan. Buyers can review vehicles already available in Australia or provide the team with a required model, year, specification and budget for custom sourcing. (",
+                        linkLabel: "elitemotorcars.com.au",
+                        linkHref: "https://elitemotorcars.com.au/",
+                        linkSuffix: ")",
+                    },
+                    "When submitting a sourcing request, provide:",
+                    "Also state whether your priority is:",
+                    "This helps avoid searching for vehicles that technically match the model name but fail to match the buyer's real requirements."
+                ],
+                items: [
+                    "Make and model;",
+                    "Exact variant where known;",
+                    "Preferred year;",
+                    "Maximum mileage;",
+                    "Colour;",
+                    "Required features;",
+                    "Acceptable repair history;",
+                    "Budget;",
+                    "And delivery location.",
+                    "Lowest total cost;",
+                    "Best condition;",
+                    "Lowest mileage;",
+                    "Specific specification;",
+                    "Rare model;",
+                    "Or faster delivery.",
+                ]
+            },
+            {
+                heading: "Frequently Asked Questions",
+                paragraphs: [
+                    "Is a Japanese auction sheet enough to assess a car?",
+                    "No. It is an important source of condition information, but it should be reviewed together with current photographs, chassis verification, service records, mileage evidence, diagnostic results and a physical inspection.",
+                    "Can auction-sheet grades differ between auction houses?",
+                    "Yes. Auction houses can use different report layouts and grading methods. Review the specific auction company\u2019s notes, damage diagram and inspector comments rather than relying only on the headline grade.",
+                    "How can I verify a Japanese car\u2019s mileage?",
+                    "Compare the auction sheet, auction-history records, service documents, export records, inspection results and physical wear. Any inconsistency should be investigated before purchase.",
+                    "What does an accident-history auction grade mean?",
+                    "It can indicate that the vehicle has undergone previous repair, but the nature and severity of the repair must still be assessed. Request structural-area photographs and a physical inspection.",
+                    "Should I import a car with previous repairs?",
+                    "That depends on the repair type, quality, price, compliance implications and intended use. Cosmetic repair is different from structural damage. Obtain professional findings before deciding.",
+                    "How do I inspect a hybrid vehicle from Japan?",
+                    "Request a hybrid-system diagnostic scan, battery condition information, warning-code history, cooling-system inspection and confirmation of any previous battery repair or replacement.",
+                    "Does a high auction grade guarantee no mechanical problems?",
+                    "No. Auction grades are condition summaries and do not guarantee long-term mechanical reliability or eliminate the need for a separate inspection.",
+                    "Should I check SEVS before buying the vehicle?",
+                    "Yes, where the proposed pathway relies on SEVS. Confirm the exact variant, build date and Model Report position. SEVS listing alone is not an individual import approval. (ROVER)",
+                    "Can I check an imported vehicle on the RAV?",
+                    "Yes. The public RAV search uses the vehicle\u2019s permanently marked VIN. (ROVER)",
+                    "Should I perform a PPSR search on an imported car already in Australia?",
+                    "It is a useful additional check. A PPSR search may show a registered security interest and available stolen or written-off information. It does not replace a physical inspection or RAV check. (Personal Property Securities Register)",
+                    "What happens when an imported vehicle is dirty?",
+                    "Australian biosecurity authorities may require inspection, cleaning, treatment or reinspection. Severe contamination can create significant delays and costs. (Department of Agriculture)",
+                    {
+                        text: "\nDiscuss Your Vehicle Requirements\nBrowse available imported cars or request a specific vehicle from Japan.\n\n",
+                        linkLabel: "Browse Available Imported Cars",
+                        linkHref: "https://elitemotorcars.com.au/available-cars/",
+                    }
+                ]
+            },
+            {
+                heading: "Final Pre-Purchase Inspection Checklist",
+                paragraphs: [
+                    "Before authorising a bid or purchase, confirm:"
+                ],
+                items: [
+                    "VEHICLE IDENTITY",
+                    "Chassis/VIN matches every document",
+                    "Exact model and variant verified",
+                    "Build month and year verified",
+                    "Engine and drivetrain verified",
+                    "IMPORT POSITION",
+                    "Vehicle eligibility checked",
+                    "Approval pathway identified",
+                    "SEVS position checked where relevant",
+                    "Model Report checked where required",
+                    "Compliance costs considered",
+                    "AUCTION AND HISTORY",
+                    "Original auction sheet received",
+                    "Complete translation received",
+                    "Auction history reviewed",
+                    "Mileage evidence checked",
+                    "Repair history understood",
+                    "PHYSICAL CONDITION",
+                    "Cold-start video reviewed",
+                    "Engine and transmission assessed",
+                    "Diagnostic scan completed",
+                    "Underbody inspected",
+                    "Rust and flood signs checked",
+                    "Tyres and brakes assessed",
+                    "Interior and electronics tested",
+                    "Hybrid/EV battery checked where applicable",
+                    "DOCUMENTS",
+                    "Export certificate received",
+                    "Purchase details confirmed",
+                    "Chassis number consistent",
+                    "Service records reviewed",
+                    "Modification list obtained",
+                    "TOTAL DECISION",
+                    "Repair estimate prepared",
+                    "Compliance estimate prepared",
+                    "Full landed cost calculated",
+                    "Insurance availability checked",
+                    "Parts availability considered",
+                    "Written inspection report received",
+                ]
+            },
+            {
+                heading: "Looking for a Japanese Imported Vehicle?",
+                paragraphs: [
+                    {
+                        text: "Elite Motor Cars gives buyers two routes:\n\u2022 browse imported vehicles already available for sale in Australia;\n\u2022 or request a specific new or used vehicle to be sourced from Japan.\n\n",
+                        linkLabel: "Browse Available Imported Cars",
+                        linkHref: "https://elitemotorcars.com.au/available-cars/",
+                    },
+                    {
+                        text: "",
+                        linkLabel: "Request a Car from Japan",
+                        linkHref: "https://elitemotorcars.com.au/",
+                    },
+                    "Contact details",
+                    "Phone: +61 466 318 074",
+                    "Email: sales@elitemotorcars.com.au",
+                    "Location: Sydney, NSW, Australia",
+                    "Dealer Licence: MD100405"
+                ]
+            }
+        ],
+        conclusion: "A careful used car inspection before importing from Japan protects the buyer from more than cosmetic problems.\n\nIt helps identify:\n\u2022 incorrect vehicle details;\n\u2022 auction-sheet inconsistencies;\n\u2022 hidden repairs;\n\u2022 mileage concerns;\n\u2022 corrosion;\n\u2022 mechanical faults;\n\u2022 hybrid battery problems;\n\u2022 non-compliant modifications;\n\u2022 and documentation risks.\n\nThe strongest buying decision is not based only on the lowest auction price or highest grade.\n\nIt is based on:\n1. the exact vehicle\u2019s eligibility;\n2. verifiable identity and documentation;\n3. independent condition evidence;\n4. realistic compliance requirements;\n5. and the complete landed and ownership cost."
     },
 ];
 
