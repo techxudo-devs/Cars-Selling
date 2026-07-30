@@ -2493,6 +2493,7 @@ export const blogs: BlogPost[] = [
                     "These vehicles are highly sought after due to their tuning potential and motorsport heritage.",
                 ],
             },
+            
             {
                 heading: "Family and Daily Cars",
                 paragraphs: [
