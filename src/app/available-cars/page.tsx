@@ -3,7 +3,7 @@ import CarInventoryPage from "@/components/CarInventoryPage";
 import JsonLd from "@/components/JsonLd";
 import { allCars } from "@/data/cars";
 import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
-import { toFrontendCar } from "@/lib/cars";
+import { slugifyCarRoute, toFrontendCar } from "@/lib/cars";
 
 export const metadata: Metadata = {
   title: "Available Imported Cars in Australia",
@@ -62,7 +62,9 @@ export default async function AvailableCarsPage() {
         data={buildItemListSchema(
           initialAvailableCars.map((car) => ({
             name: car.name,
-            path: "/available-cars/" + encodeURIComponent(car.id),
+            path:
+              "/available-cars/" +
+              encodeURIComponent(slugifyCarRoute(car.name, car.id)),
           })),
           "Available Cars",
         )}

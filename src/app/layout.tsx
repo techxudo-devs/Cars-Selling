@@ -52,11 +52,11 @@ const googleAnalyticsScript = [
 export const metadata: Metadata = {
   metadataBase: new URL("https://elitemotorcars.com.au"),
   title: {
-    default: "Elite Motor Cars | Import Cars from Japan & Europe to Australia",
+    default: "Elite Motor Cars | Japanese Car Importer & Dealer Australia",
     template: "%s | Elite Motor Cars",
   },
   description:
-    "Elite Motor Cars helps Australian buyers source, inspect, import and deliver quality vehicles from Japan and Europe with compliance, customs and logistics support.",
+    "Elite Motor Cars helps Australian buyers source and import new and used vehicles from Japan, with support for inspections, shipping, customs, compliance and nationwide delivery.",
   alternates: {
     canonical: "/",
   },

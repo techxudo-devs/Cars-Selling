@@ -7,9 +7,9 @@ import Link from "next/link";
 const SixSteps = () => {
     const steps = [
         { id: 1, title: "The Personal Consultation" },
-        { id: 2, title: "Global Search & Selection" },
+        { id: 2, title: "Japan Auction Search & Vehicle Selection" },
         { id: 3, title: "Forensic Inspection & Bidding" },
-        { id: 4, title: "Secure Shipping & Logistics" },
+        { id: 4, title: "Shipping Cars from Japan to Australia" },
         { id: 5, title: "Australian Customs & Compliance" },
         { id: 6, title: "Final Detailing & Handover" },
     ];

@@ -70,10 +70,11 @@ const Footer2 = () => {
 
           {/* About Text */}
           <p className="text-gray-300 text-sm md:text-base leading-normal -mt-10 mb-4">
-            Elite Motor Cars The Most Trusted Way to Buy and Sell Used Cars in
-            Australia Choose from over 10,000 fully inspected second-hand car
-            models at Elite Motor Cars. Buy used cars online and book a test
-            drive at your home or visit an Elite Motor Cars location near you.
+            Elite Motor Cars imports and sells selected new and used vehicles
+            from Japan. Browse imported cars available in Australia or ask our
+            team to source a specific vehicle based on your model, specification
+            and budget. We assist with vehicle sourcing, inspections, shipping,
+            customs, compliance and delivery across Australia.
           </p>
 
           {/* Social Icons */}
@@ -134,6 +135,9 @@ const Footer2 = () => {
             <MapPin size={20} />
             <p>Sydney, NSW, 2000</p>
           </div>
+          <p className="mt-3 text-sm text-gray-300">
+            Dealer Licence: MD100405
+          </p>
         </div>
       </div>
 

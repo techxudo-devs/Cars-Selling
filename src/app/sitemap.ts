@@ -3,6 +3,7 @@ import type { MetadataRoute } from "next";
 import { allCars } from "@/data/cars";
 import { blogs, slugifyBlogSlug } from "@/data/blogs";
 import { slugifyCarRoute } from "@/lib/cars";
+import browseCars from "../../browse_all_cars.json";
 
 export const dynamic = "force-static";
 
@@ -20,6 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/why-choose-us",
     "/how-we-deliver",
     "/compliance-and-customs-handling-australia",
+    "/contact-us",
+    "/import-cars-from-japan-to-australia",
+    "/japanese-imported-cars-for-sale-australia",
+    "/japanese-used-cars-australia",
+    "/jdm-imports-australia",
+    "/cost-to-import-car-from-japan-to-australia",
   ].map((path) => ({
     url: `${siteUrl}${path}`,
     lastModified: new Date(),
@@ -41,5 +48,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...carRoutes, ...blogRoutes];
+  const browsePaginationRoutes = Array.from(
+    { length: Math.max(Math.ceil(browseCars.length / 20) - 1, 0) },
+    (_, index) => ({
+      url: `${siteUrl}/browse-cars/page/${index + 2}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }),
+  );
+
+  return [...staticRoutes, ...browsePaginationRoutes, ...carRoutes, ...blogRoutes];
 }

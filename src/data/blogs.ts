@@ -52,9 +52,228 @@ export type BlogPost = {
     createdAt?: string;
     metaTitle?: string;
     metaDescription?: string;
+    imageAlt?: string;
+    faqs?: Array<{ question: string; answer: string }>;
 };
 
 export const blogs: BlogPost[] = [
+    {
+        title: "How to Buy a Japanese Imported Car in Australia",
+        description:
+            "Looking for a Japanese imported vehicle in Australia? Learn how to choose between cars already available for sale and custom vehicle sourcing from Japan, what documents and inspections to check, and how Australian import approval, compliance and registration work.",
+        image: blog13Img,
+        imageAlt: "Japanese imported cars for sale in Australia through Elite Motor Cars",
+        postedDate: "26 July 2026",
+        createdAt: "2026-07-26T12:00:00.000Z",
+        readTime: "12 min read",
+        location: "Sydney, Australia",
+        slug: "how-to-buy-a-japanese-imported-car-australia",
+        metaTitle: "How to Buy a Japanese Imported Car in Australia: 2026 Guide",
+        metaDescription:
+            "Explore Japanese imported cars for sale in Australia or request a vehicle from Japan. Learn about inspections, costs, compliance, registration and buying safely.",
+        introduction:
+            "Japanese imported cars give Australian buyers access to hybrids, luxury sedans, performance vehicles, people movers, compact cars and specialist models that may not be readily available through the local market.\n\nAustralian buyers can purchase a Japanese imported car already offered for sale in Australia or ask an importer or dealership to source a specific vehicle from Japan. Elite Motor Cars supports both routes: buyers can explore imported vehicles available for sale or request assistance sourcing a particular make, model and specification.\n\nVehicle eligibility, import costs, taxes and registration requirements depend on the exact vehicle and can change. Confirm the position for a specific vehicle before purchasing or arranging shipment.",
+        sections: [
+            {
+                heading: "What Is a Japanese Imported Car?",
+                paragraphs: [
+                    "A Japanese imported car is a vehicle originally supplied in Japan and subsequently imported into Australia. This can include Japanese Domestic Market vehicles, Japanese variants of models also sold in Australia, hybrids, performance cars, luxury sedans, family vehicles and specialist models.",
+                    "A vehicle sourced in Japan should not automatically be described as JDM. JDM specifically refers to a vehicle or specification produced for the Japanese Domestic Market. This distinction can affect parts, equipment, insurance, vehicle identification and compliance requirements.",
+                ],
+            },
+            {
+                heading: "Two Ways to Buy a Japanese Imported Car in Australia",
+                paragraphs: [
+                    "Option 1 — buy an imported car already available in Australia. This may suit buyers who want a vehicle sooner, prefer to inspect a specific car and want greater certainty about the advertised price. Confirm whether the vehicle is registered, complied, undergoing preparation or still overseas, and ask exactly what the displayed price includes.",
+                    {
+                        text: "Start by viewing ",
+                        linkLabel: "available imported cars in Australia",
+                        linkHref: "/available-cars/",
+                        linkSuffix: ".",
+                    },
+                    "Option 2 — request a specific vehicle from Japan. Provide the required make, model, year, variant, colour, mileage, features, condition, budget and delivery location so the search can focus on suitable vehicles.",
+                    {
+                        text: "See ",
+                        linkLabel: "how Elite Motor Cars sources and delivers vehicles",
+                        linkHref: "/how-we-deliver/",
+                        linkSuffix: " before requesting a custom search.",
+                    },
+                ],
+            },
+            {
+                heading: "Why Australian Buyers Consider Japanese Imported Cars",
+                paragraphs: [
+                    "The Japanese market includes models, trim levels, powertrains and factory options that may not have been officially sold in Australia. Searching Japanese auctions and dealer networks can also provide more choice across year, colour, mileage, grade, specification and price.",
+                    "Japanese used cars in Australia are not limited to enthusiast models. Buyers may be looking for economical daily drivers, hybrids, family cars, SUVs, people movers, premium sedans or specialist vehicles. The individual car’s condition and history matter more than assumptions about its country of origin.",
+                ],
+            },
+            {
+                heading: "New and Used Japanese Cars for Sale",
+                paragraphs: [
+                    "New or near-new imports may offer modern safety equipment, current hybrid technology, low usage or specifications unavailable through Australian dealerships. Being new does not automatically make a vehicle eligible for import; the exact model and pathway still need assessment.",
+                    "For a used vehicle, review the manufacturing date, chassis details, mileage evidence, auction sheet, service records, previous repairs, accident history, corrosion, modifications, warning lights, mechanical condition and local parts availability.",
+                ],
+            },
+            {
+                heading: "Types of Japanese Imported Cars Available",
+                items: [
+                    "Hybrid and fuel-efficient cars: investigate battery condition, diagnostic results, warning history, parts support and specialist servicing.",
+                    "Luxury Japanese cars: consider electronic modules, suspension components, trim, infotainment, tyres and specialist maintenance.",
+                    "Family vehicles and people movers: check registered seating capacity, child-restraint requirements, doors, seat configuration and parts access.",
+                    "JDM performance cars: identify modifications, previous track use, repairs and non-standard components that could affect compliance, insurance and reliability.",
+                ],
+                postItemsParagraphs: [
+                    {
+                        text: "Enthusiast buyers can also read the ",
+                        linkLabel: "JDM imports Australia",
+                        linkHref: "/blogs/jdm-imports-australia/",
+                        linkSuffix: " guide.",
+                    },
+                ],
+            },
+            {
+                heading: "Are Japanese Imported Cars Legal in Australia?",
+                paragraphs: [
+                    {
+                        text: "Yes, when the applicable approval, import, compliance, RAV and state registration requirements are completed. The Australian Government states that an import approval must be obtained before a road vehicle is imported. Applications are managed through ROVER. ",
+                        linkLabel: "Check the official vehicle import guidance",
+                        linkHref: "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/importing-road-vehicle-australia",
+                        linkSuffix: ".",
+                    },
+                    {
+                        text: "A vehicle appearing on the Specialist and Enthusiast Vehicles Register is not, by itself, approval to import that particular vehicle. ",
+                        linkLabel: "Review the SEVs Register notice",
+                        linkHref: "https://www.rover.infrastructure.gov.au/PublishedApprovals/SEVApprovals/",
+                        linkSuffix: ".",
+                    },
+                    "The Register of Approved Vehicles is the online database of vehicles that have met the relevant Road Vehicle Standards requirements and are approved for provision to the Australian market.",
+                ],
+            },
+            {
+                heading: "What to Check Before Buying an Imported Car",
+                items: [
+                    "Confirm the exact make, model, variant, chassis code, VIN or chassis number, build date, engine, drivetrain, seating capacity and body type.",
+                    "Request a legible auction sheet and translation, and match its chassis number to the vehicle.",
+                    "Verify mileage using auction records, service history, deregistration documents, inspection history or independent evidence.",
+                    "Ask about structural repairs, accident damage, replaced panels, water exposure, corrosion, paintwork and underbody damage.",
+                    "Confirm import approval, RAV entry, compliance work, registration status and transfer requirements.",
+                    "Obtain written warranty terms covering provider, duration, kilometre limit, components, exclusions, servicing and claims.",
+                    "Obtain an insurance quote using the exact model, variant, chassis details and modifications before paying a deposit.",
+                ],
+            },
+            {
+                heading: "How Much Do Japanese Imported Cars Cost in Australia?",
+                paragraphs: [
+                    "There is no single price range. For Australian stock, request a written final-price breakdown covering GST, registration, compulsory insurance, stamp duty, dealer charges, warranty, delivery and any remaining compliance work.",
+                    "A custom import budget may include the vehicle purchase, Japan-side auction and transport charges, inspection, import approval, shipping and insurance, customs processing, applicable taxes, biosecurity, workshop compliance, registration and delivery.",
+                    {
+                        text: "Australian Border Force states that GST generally applies at 10% of the value of the taxable importation, while customs duty and Luxury Car Tax depend on the particular vehicle and applicable rules. ",
+                        linkLabel: "Read the official motor-vehicle import guidance",
+                        linkHref: "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/how-to-import/types-of-imports/importing-a-motor-vehicle",
+                        linkSuffix: ". Obtain a vehicle-specific calculation rather than applying a generic percentage.",
+                    },
+                ],
+            },
+            {
+                heading: "Biosecurity Requirements for Imported Vehicles",
+                paragraphs: [
+                    "Imported vehicles must arrive clean and free from biosecurity risk material such as soil, seeds, plant or animal matter, insects and organic debris. Contamination can result in additional cleaning, treatment, inspection, costs and delays.",
+                    "Areas needing close attention include wheel arches, underbody, suspension, engine bay, radiator, boot, spare-wheel compartment, floor mats, seat rails and small cavities.",
+                ],
+            },
+            {
+                heading: "Buying Available Stock vs Importing to Order",
+                paragraphs: [
+                    "Available stock can offer a faster purchase, local inspection and more certainty over final price, but choice is limited to current inventory. Custom sourcing offers a wider choice of years, colours and specifications, but eligibility must be confirmed and timing and costs can vary.",
+                    {
+                        text: "A practical first step is to ",
+                        linkLabel: "browse cars available to import",
+                        linkHref: "/browse-cars/",
+                        linkSuffix: " and check current Australian stock. If nothing suitable is available, request a Japan sourcing search based on your specification and total budget.",
+                    },
+                    {
+                        text: "You can also review the ",
+                        linkLabel: "cars eligible for import to Australia",
+                        linkHref: "/list-of-cars/",
+                        linkSuffix: ".",
+                    },
+                ],
+            },
+            {
+                heading: "Japanese Import Cars for Sydney and NSW Buyers",
+                paragraphs: [
+                    "Federal import approval does not replace NSW registration requirements. Ask whether the car is in NSW, whether it is registered, what the price includes, whether an inspection can be arranged, whether interstate delivery is available and which documents will be supplied.",
+                    {
+                        text: "NSW buyers should confirm the applicable technical, compliance and registration evidence using the ",
+                        linkLabel: "NSW Government imported-vehicle guidance",
+                        linkHref: "https://www.nsw.gov.au/driving-boating-and-transport/vehicle-registration/how-to-register/registering-a-used-or-secondhand-vehicle/imported-vehicles",
+                        linkSuffix: ".",
+                    },
+                ],
+            },
+            {
+                heading: "Questions to Ask Before Paying a Deposit",
+                items: [
+                    "Is the vehicle currently in Australia and ready for transfer?",
+                    "Is it entered on the RAV, and can I see the import and compliance documents?",
+                    "Is the original auction sheet available and what evidence supports the mileage?",
+                    "Has the vehicle suffered structural or accident damage, and are there aftermarket modifications?",
+                    "What is included in the advertised price and written warranty?",
+                    "Can I arrange an independent inspection?",
+                    "Are parts, servicing, insurance and nationwide delivery available?",
+                    "What happens if the vehicle differs materially from its description?",
+                ],
+            },
+            {
+                heading: "Buy an Imported Car or Ask Elite Motor Cars to Source One",
+                paragraphs: [
+                    {
+                        text: "Explore ",
+                        linkLabel: "Japanese and premium imported cars for sale",
+                        linkHref: "/available-cars/",
+                        linkSuffix: " and review each vehicle’s year, mileage, engine, transmission, features, condition, price and availability.",
+                    },
+                    "When the preferred vehicle is not available, provide Elite Motor Cars with the make, model, year, colour, mileage, specification, required features, budget and Australian delivery location to discuss suitable sourcing options.",
+                ],
+            },
+        ],
+        faqs: [
+            {
+                question: "Are Japanese imported cars legal in Australia?",
+                answer: "Yes, provided the vehicle follows the applicable approval, import, compliance, RAV and state registration requirements. Not every Japanese model or variant is automatically eligible.",
+            },
+            {
+                question: "Can I buy a Japanese imported car that is already in Australia?",
+                answer: "Yes. Before purchasing, confirm its import approval, RAV entry, compliance status, registration position, ownership documentation and final purchase price.",
+            },
+            {
+                question: "Can Elite Motor Cars source a specific car from Japan?",
+                answer: "Elite Motor Cars offers bespoke sourcing based on the buyer’s preferred make, model, year, colour, specification and budget, with support for the associated import process.",
+            },
+            {
+                question: "Are Japanese imports cheaper than Australian-delivered cars?",
+                answer: "Sometimes, but not always. Compare the complete purchase or landed cost, including taxes, shipping, compliance, registration, insurance, servicing and parts.",
+            },
+            {
+                question: "What is an auction sheet?",
+                answer: "An auction sheet is a condition report produced for a vehicle offered through a Japanese auction. Request the original sheet, an accurate translation and confirmation that its chassis number matches the vehicle.",
+            },
+            {
+                question: "Does a SEVS listing mean the car is approved for import?",
+                answer: "No. Entry on the SEVs Register is not an individual vehicle import approval. The particular vehicle may still require the applicable approval, Model Report, workshop work and verification.",
+            },
+            {
+                question: "Can a Japanese imported car be registered in NSW?",
+                answer: "Yes, when it has the required import approval and compliance evidence and meets NSW technical and registration requirements.",
+            },
+            {
+                question: "Do Japanese imports come with a warranty?",
+                answer: "That depends on the seller and vehicle. Ask for the full written warranty terms, provider details, covered components, conditions and exclusions before purchasing.",
+            },
+        ],
+        conclusion:
+            "Finding the right Japanese imported car for sale in Australia involves more than choosing a make, model and price. Confirm the vehicle identity, condition, mileage evidence, auction and service history, repairs, modifications, approval and RAV status, Australian compliance, registration, warranty, insurance and complete purchase price.\n\nBuying available Australian stock can provide a faster and more predictable route. Custom sourcing from Japan can provide greater choice when you need a specific variant, colour or specification. Browse imported cars currently available through Elite Motor Cars, or ask the team to find and source a suitable car from Japan.\n\nPhone: +61 466 318 074\nEmail: sales@elitemotorcars.com.au\nLocation: Sydney, NSW, Australia",
+    },
     {
         title: "Lexus for Sale in Australia Sydney: Complete Buyer’s Guide for Luxury Car Lovers",
         description: "If you are searching for a Lexus for sale in Australia Sydney, you are already looking in the right direction for one of the most reliable luxury car brands in the world. Lexus is known for combining premium comfort, advanced technology, strong resale value, and long-term dependability.",
@@ -2220,7 +2439,7 @@ export const blogs: BlogPost[] = [
             "Understanding compliance for import into Australia is essential for businesses seeking to import products successfully and legally. Australia's regulatory framework is designed to protect consumers, industries, agriculture, and the environment, making compliance a critical part of the import process. By conducting proper due diligence, maintaining accurate documentation, and staying informed about regulatory changes, businesses can minimize risks, avoid costly delays, and establish a smooth and reliable importing operation in the Australian market.",
     },
     {
-        title: "Import Cars from Japan: A Complete Guide for Buyers and Enthusiasts",
+        title: "How to Import a Car from Japan to Australia: Costs, Approval and Compliance",
         description:
             "Importing cars from Japan has become increasingly popular among car enthusiasts, dealers, and everyday buyers looking for reliable, well-maintained, and unique vehicles.",
         image: blog13Img,
@@ -2228,10 +2447,10 @@ export const blogs: BlogPost[] = [
         createdAt: "2026-06-11T12:00:00.000Z",
         readTime: "8 min read",
         location: "Sydney, Australia",
-        slug: "import-cars-from-japan-guide",
-        metaTitle: "Import Cars from Japan: A Complete Guide for Buyers",
+        slug: "how-to-import-a-car-from-japan-to-australia",
+        metaTitle: "How to Import a Car from Japan to Australia | 2026 Guide",
         metaDescription:
-            "Learn how to import cars from Japan to Australia. This guide covers the import process, costs, popular models, and tips for a successful purchase.",
+            "Learn how to import a car from Japan to Australia, including vehicle eligibility, import approval, shipping, customs, compliance, registration, costs and timelines.",
         introduction:
             "Importing cars from Japan has become increasingly popular among car enthusiasts, dealers, and everyday buyers looking for reliable, well-maintained, and unique vehicles. Japan is known for its strict vehicle inspection system, which often results in cars being kept in excellent condition with relatively low mileage. This makes the process to import cars from Japan highly attractive for markets like Australia, especially in cities like Sydney.\n\nWhether you are looking for a performance vehicle, a family car, or a commercial import, understanding the process, costs, and regulations is essential before making a purchase.",
         sections: [
@@ -2306,7 +2525,7 @@ export const blogs: BlogPost[] = [
                 ],
             },
             {
-                heading: "How the Car Import Process Works",
+                heading: "How to Import a Car from Japan to Australia",
                 paragraphs: [
                     {
                         text: "The process to ",
@@ -2317,7 +2536,7 @@ export const blogs: BlogPost[] = [
                 ],
             },
             {
-                heading: "Step 1: Choosing a Vehicle",
+                heading: "Vehicle Eligibility and Japan Auction Sourcing",
                 paragraphs: [
                     "Buyers typically select vehicles through:",
                 ],
@@ -2331,7 +2550,7 @@ export const blogs: BlogPost[] = [
                 ],
             },
             {
-                heading: "Step 2: Purchasing the Vehicle",
+                heading: "Purchase the Vehicle and Obtain Import Approval",
                 paragraphs: [
                     "Once a suitable car is found, it is purchased either directly or through an agent. Many buyers work with import specialists who handle bidding and negotiation.",
                 ],
@@ -2351,9 +2570,9 @@ export const blogs: BlogPost[] = [
                 ],
             },
             {
-                heading: "Step 4: Shipping the Vehicle",
+                heading: "Shipping a Vehicle from Japan to Australian Ports",
                 paragraphs: [
-                    "Cars are shipped from Japan to the destination country using:",
+                    "Cars are shipped from Japan to Australia using:",
                 ],
                 items: [
                     "Roll-on/roll-off (RoRo) shipping",
@@ -2364,7 +2583,7 @@ export const blogs: BlogPost[] = [
                 ],
             },
             {
-                heading: "Step 5: Customs Clearance",
+                heading: "Australian Customs and Biosecurity Clearance",
                 paragraphs: [
                     "Once the vehicle arrives, it must clear customs. This involves:",
                 ],
@@ -2378,7 +2597,7 @@ export const blogs: BlogPost[] = [
                 ],
             },
             {
-                heading: "Step 6: Compliance and Modifications",
+                heading: "RAWS and ADR Compliance",
                 paragraphs: [
                     "Imported vehicles may require modifications to meet local regulations. These can include:",
                 ],
@@ -2390,15 +2609,15 @@ export const blogs: BlogPost[] = [
                 ],
             },
             {
-                heading: "Step 7: Registration",
+                heading: "State or Territory Registration",
                 paragraphs: [
                     "After compliance approval, the vehicle can be registered for road use.",
                 ],
             },
             {
-                heading: "Costs Involved in Importing Cars from Japan",
+                heading: "Complete Cost Breakdown for Importing a Car from Japan",
                 paragraphs: [
-                    "Understanding costs is essential before deciding to import.",
+                    "The complete landed cost can include the vehicle purchase, shipping, customs duties and taxes, compliance work, insurance, brokerage and port handling. Obtain a vehicle-specific estimate before purchasing.",
                 ],
             },
             {
@@ -2425,9 +2644,9 @@ export const blogs: BlogPost[] = [
                 ],
             },
             {
-                heading: "Customs Duties and Taxes",
+                heading: "Australian Customs Duty, GST and Applicable Taxes",
                 paragraphs: [
-                    "Import duties and taxes depend on the destination country’s regulations.",
+                    "Australian customs charges depend on the vehicle and its assessed value. Confirm the applicable duty, GST and any other tax before purchase.",
                 ],
             },
             {
@@ -2486,6 +2705,23 @@ export const blogs: BlogPost[] = [
                 paragraphs: [
                     "For many buyers, the answer is yes. The combination of vehicle quality, price advantage, and access to unique models makes importing from Japan an appealing option. However, success depends on careful research and working with reliable import professionals.",
                     "If done correctly, importing can provide excellent value and allow access to vehicles that are not easily available in local markets.",
+                ],
+            },
+            {
+                heading: "Buy an Imported Car or Request Custom Vehicle Sourcing",
+                paragraphs: [
+                    {
+                        text: "Prefer to buy a car already imported into Australia? ",
+                        linkLabel: "Browse imported cars currently available through Elite Motor Cars",
+                        linkHref: "/available-cars/",
+                        linkSuffix: ".",
+                    },
+                    {
+                        text: "Can’t find the model you want? ",
+                        linkLabel: "Ask our team to source and import a specific vehicle from Japan",
+                        linkHref: "/how-we-deliver/",
+                        linkSuffix: ".",
+                    },
                 ],
             },
         ],
