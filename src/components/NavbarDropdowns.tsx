@@ -7,12 +7,12 @@ import { useRouter } from 'next/navigation';
 // --- ASSETS IMPORT ---
 import mercedesImg from "@/assets/mercedes.png"
 import mitsubishiImg from "@/assets/mitsubishi.png"
-import hondaImg from "@/assets/honda.png"
-import lexusImg from "@/assets/lexus.png"
+import hondaImg from "@/assets/honda.webp"
+import lexusImg from "@/assets/lexus.webp"
 import suzukiImg from "@/assets/suzuki.png"
-import toyotaImg from "@/assets/toyota.png"
-import bmw from "@/assets/bmw.png"
-import audi from "@/assets/audi.png"
+import toyotaImg from "@/assets/toyota.webp"
+import bmw from "@/assets/bmw.webp"
+import audi from "@/assets/audi.webp"
 
 const CAR_DATA = {
     "Toyota": {

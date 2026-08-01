@@ -70,14 +70,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script type="text/javascript" id="microsoft-clarity" strategy="afterInteractive">
+        <Script type="text/javascript" id="microsoft-clarity" strategy="lazyOnload">
           {clarityScript}
         </Script>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-WF0T8DDP07"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {googleAnalyticsScript}
         </Script>
         <JsonLd id="organization-schema" data={buildOrganizationSchema()} />

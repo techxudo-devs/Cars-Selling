@@ -114,7 +114,7 @@ const CartPage = () => {
           </div>
           <h2 className="text-xl sm:text-2xl orb font-bold text-[#f23410] mb-2">Your garage is empty</h2>
           <p className="text-gray-500 mb-8">You haven't selected any vehicles for reservation yet.</p>
-          <Link href="/cars/list" className="inline-block px-10 py-4 bg-[#f23410] text-white orb font-bold rounded-xl hover:bg-[#d92c0d] transition-all duration-300 shadow-md shadow-orange-500">
+          <Link href="/list-of-cars" className="inline-block px-10 py-4 bg-[#f23410] text-white orb font-bold rounded-xl hover:bg-[#d92c0d] transition-all duration-300 shadow-md shadow-orange-500">
             BROWSE INVENTORY
           </Link>
         </div>

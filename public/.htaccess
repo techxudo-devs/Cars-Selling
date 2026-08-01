@@ -1,105 +1,38 @@
-DirectoryIndex index.html
+RewriteEngine On
+RewriteBase /
 
-<IfModule mod_rewrite.c>
-  RewriteEngine On
+# Serve modern image formats with the correct MIME type.
+AddType image/avif .avif
+AddType image/webp .webp
 
-  # Preserve authority from superseded blog URLs.
-  RewriteRule ^blogs/japanese-imported-cars-for-sale-australia/?$ /blogs/how-to-buy-a-japanese-imported-car-australia/ [R=301,L,NE]
-  RewriteRule ^blogs/import-cars-from-japan-guide/?$ /blogs/how-to-import-a-car-from-japan-to-australia/ [R=301,L,NE]
-  RewriteRule ^sold-cars/2018-toyota-prius-c-hyrbid-27/?$ /sold-cars/2018-toyota-prius-c-hybrid-27/ [R=301,L,NE]
-
-  # Permanently redirect legacy query-string vehicle URLs to canonical car pages.
-  # Keep these rules before the generic static-export routing rules below.
-  RewriteCond %{QUERY_STRING} (^|&)id=0(&|$)
-  RewriteRule ^car-details/?$ /available-cars/2007-mitsubishi-lancer-evolution-x-gsr-ryushon-0/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=1(&|$)
-  RewriteRule ^car-details/?$ /available-cars/2007-lexus-ls600h-v8-5000cc-1/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=2(&|$)
-  RewriteRule ^car-details/?$ /available-cars/2007-lexus-ls460-v8-4600cc-2/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=3(&|$)
-  RewriteRule ^car-details/?$ /available-cars/2013-toyota-prius-hybrid-3/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=4(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/toyota-prius-2011-4/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=5(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/toyota-crown-sedan-2010-5/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=6(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/honda-vezel-2014-6/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=7(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/lexus-ls460-v8-2012-7/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=8(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/lexus-ls460-2006-v8-luxury-8/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=9(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/mitsubishi-lancer-evolution-2007-9/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=10(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/lexus-ls460-v8-2007-10/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=11(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/toyota-c-hr-hybrid-g-mode-nero-11/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=12(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/mercedes-benz-s400h-hybrid-12/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=13(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/honda-grace-hybrid-ex-2015-13/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=14(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/toyota-yaris-hybrid-g-awd-2020-14/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=15(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/lexus-ls460-v8-rwd-2013-15/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=16(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/honda-fit-hybrid-ehev-16/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=17(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/suzuki-swift-hybrid-hatchback-17/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=18(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/honda-fit-hybrid-2018-18/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=19(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/toyota-crown-rs-advance-2019-19/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=20(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/lexus-ls460-v8-rwd-2007-20/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=21(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/honda-vezel-hybrid-2014-21/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=22(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/toyota-c-hr-hybrid-2018-22/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=23(&|$)
-  RewriteRule ^car-details/?$ /available-cars/2007-lexus-ls600hl-v8-5000cc-23/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=24(&|$)
-  RewriteRule ^car-details/?$ /available-cars/2013-bmw-m5-f10-4-4l-twin-turbo-v8-24/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=25(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2024-yaris-hybrid-4wd-25/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=26(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2009-crown-3-5l-v6-hybrid-26/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=27(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2018-toyota-prius-c-hybrid-27/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=28(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2014-toyota-prius-c-aqua-28/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=29(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2020-yaris-hybrid-x-4wd-29/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=30(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2020-yaris-hybrid-z-4wd-30/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=31(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2014-lexus-ct200h-f-sport-31/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=32(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2020-lexus-ct200h-hybrid-32/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=33(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2015-audi-a4-quattro-sedan-33/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=34(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2020-toyota-vitz-yaris-hybrid-34/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=35(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2014-honda-vezel-hrv-hybrid-35/ [R=301,L,NE,QSD]
-  RewriteCond %{QUERY_STRING} (^|&)id=36(&|$)
-  RewriteRule ^car-details/?$ /sold-cars/2019-toyota-vitz-yaris-hybrid-36/ [R=301,L,NE,QSD]
-
-  # Next static export creates route folders such as /dashboard/login/index.html.
-  # Hostinger sometimes does not resolve the same route without the trailing slash.
-  RewriteCond %{REQUEST_FILENAME} -d
-  RewriteCond %{REQUEST_URI} !/$
-  RewriteRule ^(.+)$ %{REQUEST_URI}/ [R=301,L]
-
-  # Serve exported route folders when a clean URL is requested.
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
-  RewriteRule ^(.+?)/?$ /$1/index.html [L]
-
-  # Let static files and Next assets pass through normally.
-  RewriteCond %{REQUEST_FILENAME} -f [OR]
-  RewriteCond %{REQUEST_FILENAME} -d
-  RewriteRule ^ - [L]
-
-  ErrorDocument 404 /404.html
+# Hashed Next.js assets are immutable. Keep them in the browser cache so repeat
+# visits do not download the same images, fonts, CSS and JavaScript again.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(?:avif|webp|png|jpe?g|gif|svg|ico|woff2?|css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Cross-Origin-Opener-Policy "same-origin-allow-popups"
 </IfModule>
+
+# Permanently consolidate legacy URLs that Google still crawls.
+RewriteCond %{QUERY_STRING} (^|&)type=sold(&|$) [NC]
+RewriteRule ^car-details/?$ /sold-cars/? [R=301,L,NE]
+
+RewriteCond %{QUERY_STRING} (^|&)type=available(&|$) [NC]
+RewriteRule ^car-details/?$ /available-cars/? [R=301,L,NE]
+
+RewriteRule ^car-details/?$ /all-cars/? [R=301,L,NE]
+RewriteRule ^cars?/list/?$ /list-of-cars/? [R=301,L,NE]
+
+# Old blog query URLs now resolve to the canonical blog index.
+RewriteCond %{QUERY_STRING} (^|&)title= [NC]
+RewriteRule ^blogs/?$ /blogs/? [R=301,L,NE]
+
+RewriteRule ^index\.html$ - [L]
+
+# Do not turn unknown URLs into a 200 homepage response.
+ErrorDocument 404 /404.html

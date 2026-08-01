@@ -13,7 +13,7 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
   const isDashboardRoute = pathname.startsWith("/dashboard");
 
   if (isDashboardRoute) {
-    return <>{children}</>;
+    return <main>{children}</main>;
   }
 
   return (
@@ -21,7 +21,7 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
       <Suspense fallback={null}>
         <Navbar2 />
       </Suspense>
-      {children}
+      <main>{children}</main>
       <Process />
       <Assistance />
       <Footer2 />

@@ -16,7 +16,7 @@ import {
     HelpCircle,
     BookOpen
 } from "lucide-react";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.webp";
 import Link from "next/link";
 
 
@@ -125,7 +125,7 @@ const Navbar2 = () => {
                         </div>
 
                         <div className="flex items-center bg-[#f23410] rounded-full px-0.5 py-0.5 cursor-pointer border border-[#f23410]">
-                            <Link href="/cart" className="bg-white rounded-full p-2">
+                            <Link href="/cart" aria-label="View shopping cart" className="bg-white rounded-full p-2">
                                 <ShoppingCart size={20} className="text-gray-700" />
                             </Link>
                         </div>
@@ -194,7 +194,7 @@ const Navbar2 = () => {
                     </div>
 
                     <div className="flex items-center gap-3">
-                        <Link href="/cart" className="p-2 text-[#f23410]">
+                        <Link href="/cart" aria-label="View shopping cart" className="p-2 text-[#f23410]">
                             <ShoppingCart size={22} />
                         </Link>
                         <button

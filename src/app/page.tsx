@@ -1,5 +1,3 @@
-"use client";
-
 import Home from "@/app/Home/Home"
 import NextTopLoader from "nextjs-toploader"
 import PreLoader from "@/components/PreLoader"
