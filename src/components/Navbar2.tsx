@@ -92,6 +92,7 @@ const Navbar2 = () => {
                         {/* <Link href="/" className="whitespace-nowrap opacity-60 hover:cursor-not-allowed">Upcoming Cars <span className="text-[10px]">( Coming Soon )</span></Link> */}
                         <Link href="/available-cars" className="hover:opacity-80 transition-all duration-300 whitespace-nowrap ">Available Cars <span className="text-[10px]"></span></Link>
                         <Link href="/sold-cars" className="hover:opacity-80 transition-all duration-300 whitespace-nowrap ">Sold Cars <span className="text-[10px]"></span></Link>
+                        <Link href="/import-brokering" className="hover:opacity-80 transition-all duration-300 whitespace-nowrap">Import Brokering</Link>
                         <Link href="/how-we-deliver" className="hover:opacity-80 transition-all duration-300 whitespace-nowrap">How We Deliver</Link>
                         <Link href="/why-choose-us" className="hover:opacity-80 transition-all duration-300 whitespace-nowrap">Why Choose Us</Link>
                         <Link href="/blogs" className="hover:opacity-80 transition-all duration-300 whitespace-nowrap">Blogs</Link>
@@ -292,6 +293,9 @@ const Navbar2 = () => {
                                 </Link>
                                 <Link href="/sold-cars" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-3 text-gray-700 font-medium hover:text-[#f23410] transition-colors">
                                     <Search size={18} /> Sold Cars
+                                </Link>
+                                <Link href="/import-brokering" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-3 text-gray-700 font-medium hover:text-[#f23410] transition-colors">
+                                    <Truck size={18} /> Import Brokering & Calculator
                                 </Link>
                                 <Link href="/how-we-deliver" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-3 text-gray-700 font-medium hover:text-[#f23410] transition-colors">
                                     <Truck size={18} /> How We Deliver
