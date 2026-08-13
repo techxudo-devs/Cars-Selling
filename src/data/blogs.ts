@@ -18,6 +18,8 @@ import blog13Img from "@/assets/blogElite13.png"
 import blog14Img from "@/assets/eliteBlog10.png"
 import blog16Img from "@/assets/eliteBlog11.png"
 import blog17Img from "@/assets/eliteBlog12.png"
+import blog18Img from "@/assets/heroCarMain1.jpg"
+import blog19Img from "@/assets/blog17.png"
 
 export type BlogParagraph =
     | string
@@ -4264,6 +4266,545 @@ export const blogs: BlogPost[] = [
             }
         ],
         conclusion: "A careful used car inspection before importing from Japan protects the buyer from more than cosmetic problems.\n\nIt helps identify:\n\u2022 incorrect vehicle details;\n\u2022 auction-sheet inconsistencies;\n\u2022 hidden repairs;\n\u2022 mileage concerns;\n\u2022 corrosion;\n\u2022 mechanical faults;\n\u2022 hybrid battery problems;\n\u2022 non-compliant modifications;\n\u2022 and documentation risks.\n\nThe strongest buying decision is not based only on the lowest auction price or highest grade.\n\nIt is based on:\n1. the exact vehicle\u2019s eligibility;\n2. verifiable identity and documentation;\n3. independent condition evidence;\n4. realistic compliance requirements;\n5. and the complete landed and ownership cost."
+    },
+    {
+        title: "Japanese Used Cars vs Australian Used Cars: Which Is Better in 2026?",
+        description:
+            "Japanese imports can offer Australian buyers different models, specifications and sourcing opportunities, while locally delivered used cars can be easier to inspect, register and service. This guide compares both options so you can choose the right vehicle for your budget and requirements.",
+        image: blog19Img,
+        imageAlt: "Japanese used cars compared with Australian used cars for buyers in Australia",
+        postedDate: "13 August 2026",
+        createdAt: "2026-08-13T12:00:00.000Z",
+        readTime: "13 min read",
+        location: "Sydney, Australia",
+        slug: "japanese-used-cars-vs-australian-used-cars",
+        metaTitle: "Japanese Used Cars vs Australian Used Cars | 2026 Guide",
+        metaDescription:
+            "Compare Japanese used cars with Australian used cars, including price, condition, specifications, inspections, compliance, warranty, parts and buying risks.",
+        introduction:
+            "Australian buyers looking for a used vehicle are no longer limited to cars originally sold through the local market.\n\nJapanese auctions and dealer networks can provide access to hybrids, luxury vehicles, people movers, performance cars, specialist JDM models and specifications that may never have been officially offered in Australia.\n\nAt the same time, an Australian-delivered used car can provide important advantages: the vehicle is already here, its registration history may be easier to check, parts and servicing may be more familiar, and the buyer can usually inspect it locally before making a decision.\n\nSo which is better? Japanese used cars or Australian used cars?\n\nThere is no universal winner.\n\nThe better choice depends on the exact vehicle you want, its condition, total purchase cost, import and compliance requirements, Australian availability, servicing and parts, warranty and consumer protections, insurance, resale considerations, and how much choice you need.\n\nThis guide compares both routes in practical terms so Australian buyers can make a decision based on the complete ownership picture, not simply the advertised price.",
+        sections: [
+            {
+                heading: "Quick Answer",
+                paragraphs: [
+                    "A Japanese import can be attractive when it gives you access to a better specification, specialist model or particular vehicle that is difficult to source locally. An Australian used car may be the simpler choice when an equivalent vehicle is readily available locally at a competitive price. The correct comparison is always between two specific vehicles and their complete purchase and ownership costs.",
+                ],
+            },
+            {
+                heading: "Japanese Used Car vs Australian Used Car: Quick Comparison",
+                items: [
+                    "Model choice: A Japanese used car can provide models and variants unavailable locally, while an Australian used car is limited to vehicles already supplied or imported into Australia.",
+                    "Inspection before purchase: A Japanese used car may initially depend on overseas reports, photos and inspection information, while an Australian used car is usually easier to inspect physically.",
+                    "Auction information: Japanese auction documentation may be available for a Japanese used car, while an Australian used car depends on the local seller and vehicle history.",
+                    "Import approval: Required if the Japanese vehicle is still overseas, while already completed for vehicles legally supplied locally.",
+                    "Compliance: A Japanese used car may need Australian compliance work, while this is generally already completed for an Australian used car.",
+                    "Delivery time: Longer when a Japanese used car is sourced to order, while usually faster with an Australian used car.",
+                    "Final cost certainty: Can change with freight, taxes and compliance for a Japanese used car, while usually easier to establish before purchase with an Australian used car.",
+                    "Parts availability: Model-dependent for a Japanese used car, while often better for mainstream Australian-delivered models.",
+                    "Specification: Japanese-market cars may have unique equipment, while Australian specifications may be more familiar locally.",
+                    "Consumer rights: Depends on the seller and transaction structure for a Japanese used car, while dealer purchases receive Australian consumer protections.",
+                    "Custom sourcing: A Japanese used car offers wide choice when searching Japan, while an Australian used car is limited by Australian stock.",
+                    "Convenience: A Japanese used car involves more steps for a custom import, while an Australian used car is generally simpler.",
+                ],
+                postItemsParagraphs: [
+                    "Neither column automatically means better. A high-quality Japanese import can be a far better purchase than a neglected Australian car, and a well-maintained Australian vehicle can be a better choice than a poor-quality import.",
+                ],
+            },
+            {
+                heading: "What Is a Japanese Used Car?",
+                paragraphs: [
+                    "In this context, a Japanese used car is a pre-owned vehicle sourced from the Japanese market and either already imported into Australia or being sourced from Japan for import into Australia.",
+                    "These vehicles can include Japanese Domestic Market models, Japanese versions of globally sold models, hybrids, premium sedans, SUVs, compact vehicles, people movers, sports cars, performance variants and specialist vehicles.",
+                    "It is important not to use Japanese import and JDM as interchangeable terms. A car sourced from Japan is not automatically a JDM vehicle. JDM generally refers to a vehicle or specification produced for Japan's domestic market.",
+                ],
+            },
+            {
+                heading: "What Is an Australian Used Car?",
+                paragraphs: [
+                    "An Australian used car may refer to an Australian-delivered vehicle originally sold new through the local market, an imported vehicle that has already completed the Australian approval and registration process, or a second-hand vehicle currently being sold within Australia.",
+                    "For this comparison, when we say Australian-delivered used car, we mainly mean a vehicle originally supplied for the Australian market.",
+                    "That distinction matters because an imported Japanese vehicle already registered in Australia can offer many of the convenience advantages of buying local stock.",
+                ],
+            },
+            {
+                heading: "Vehicle Choice: Japan Can Offer a Much Different Selection",
+                paragraphs: [
+                    "One of the strongest reasons buyers investigate Japanese used cars in Australia is access to vehicles or specifications that are difficult to find locally.",
+                    "Japanese-market vehicles may differ in engine options, drivetrains, hybrid systems, trim levels, interior equipment, body configurations, seating layouts, safety technology, luxury features and performance specifications.",
+                    "A buyer searching only Australian classifieds is limited to vehicles already present in the country.",
+                    "Custom sourcing changes the question: instead of asking which cars are currently for sale near me, the buyer can ask which eligible vehicles in Japan match my required year, mileage, condition, colour and specification.",
+                    "That wider search can be valuable when the buyer wants a particular vehicle rather than simply a used car.",
+                ],
+            },
+            {
+                heading: "Availability: Australian Stock Is Faster, Japan Offers More Search Depth",
+                paragraphs: [
+                    "If your priority is speed, an imported vehicle already available in Australia is usually easier.",
+                    "You can potentially view the vehicle, inspect it, agree on the price, arrange finance or payment, complete registration or transfer requirements, and take delivery.",
+                    "Custom sourcing from Japan introduces additional stages such as identifying an eligible vehicle, sourcing, inspection, approval, purchasing, export preparation, international freight, customs, biosecurity, compliance, registration and delivery.",
+                    {
+                        text: "The ",
+                        linkLabel: "Department of Infrastructure's official importing guidance",
+                        linkHref: "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/importing-road-vehicle-australia/eight-steps-importing-vehicle",
+                        linkSuffix: " describes the process as involving multiple Australian government agencies and explicitly requires buyers to research eligibility and receive the necessary approval before importing.",
+                    },
+                ],
+                items: [
+                    "Choose available Australian stock when:",
+                    "you need the car quickly",
+                    "a suitable car already exists locally",
+                    "physical inspection is important",
+                    "or you want greater certainty over the final purchase amount",
+                    "Consider custom sourcing from Japan when:",
+                    "the exact vehicle is difficult to find locally",
+                    "you want a particular variant",
+                    "specification matters",
+                    "or you are willing to wait for a better match",
+                ],
+            },
+            {
+                heading: "Condition: Country of Origin Does Not Tell You Whether a Car Is Good",
+                paragraphs: [
+                    "One of the biggest mistakes buyers make is assuming that a Japanese vehicle equals good condition or that an Australian vehicle equals a safer purchase. Neither assumption is reliable.",
+                    "Condition depends on the individual car.",
+                    "For a Japanese used vehicle, investigate the auction sheet, current photographs, mileage evidence, service records, repair history, structural condition, underbody corrosion, mechanical condition, diagnostic faults, tyres and brakes, hybrid battery condition where applicable, and aftermarket modifications.",
+                    "For an Australian used vehicle, investigate service history, accident repairs, written-off history, finance and security interests, registration records, mechanical condition, previous owner information where available, and current roadworthiness.",
+                    "The correct question is not: are Japanese cars better maintained? It is: what evidence do I have about the condition and history of this exact vehicle?",
+                    {
+                        text: "For a step-by-step checklist, review the ",
+                        linkLabel: "used car inspection before importing from Japan",
+                        linkHref: "/blogs/used-car-inspection-before-importing-from-japan/",
+                        linkSuffix: " guide.",
+                    },
+                ],
+            },
+            {
+                heading: "Japanese Auction Sheets Can Be Valuable, But They Are Not a Warranty",
+                paragraphs: [
+                    "Vehicles sold through Japanese auctions may have an auction inspection sheet.",
+                    "Depending on the auction house, this can provide information about recorded mileage, vehicle grade, interior condition, visible scratches and dents, repaired or replaced panels, inspector observations and vehicle equipment.",
+                    "However, auction-sheet grading systems should not be treated as universal or as a complete mechanical guarantee.",
+                    "Before buying, request:",
+                ],
+                items: [
+                    "the original auction sheet",
+                    "a clear scan",
+                    "a reliable translation",
+                    "confirmation of the auction house",
+                    "current vehicle photos",
+                    "and proof that the chassis number matches the car",
+                ],
+                postItemsParagraphs: [
+                    "The auction sheet should be part of your used vehicle inspection, not a replacement for it.",
+                ],
+            },
+            {
+                heading: "Australian Vehicles Have Their Own History Checks",
+                paragraphs: [
+                    "Buying locally does not eliminate vehicle-history risk.",
+                    "A useful check when buying a second-hand vehicle in Australia is the Personal Property Securities Register.",
+                    {
+                        text: "The official ",
+                        linkLabel: "PPSR",
+                        linkHref: "https://www.ppsr.gov.au/",
+                        linkSuffix: " can show whether a security interest is registered against the vehicle. PPSR currently charges $2 for an online vehicle search and recommends checking close to the time of purchase.",
+                    },
+                    "The search can form part of checking whether the vehicle may have money owing, security interests, recorded stolen information or recorded written-off information.",
+                    "The PPSR is not a mechanical inspection.",
+                    "For an imported vehicle already in Australia, sensible checking can include RAV record, PPSR, registration, physical inspection, service documentation, import and compliance evidence, and vehicle-specific history.",
+                ],
+            },
+            {
+                heading: "Import Eligibility Is the Biggest Difference When the Car Is Still in Japan",
+                paragraphs: [
+                    "For an Australian car, import eligibility is normally irrelevant because the vehicle is already here.",
+                    "For a vehicle still in Japan, it can determine whether the purchase is viable at all.",
+                    "Australia operates under the Road Vehicle Standards framework. Depending on the vehicle, possible pathways can involve specialist and enthusiast eligibility, older vehicles, vehicle type approvals or other approval categories.",
+                    {
+                        text: "See the ",
+                        linkLabel: "Department of Infrastructure importing a road vehicle guidance",
+                        linkHref: "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/importing-road-vehicle-australia",
+                        linkSuffix: " for the current framework.",
+                    },
+                    {
+                        text: "For certain Japanese specialist vehicles, the SEVS Register may be relevant. A SEVS listing is not itself permission to import an individual vehicle. ",
+                        linkLabel: "ROVER",
+                        linkHref: "https://www.rover.infrastructure.gov.au/PublishedApprovals/SEVApprovals/",
+                        linkSuffix: " states that a vehicle's entry on the Specialist and Enthusiast Vehicles Register does not constitute import approval.",
+                    },
+                    "Before purchasing a Japanese vehicle overseas, confirm:",
+                ],
+                items: [
+                    "exact model",
+                    "variant",
+                    "model or chassis code",
+                    "build date",
+                    "applicable approval pathway",
+                    "SEVS position where relevant",
+                    "Model Report availability where applicable",
+                    "compliance route",
+                    "and state registration implications",
+                ],
+                postItemsParagraphs: [
+                    {
+                        text: "For a detailed explanation of the approvals involved, read the ",
+                        linkLabel: "vehicle import approval Australia",
+                        linkHref: "/vehicle-import-approval-australia/",
+                        linkSuffix: " guide.",
+                    },
+                    {
+                        text: "For an overview of the whole process, see ",
+                        linkLabel: "import cars from Japan to Australia",
+                        linkHref: "/import-cars-from-japan-to-australia/",
+                        linkSuffix: ".",
+                    },
+                    {
+                        text: "You can also review the ",
+                        linkLabel: "cars eligible for import to Australia",
+                        linkHref: "/list-of-cars/",
+                        linkSuffix: ".",
+                    },
+                ],
+            },
+            {
+                heading: "Purchase Price vs Total Cost: Never Compare the Wrong Numbers",
+                paragraphs: [
+                    "This is probably the most important financial point.",
+                    "Do not compare the Japanese auction price with the Australian drive-away price. Those numbers represent different stages of the buying process.",
+                    "For an overseas vehicle, the total budget may include vehicle purchase, Japanese auction or dealer charges, inland transport in Japan, inspection, export documentation, import approval costs, ocean freight, insurance, customs processing, applicable taxes, biosecurity, cleaning or treatment, compliance, registration, local delivery, and repairs or maintenance.",
+                    "Instead, compare a fully landed, complied and registered Japanese vehicle against an equivalent Australian vehicle ready for use. Only then can you determine which represents better value.",
+                    {
+                        text: "For the complete financial breakdown, read the ",
+                        linkLabel: "cost to import a car from Japan",
+                        linkHref: "/cost-to-import-car-from-japan-to-australia/",
+                        linkSuffix: " guide.",
+                    },
+                ],
+            },
+            {
+                heading: "Not Sure Whether Importing or Buying Locally Offers Better Value?",
+                paragraphs: [
+                    {
+                        text: "Not sure whether importing or buying locally offers better value? ",
+                        linkLabel: "Browse available imported cars",
+                        linkHref: "/available-cars/",
+                        linkSuffix: " first, or tell Elite Motor Cars which vehicle and specification you are looking for.",
+                    },
+                    {
+                        text: "You can also explore ",
+                        linkLabel: "Japanese used cars Australia",
+                        linkHref: "/japanese-used-cars-australia/",
+                        linkSuffix: " to see current imported stock.",
+                    },
+                ],
+            },
+            {
+                heading: "A Japanese Import Is Not Automatically Cheaper",
+                paragraphs: [
+                    "Many buyers start researching imports because they expect to save money. Sometimes they may. But importing should not be treated as a guaranteed cost-saving strategy.",
+                    "A Japanese vehicle can become expensive when it requires substantial compliance work, unexpected mechanical repairs, tyres, battery replacement, biosecurity treatment, extra port storage, specialist parts, reversed modifications or expensive registration-related work.",
+                    "Conversely, a rare model can remain attractive even when it is not cheaper because the Australian market simply does not provide an equivalent vehicle.",
+                    "Better question: does this Japanese vehicle offer better value after every cost is included?",
+                ],
+            },
+            {
+                heading: "Specifications: Japanese Cars Can Have Features Australians Never Received",
+                paragraphs: [
+                    "This is an area where Japanese vehicles can become particularly attractive.",
+                    "Depending on the model, Japan may have received different engines, hybrid powertrains, AWD variants, premium interiors, powered seating, additional driver-assistance technology, unique exterior packages, luxury equipment or alternative seating layouts.",
+                    "An Australian-delivered model can still have an important advantage: its specification was designed and marketed for local use.",
+                    "That may mean fewer questions involving infotainment compatibility, radio frequencies, maps, replacement electronics, owner's manuals, parts catalogues and local servicing familiarity.",
+                    "Before choosing a Japanese-market specification, decide whether the extra features are worth any additional complexity.",
+                ],
+            },
+            {
+                heading: "Hybrid Vehicles: Japan Can Offer More Choice, but Battery Condition Matters",
+                paragraphs: [
+                    "Japan is particularly relevant for buyers considering used hybrid vehicles.",
+                    "But the word hybrid should never replace a proper condition assessment.",
+                    "Before purchasing a used Japanese hybrid, check:",
+                ],
+                items: [
+                    "high-voltage battery diagnostics",
+                    "battery state of health where available",
+                    "warning codes",
+                    "battery cooling system",
+                    "inverter condition",
+                    "repair history",
+                    "12V battery",
+                    "and Australian parts and service availability",
+                ],
+                postItemsParagraphs: [
+                    "Do not assess hybrid battery condition from mileage alone, age alone, a dashboard display, or the absence of a warning light.",
+                    "A competitively priced hybrid may not remain inexpensive if major high-voltage repairs are immediately required.",
+                ],
+            },
+            {
+                heading: "JDM Performance Vehicles: Japan Often Wins on Choice",
+                paragraphs: [
+                    "For enthusiast buyers, the comparison can be much less about saving money and much more about availability.",
+                    "Certain specialist performance vehicles and variants are naturally far easier to find in Japan.",
+                    "This can include sports coupes, turbocharged sedans, specialist AWD cars, performance wagons, rare trim levels, limited-production models and enthusiast specifications.",
+                    {
+                        text: "Australia's specialist and enthusiast framework provides an import pathway for eligible vehicles meeting the relevant criteria. See the ",
+                        linkLabel: "Department of Infrastructure guidance on specialist and enthusiast vehicles",
+                        linkHref: "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/importing-road-vehicle-australia/specialist-and-enthusiast-vehicles",
+                        linkSuffix: ".",
+                    },
+                    "However, enthusiast vehicles require careful inspection because past owners may have tuned the engine, changed turbos, modified suspension, replaced exhaust components, fitted aftermarket seats, changed wheels, removed emissions components or used the car for motorsport.",
+                    "A rare vehicle is not automatically a good vehicle.",
+                    {
+                        text: "Enthusiast buyers can also read the ",
+                        linkLabel: "JDM imports Australia",
+                        linkHref: "/jdm-imports-australia/",
+                        linkSuffix: " guide.",
+                    },
+                ],
+            },
+            {
+                heading: "Parts Availability Can Favour Australian-Delivered Cars",
+                paragraphs: [
+                    "For a mainstream Australian-delivered vehicle, local parts supply may be easier.",
+                    "A workshop may already have diagnostic information, parts catalogues, common failure knowledge, replacement components and established repair procedures.",
+                    "With a Japan-only model, research mechanical parts, body panels, glass, electronic modules, suspension, hybrid components, headlights, infotainment, sensors and trim pieces.",
+                    "Some Japanese imports share major mechanical parts with Australian models. Others do not.",
+                    "Before buying a rare vehicle, ask: if this component fails in two years, can I reasonably source a replacement?",
+                ],
+            },
+            {
+                heading: "Servicing Depends More on the Model Than the Import Label",
+                paragraphs: [
+                    "A Japanese import is not automatically difficult to service. Likewise, every Australian vehicle is not automatically easy to maintain.",
+                    "Research local specialist workshops, diagnostic compatibility, consumable parts, service documentation, engine and transmission familiarity, and model-specific repair support.",
+                    "For specialist JDM, hybrid or luxury vehicles, finding the right workshop before purchasing can be a better strategy than discovering servicing options afterward.",
+                ],
+            },
+            {
+                heading: "Insurance Should Be Checked Before You Buy",
+                paragraphs: [
+                    "Insurance availability and pricing can differ depending on exact variant, import status, modifications, performance, agreed value, parts availability, theft risk and insurer underwriting rules.",
+                    "Do not assume the insurance quote for an Australian-delivered version automatically applies to a Japanese-market version.",
+                    "Before committing to an expensive or rare import, provide the insurer with the exact vehicle details, disclose modifications, explain that it is imported, and confirm available cover.",
+                ],
+            },
+            {
+                heading: "Consumer Rights: Dealer vs Private Sale Matters",
+                paragraphs: [
+                    "When comparing buying routes, look at who is selling the vehicle, not simply where the vehicle was built.",
+                    {
+                        text: "The ",
+                        linkLabel: "ACCC",
+                        linkHref: "https://www.accc.gov.au/consumers/buying-products-services/new-and-second-hand-cars",
+                        linkSuffix: " states that Australian Consumer Law consumer guarantees apply to new and second-hand cars purchased from a licensed dealer. These legal rights operate in addition to warranties that may be offered.",
+                    },
+                    "Private purchases have a different risk profile.",
+                    {
+                        text: "In NSW, buyers purchasing a used vehicle from a licensed motor dealer are, in many cases, also entitled to a dealer guarantee under state legislation, subject to the applicable conditions. See the ",
+                        linkLabel: "NSW Government buying a used vehicle guidance",
+                        linkHref: "https://www.nsw.gov.au/driving-boating-and-transport/vehicle-registration/buying-a-used-vehicle",
+                        linkSuffix: ".",
+                    },
+                    "Therefore an imported Japanese car sold locally through a licensed Australian dealer should not be evaluated the same way as a vehicle privately purchased overseas.",
+                    "Always check the specific transaction structure and written sale terms.",
+                ],
+            },
+            {
+                heading: "Warranty: Do Not Confuse a Warranty with All Your Legal Rights",
+                paragraphs: [
+                    "A dealership may offer a statutory dealer guarantee where applicable, commercial warranty, third-party warranty, manufacturer warranty or extended warranty.",
+                    "Ask for the terms in writing.",
+                    "Review warranty period, kilometre limit, covered components, exclusions, servicing requirements, claim procedure and warranty provider.",
+                    {
+                        text: "Importantly, the ",
+                        linkLabel: "ACCC consumer rights and guarantees",
+                        linkHref: "https://www.accc.gov.au/consumers/consumer-rights-guarantees",
+                        linkSuffix: " guidance states that consumer guarantee rights under Australian Consumer Law are separate from voluntary or extended warranties and cannot simply be removed by the warranty terms.",
+                    },
+                ],
+            },
+            {
+                heading: "Registration: Australian Cars Are Simpler; Imported Cars Need the Right Evidence",
+                paragraphs: [
+                    "A locally registered Australian vehicle will generally have a simpler transfer process than a car still waiting to be imported.",
+                    "For an imported vehicle, the relevant federal approval and compliance process must be completed before state registration requirements can be satisfied.",
+                    "For NSW vehicles, registration requirements can include inspection and other registration steps depending on the vehicle's current status.",
+                    "If buying an imported car already registered in Australia, ask for registration details, VIN, RAV evidence where applicable, compliance documentation, ownership information and transfer requirements.",
+                    {
+                        text: "Review the ",
+                        linkLabel: "NSW Government guidance on registering a used or secondhand vehicle",
+                        linkHref: "https://www.nsw.gov.au/driving-boating-and-transport/vehicle-registration/how-to-register/registering-a-used-or-secondhand-vehicle",
+                        linkSuffix: ".",
+                    },
+                ],
+            },
+            {
+                heading: "Resale Value: Buy What Future Buyers Can Understand",
+                paragraphs: [
+                    "Resale is highly vehicle-specific.",
+                    "A rare Japanese import may attract enthusiast demand. But an obscure specification may also have a smaller buyer pool.",
+                    "Factors affecting resale can include model reputation, condition, mileage, service history, rarity, originality, modifications, parts availability, import documentation and Australian market demand.",
+                    "Maintain auction sheet, import records, compliance evidence, service invoices, inspection reports and modification documentation.",
+                    "A well-documented vehicle is generally easier for a future buyer to evaluate.",
+                ],
+            },
+            {
+                heading: "Which Buyer Is Better Suited to a Japanese Used Car?",
+                paragraphs: [
+                    "A Japanese used car may make more sense if you:",
+                ],
+                items: [
+                    "want a model unavailable locally",
+                    "need a particular Japanese-market specification",
+                    "want a specialist JDM vehicle",
+                    "are searching for a rare hybrid or luxury variant",
+                    "are willing to wait for sourcing and import",
+                    "understand the total landed-cost calculation",
+                    "have access to suitable servicing",
+                    "and value specification or rarity over maximum convenience",
+                ],
+            },
+            {
+                heading: "Which Buyer Is Better Suited to an Australian Used Car?",
+                paragraphs: [
+                    "An Australian-delivered used car may make more sense if:",
+                ],
+                items: [
+                    "equivalent local vehicles are readily available",
+                    "speed is important",
+                    "you want to inspect several cars in person",
+                    "you prefer simpler registration",
+                    "mainstream servicing matters",
+                    "local parts availability is a priority",
+                    "or the total Japanese import cost offers no meaningful advantage",
+                ],
+            },
+            {
+                heading: "What About a Japanese Import Already Available in Australia?",
+                paragraphs: [
+                    "This is the important third option. Japanese specification plus Australian buying convenience.",
+                    "If the vehicle is already imported, compliant and available locally, a buyer may be able to physically inspect it, test the vehicle where available, review import documentation, check registration and compliance status, understand the advertised price, avoid overseas sourcing delays and purchase through an Australian seller.",
+                    "This can be particularly attractive to someone who wants an imported vehicle but does not want to manage the full sourcing and import timeline.",
+                    {
+                        text: "Explore ",
+                        linkLabel: "Japanese imported cars for sale in Australia",
+                        linkHref: "/japanese-imported-cars-for-sale-australia/",
+                        linkSuffix: " to see what is currently available.",
+                    },
+                ],
+            },
+            {
+                heading: "Available Stock vs Custom Import: Which Route Should You Choose?",
+                items: [
+                    "Buy available imported stock when:",
+                    "you need a car sooner",
+                    "suitable inventory already exists",
+                    "local inspection matters",
+                    "you prefer price certainty",
+                    "or you do not need a rare specification",
+                    "Request custom sourcing when:",
+                    "the vehicle is difficult to find in Australia",
+                    "exact specification matters",
+                    "colour matters",
+                    "mileage range matters",
+                    "condition requirements are specific",
+                    "or you want access to a larger Japanese search pool",
+                ],
+                postItemsParagraphs: [
+                    "Practical strategy: start with available cars. If nothing suitable exists, move to a custom Japan search. That avoids unnecessarily importing a car that is already available locally.",
+                ],
+            },
+            {
+                heading: "Can't Find the Specification You Want in Australia?",
+                paragraphs: [
+                    {
+                        text: "Can't find the specification you want in Australia? Provide your preferred make, model, year, mileage and budget and discuss custom sourcing from Japan. ",
+                        linkLabel: "Request a car from Japan",
+                        linkHref: "/contact-us/",
+                        linkSuffix: ".",
+                    },
+                ],
+            },
+            {
+                heading: "How Elite Motor Cars Fits Into Both Buying Routes",
+                paragraphs: [
+                    "Elite Motor Cars imports and sells selected new and used vehicles from Japan and offers both vehicles available in Australia and custom vehicle sourcing.",
+                    {
+                        text: "Browse imported cars already available: suitable when you want faster purchase, local stock, clearer pricing and a specific vehicle already present. See ",
+                        linkLabel: "available imported cars",
+                        linkHref: "/available-cars/",
+                        linkSuffix: ".",
+                    },
+                    {
+                        text: "Request a vehicle from Japan: suitable when current inventory does not match, you need a particular model, specification matters, or you want the team to search for suitable options in Japan. ",
+                        linkLabel: "Contact Elite Motor Cars",
+                        linkHref: "/contact-us/",
+                        linkSuffix: " to start.",
+                    },
+                    "When requesting sourcing, provide make, model, year range, variant, mileage preference, colour, required options, condition expectations, budget and delivery location.",
+                ],
+            },
+            {
+                heading: "Japanese Used Cars vs Australian Used Cars: Decision Checklist",
+                paragraphs: [
+                    "Work through this checklist before choosing between a Japanese import and an Australian used car.",
+                ],
+                items: [
+                    "Vehicle: Is the exact model available locally? Is the Japanese specification meaningfully better? Is it eligible for import? Is the condition verified? Is the mileage supported by evidence?",
+                    "Financial: What is the complete Japanese landed cost? What does a comparable Australian car cost? What immediate maintenance is required? How much will insurance cost? Are parts reasonably available?",
+                    "Convenience: How soon do you need the vehicle? Do you need to inspect it locally first? Are you comfortable waiting for import? Is suitable servicing available?",
+                    "Risk: Do you have the auction sheet? Is the chassis number verified? Has the car been physically inspected? Have modifications been checked? Is the compliance pathway clear?",
+                    "Ownership: Will you keep the car long enough to justify the import? Will future buyers understand the vehicle? Are service and repair options acceptable? Does the specification provide a real benefit?",
+                ],
+            },
+        ],
+        faqs: [
+            {
+                question: "Are Japanese used cars better than Australian used cars?",
+                answer: "Neither is automatically better. Vehicle condition, specification, price, history, maintenance and total ownership cost matter more than the country from which the vehicle was sourced.",
+            },
+            {
+                question: "Are Japanese used cars cheaper in Australia?",
+                answer: "They can sometimes represent good value, but the Japanese purchase price must not be compared directly with an Australian drive-away price. Freight, taxes, approval, compliance, biosecurity, registration and other costs must be included.",
+            },
+            {
+                question: "Is it worth importing a car from Japan to Australia?",
+                answer: "It can be worthwhile when the vehicle offers a specification, model, condition or value that is difficult to obtain locally. The decision should be made using the complete landed and ownership cost.",
+            },
+            {
+                question: "Are Japanese auction sheets reliable?",
+                answer: "They can be useful evidence about a vehicle's condition at the time of auction, but they should not be treated as a complete mechanical warranty. Verify the sheet, chassis number, translation and vehicle condition independently.",
+            },
+            {
+                question: "Do Japanese imported cars have to be approved in Australia?",
+                answer: "Yes, vehicles imported under Australia's Road Vehicle Standards framework must follow the applicable approval process. For specialist vehicles, SEVS may form part of eligibility, but SEVS entry itself is not import approval.",
+            },
+            {
+                question: "Are Japanese imported cars difficult to insure?",
+                answer: "It depends on the exact model, insurer, modifications, replacement parts and risk profile. Obtain an insurance quote for the exact imported variant before purchasing.",
+            },
+            {
+                question: "Are parts difficult to find for Japanese imports?",
+                answer: "It depends heavily on the model. Some share engines, brakes and other components with Australian vehicles; rare models may require specialist or overseas parts.",
+            },
+            {
+                question: "Can I buy an imported Japanese car already in Australia?",
+                answer: "Yes. Before purchase, check the exact vehicle's condition, ownership, compliance and registration evidence, history and sale terms.",
+            },
+            {
+                question: "Should I do a PPSR search?",
+                answer: "For a second-hand vehicle being purchased in Australia, a PPSR search is a useful check. The official PPSR search can reveal registered security interests and available stolen and written-off information.",
+            },
+            {
+                question: "Do dealer consumer guarantees apply to imported cars?",
+                answer: "Australian consumer guarantees can apply to new and second-hand cars bought from licensed dealers. The fact that a vehicle was imported does not by itself remove those legal protections. Exact rights depend on the transaction and circumstances.",
+            },
+        ],
+        conclusion: {
+            text: "Choose neither based on stereotypes. Instead, compare Vehicle A, the Japanese import, against Vehicle B, the Australian alternative, using purchase price, exact specification, verified condition, history, complete landed cost, compliance, insurance, servicing, parts, warranty and buyer protections, likely resale, and how well the vehicle actually meets your needs.\n\nA Japanese used car can be the stronger choice when it gives you access to a genuinely better or otherwise unavailable vehicle.\n\nAn Australian-delivered car can be the stronger choice when an equivalent vehicle already exists locally without the additional time and complexity of importing.\n\nAnd when a Japanese imported vehicle is already available for sale in Australia, buyers may be able to combine the benefits of Japanese-market choice with the convenience of purchasing locally.\n\nBrowse imported cars already available, explore ",
+            linkLabel: "Japanese used cars Australia",
+            linkHref: "/japanese-used-cars-australia/",
+            linkSuffix: " and request a specific car from Japan.\n\nPhone: +61 466 318 074\nEmail: sales@elitemotorcars.com.au\nLocation: Sydney, NSW, Australia\nDealer Licence: MD100405",
+        },
     },
 ];
 

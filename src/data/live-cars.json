@@ -3,21 +3,33 @@
     "_id": "6a6b41d3fd1d1317d5d7a02a",
     "name": "2007 LEXUS LS600H V8 5000CC",
     "tagline": "6 months rego & Ctp",
-    "description": "The 2007 Lexus LS460 Aim Gain Spec is a flagship luxury sedan that combines refined V8 performance, premium craftsmanship, and exceptional driving comfort. Powered by a smooth 4.6L V8 engine paired with an advanced 8-speed automatic transmission, it delivers effortless power while maintaining the quiet and composed ride Lexus is renowned for. With 128,000 kms, a full service history with log books, and a 5-year extended warranty, this LS460 has been meticulously maintained for complete peace of mind. Featuring air suspension, soft-closing doors, premium leather upholstery, heated and ventilated memory front seats, dual-zone automatic climate control, power-adjustable seating, premium wood trim, keyless entry with push-button start, adaptive cruise control, lane departure warning, pre-collision safety system, and 10 airbags, it offers an executive-level driving experience. With seven selectable driving modes—including Comfort, Eco, Snow, Sport S, and Sport S+—this Aim Gain Spec LS460 delivers the perfect balance of luxury, performance, and legendary Lexus reliability.",
+    "description": "The 2007 Lexus LS600h Full Option is the flagship luxury hybrid sedan, offering exceptional performance, advanced technology, and first-class comfort. Powered by a sophisticated 5.0L V8 hybrid powertrain producing a combined 439 horsepower, it delivers smooth, effortless acceleration while maintaining impressive efficiency for a full-size luxury vehicle. With only 101,000 kms and backed by a 5-year warranty, this rare example is presented in pristine condition and enhanced with an elegant Aimgain body kit. Inside, the LS600h is loaded with premium features including the Lexus Premium Sound System, adjustable air suspension, soft-closing doors, automatic rear and side sunshades, power-adjustable and memory front and rear seats, heated and ventilated seating for both front and rear passengers, reclining rear seats, dual-zone automatic climate control, and keyless entry with push-button start. Combining executive-class luxury, cutting-edge hybrid technology, and legendary Lexus reliability, the LS600h is an outstanding choice for those seeking the ultimate premium driving experience.",
     "priceAUD": 18999,
     "status": "available",
     "specs": {
       "mileageKm": 101000,
-      "engineDisplacement": "4.6",
+      "engineDisplacement": "5.0",
       "transmission": "Automatic",
-      "fuelType": "Petrol",
+      "fuelType": "Hybrid",
       "year": 2007,
       "color": "Black",
-      "driveType": "RWD"
+      "driveType": "AWD"
     },
     "highlights": [
-      "✔️5 Year’s warranty for peace of mind",
-      "✔️Finance Available"
+      "439hp stock",
+      "Aimgain body kit",
+      "Rare spec in prestine condition",
+      "Lexus premium Sound system",
+      "Adjustable suspension",
+      "Soft closing doors",
+      "Rear + Side Automatic Blinds",
+      "Dual-zone automatic Climate Control",
+      "Power-Adjustable Front Seats",
+      "Rear reclining Seats",
+      "Memory Front & rear Seats",
+      "Front & rear Heated & cooled seats",
+      "Keyless Entry & Push-button start",
+      "Alot More"
     ],
     "images": [
       "https://res.cloudinary.com/dozwtxbw8/image/upload/v1785413778/elite-motor-cars/2007-lexus-ls600h-v8-5000cc/ufiyydp7qhwqsjtminys.jpg",
@@ -48,7 +60,7 @@
     "licenseNumber": "MD100405",
     "sortOrder": -24,
     "createdAt": "2026-07-30T12:21:39.133Z",
-    "updatedAt": "2026-07-30T12:21:39.133Z",
+    "updatedAt": "2026-07-31T10:38:50.502Z",
     "slug": "2007-lexus-ls600h-v8-5000cc-1"
   },
   {
@@ -174,8 +186,8 @@
     "name": "2016 Honda Odyssey Hybrid 7 Seater",
     "tagline": "6 months rego & Ctp",
     "description": "The 2016 Honda Odyssey Hybrid Absolute EX Sensing is a premium 7-seater MPV that delivers outstanding comfort, advanced safety, and impressive hybrid efficiency. Powered by Honda’s intelligent 2.0L i-MMD hybrid powertrain and paired with a smooth e-CVT automatic transmission, it offers refined performance with excellent fuel economy, making it ideal for both family use and professional rideshare services. With 101,000 kms, a full service history with log books from new, two keys, and a 3-month warranty, this well-maintained Odyssey provides complete peace of mind. As the top-of-the-line Absolute EX Sensing variant, it combines spacious seating, premium comfort, and Honda Sensing driver assistance technologies, making it an excellent choice for families or drivers seeking a reliable, practical, and feature-packed people mover. Eligible for UberXL and Uber Max, it offers the perfect balance of versatility, efficiency, and everyday luxury.",
-    "priceAUD": 25300,
-    "status": "available",
+    "priceAUD": null,
+    "status": "sold",
     "specs": {
       "mileageKm": 101000,
       "engineDisplacement": "2.0",
@@ -219,7 +231,7 @@
     "licenseNumber": "MD100405",
     "sortOrder": -21,
     "createdAt": "2026-07-29T16:01:54.965Z",
-    "updatedAt": "2026-07-29T16:01:54.965Z",
+    "updatedAt": "2026-08-07T05:23:21.507Z",
     "slug": "2016-honda-odyssey-hybrid-7-seater-1"
   },
   {
@@ -287,8 +299,8 @@
     "name": "2016 Honda Odyssey Hybrid 7 Seater",
     "tagline": "6 months rego & Ctp",
     "description": "The 2016 Honda Odyssey Hybrid Absolute EX Sensing is a top-of-the-line 7-seater MPV that combines premium comfort, advanced hybrid efficiency, and family-friendly practicality. Powered by Honda’s intelligent 2.0L i-MMD hybrid system and smooth e-CVT transmission, it delivers a refined, quiet, and fuel-efficient driving experience. With only 77,000 kms, a full service history with log books from new, two keys, and a hardwired dashcam, this Odyssey has been exceptionally well maintained. Finished with ceramic-coated paintwork, wheels, and exterior trims, it features electric sliding doors, Weds Novaris alloy wheels wrapped in Bridgestone tyres with an installed TPMS, 360° parking cameras and sensors, dual-zone automatic climate control, power-adjustable front seats, keyless entry with push-button start, and Honda Sensing safety technologies including pre-collision braking, lane departure warning, and adaptive cruise control. Eligible for UberXL and Uber Max, this premium Odyssey offers the perfect combination of luxury, space, efficiency, and modern technology for families and professional rideshare drivers alike.",
-    "priceAUD": 26499,
-    "status": "available",
+    "priceAUD": null,
+    "status": "sold",
     "specs": {
       "mileageKm": 77000,
       "engineDisplacement": "2.0",
@@ -352,7 +364,7 @@
     "licenseNumber": "MD100405",
     "sortOrder": -19,
     "createdAt": "2026-07-15T13:56:52.534Z",
-    "updatedAt": "2026-07-15T13:56:52.534Z",
+    "updatedAt": "2026-08-03T08:34:03.113Z",
     "slug": "2016-honda-odyssey-hybrid-7-seater"
   },
   {
@@ -904,7 +916,7 @@
     "name": "2008 Mitsubishi Lancer Evolution X GSR RYUSHON – EVO 10 SST TWIN CLUTCH",
     "tagline": "6 months rego + Ctp",
     "description": "The 2008 Mitsubishi Lancer Evolution X GSR is a heavily upgraded, enthusiast-built performance machine that takes the legendary Evo platform to the next level. Freshly imported from Japan and showing only 70,000 kms, this Evo X combines the proven 4B11T turbocharged engine with the lightning-fast SST twin-clutch transmission and Mitsubishi's renowned AWC all-wheel-drive system. Featuring premium upgrades including HKS coilovers, Rays Volk Racing CE28N wheels, Varis front bumper, Voltex carbon fibre spoiler, Kakimoto exhaust, Bride seats, Cusco stabilizer, Coltspeed ram air intake system, and air suspension, this build delivers exceptional handling, aggressive styling, and a true JDM driving experience. Additional features such as a Pioneer sound system, security alarm, remote start, sunroof, dashcams, carbon fibre interior trim, and racing harnesses make this Evo X a rare, well-equipped example that stands out from ordinary performance cars while retaining the iconic Evo character enthusiasts love.",
-    "priceAUD": 31999,
+    "priceAUD": 34999,
     "status": "available",
     "specs": {
       "mileageKm": 70000,
@@ -967,7 +979,7 @@
     "licenseNumber": "MD100405",
     "sortOrder": -10,
     "createdAt": "2026-06-15T08:27:24.167Z",
-    "updatedAt": "2026-06-15T08:27:24.167Z",
+    "updatedAt": "2026-08-03T08:34:33.044Z",
     "slug": "2008-mitsubishi-lancer-evolution-x-gsr-ryushon-evo-10-sst-twin-clutch-1"
   },
   {
@@ -1673,48 +1685,6 @@
     "createdAt": "2026-04-12T07:09:55.193Z",
     "updatedAt": "2026-05-04T19:58:43.262Z",
     "slug": "2008-toyota-crown-35l-hybrid-g"
-  },
-  {
-    "_id": "69d7fe63614e96424f6f6b1d",
-    "name": "2017 Honda Odyssey Hybrid 7 Seater",
-    "tagline": "6 months rego & Ctp",
-    "description": "The 2017 Honda Odyssey Hybrid Absolute EX Sensing is a top-of-the-line luxury 7-seater family van combining comfort, space, and advanced hybrid efficiency. Powered by a 2.0-liter petrol-electric hybrid engine with a smooth e-CVT transmission, it delivers excellent fuel economy while providing strong performance for city and highway driving. This premium variant comes fully loaded with Honda Sensing safety features including adaptive cruise control, lane departure alert, pre-collision system, and blind spot monitoring. With electric sliding doors, heated seats, rear entertainment system, 360-degree camera, and dual-zone climate control, it’s the perfect family vehicle and is also UberXL/Uber Max eligible.",
-    "priceAUD": 26999,
-    "status": "sold",
-    "specs": {
-      "mileageKm": 113000,
-      "engineDisplacement": "2.0L",
-      "transmission": "Automatic",
-      "fuelType": "Hybrid",
-      "year": 2017,
-      "color": "White",
-      "driveType": "FWD"
-    },
-    "highlights": [],
-    "images": [
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762981/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/cyrxvu7wxuzfl625zkie.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762983/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/rlzdpiakcapsbxhkzcjy.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762985/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/kli7dawnk6uieby7yhhi.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762987/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/e1vpacfrczrdsikrj3fy.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762989/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/ralobctl1lh7eriwbypq.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762990/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/u3r2mqshze13bhrmyl0i.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762991/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/cyqpnfnjhhvhhp6ijzhk.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762992/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/y7vscsfe0xrcigfhevni.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762993/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/asmlpbqgjrcqm6namb4o.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762994/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/roxwz8drwii3vd2p5txj.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762995/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/gydnlccy7qrxtbljavng.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762997/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/faaojt2ncdowfujwohww.jpg"
-    ],
-    "thumbnailUrl": "https://res.cloudinary.com/dozwtxbw8/image/upload/v1775762981/elite-motor-cars/2017-honda-odyssey-hybrid-7-seater/cyrxvu7wxuzfl625zkie.jpg",
-    "tags": [],
-    "isFeatured": false,
-    "dealer": "Elite Motor Cars",
-    "dealerLocation": "Sydney, Australia",
-    "licenseNumber": "MD100405",
-    "sortOrder": 0,
-    "createdAt": "2026-04-09T19:30:43.159Z",
-    "updatedAt": "2026-04-16T07:42:45.425Z",
-    "slug": "2017-honda-odyssey-hybrid-7-seater"
   },
   {
     "_id": "69d7f910d50f1b5d81cf321a",

@@ -65,6 +65,10 @@ function isEmphasizedItem(item: string) {
     return /^\d+\.\s/.test(item) || /:$/.test(item);
 }
 
+function capitalizeFirst(value: string) {
+    return value.charAt(0).toUpperCase() + value.slice(1);
+}
+
 export default function BlogsContent({ slug }: { slug?: string }) {
     const selectedBlog = slug ? (findBlogBySlug(slug) ?? findBlogByTitle(slug)) : undefined;
 
@@ -155,7 +159,7 @@ export default function BlogsContent({ slug }: { slug?: string }) {
                                                                         : "leading-7 text-gray-300"
                                                                 }
                                                             >
-                                                                {item}
+                                                                {capitalizeFirst(item)}
                                                             </span>
                                                         </li>
                                                     ))}
