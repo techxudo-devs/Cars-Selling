@@ -2,15 +2,15 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee"; // Import the marquee library
 
-import heroBottomImg1 from "@/assets/audi.png";
-import heroBottomImg2 from "@/assets/bmw.png";
-import heroBottomImg3 from "@/assets/lexus.png";
+import heroBottomImg1 from "@/assets/audi.webp";
+import heroBottomImg2 from "@/assets/bmw.webp";
+import heroBottomImg3 from "@/assets/lexus.webp";
 import heroBottomImg4 from "@/assets/mercedes.png";
 import heroBottomImg5 from "@/assets/mitsubishi.png";
-import heroBottomImg6 from "@/assets/honda.png";
-import heroBottomImg7 from "@/assets/toyota.png";
-import heroBottomImg8 from "@/assets/crown2.png";
-import heroBottomImg9 from "@/assets/msports.png";
+import heroBottomImg6 from "@/assets/honda.webp";
+import heroBottomImg7 from "@/assets/toyota.webp";
+import heroBottomImg8 from "@/assets/crown2.webp";
+import heroBottomImg9 from "@/assets/msports.webp";
 import heroBottomImg10 from "@/assets/sti.png";
 
 const HeroBottom = () => {

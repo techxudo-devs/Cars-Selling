@@ -26,7 +26,9 @@ const PreLoader = () => {
     // 2. Existing Logic to handle load time
     useEffect(() => {
         const handleLoad = () => {
-            setTimeout(() => setLoading(false), 800);
+            // Keep the same loader UI, but do not hold back the real page/LCP
+            // after the browser has finished loading its critical resources.
+            setTimeout(() => setLoading(false), 200);
         };
 
         if (document.readyState === "complete") {

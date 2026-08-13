@@ -64,6 +64,8 @@ const SellCar = () => {
                                 loading='lazy'
                                 src={step.img}
                                 alt={step.title}
+                                width={288}
+                                height={288}
                                 className="max-h-full w-auto object-contain"
                             />
                         </div>

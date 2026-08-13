@@ -6,6 +6,7 @@ import { Gauge, Cog, Settings } from "lucide-react";
 import { useAvailableCars, useSoldCars } from "@/hooks/useCars";
 import { getCarDetailRoute, isSoldCar, type InventoryRouteType } from "@/lib/carRoutes";
 import type { FrontendCar } from "@/types/car";
+import { optimizeCloudinaryImage } from "@/lib/images";
 
 interface CarInventoryPageProps {
   mode: InventoryRouteType;
@@ -50,7 +51,7 @@ function InventoryGrid({ cars }: { cars: FrontendCar[] }) {
           >
             <div className="flex items-center gap-3 mb-4">
               <div className="relative w-12 h-12 rounded-lg overflow-hidden shrink-0 bg-zinc-900">
-                <img src={car.images[0]} alt={`${car.name} imported car in Australia`} className="w-full h-full object-cover object-center" />
+                <img src={optimizeCloudinaryImage(car.images[0], 96)} alt={`${car.name} imported car in Australia`} width={48} height={48} loading="lazy" decoding="async" className="w-full h-full object-cover object-center" />
               </div>
               <div>
                 <h3 className="font-semibold orb text-base sm:text-lg leading-none text-white">
@@ -62,8 +63,12 @@ function InventoryGrid({ cars }: { cars: FrontendCar[] }) {
 
             <div className="relative h-[400px] sm:h-[450px] w-full mb-4 rounded-xl overflow-hidden group bg-zinc-900">
               <img
-                src={car.images[0]}
+                src={optimizeCloudinaryImage(car.images[0], 720)}
                 alt={`${car.name} imported car in Australia`}
+                width={720}
+                height={900}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover object-center transition-transform duration-500 ease-out group-hover:scale-105 cursor-pointer"
               />
             </div>

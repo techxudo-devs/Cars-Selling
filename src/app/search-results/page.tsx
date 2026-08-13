@@ -177,7 +177,7 @@ const SearchResultsContent = () => {
                         <p className="text-gray-400 mb-6">
                             No cars match your current filters. Try adjusting your search criteria.
                         </p>
-                        <Link href="/cars/list">
+                        <Link href="/list-of-cars">
                             <button className="bg-[#f23410] hover:bg-[#d92c0d] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300">
                                 Browse All Cars
                             </button>

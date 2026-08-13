@@ -224,9 +224,16 @@ export function buildVehicleSchema(car: FrontendCar) {
   const sold = car.status === "sold" || car.price === "SOLD";
   const price = cleanPrice(car.price);
 
+  // Google requires a real numeric price for every Product Offer. Sold vehicles
+  // no longer have an advertised price, so describe them as vehicles only.
+  // This avoids publishing an invalid Offer with its price omitted by JSON.stringify.
+  const productTypes = price && !sold
+    ? ["Product", "Vehicle", "Car"]
+    : ["Vehicle", "Car"];
+
   return {
     "@context": "https://schema.org",
-    "@type": ["Product", "Vehicle", "Car"],
+    "@type": productTypes,
     name: car.name,
     description: car.description,
     image: car.images.map((image) => imageUrl(image)).filter(Boolean),
@@ -241,20 +248,22 @@ export function buildVehicleSchema(car: FrontendCar) {
     fuelType: car.specs.fuel,
     vehicleTransmission: car.specs.transmission,
     color: car.specs.color,
-    offers: {
-      "@type": "Offer",
-      url: absoluteUrl(
-        "/" +
-          (sold ? "sold" : "available") +
-          "-cars/" +
-          encodeURIComponent(slugifyCarRoute(car.name, car.id)),
-      ),
-      priceCurrency: "AUD",
-      price,
-      availability: sold ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
-      seller: {
-        "@id": businessId,
-      },
-    },
+    ...(price && !sold
+      ? {
+          offers: {
+            "@type": "Offer",
+            url: absoluteUrl(
+              "/available-cars/" +
+                encodeURIComponent(slugifyCarRoute(car.name, car.id)),
+            ),
+            priceCurrency: "AUD",
+            price,
+            availability: "https://schema.org/InStock",
+            seller: {
+              "@id": businessId,
+            },
+          },
+        }
+      : {}),
   };
 }

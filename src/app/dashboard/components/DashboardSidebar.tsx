@@ -1,7 +1,7 @@
 import { ExternalLink, LayoutDashboard, LogOut, Plus } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.webp";
 import { ghostButtonClass } from "./dashboardStyles";
 import type { DashboardShellUser } from "./dashboardTypes";
 

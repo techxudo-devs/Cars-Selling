@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
 
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.webp";
 import Image from "next/image";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
@@ -82,12 +82,16 @@ const Footer2 = () => {
             <a
               href="https://www.instagram.com/elitemotorcarsau?igsh=MWJqbGgwZHFuazMxbg%3D%3D&utm_source=qr"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Elite Motor Cars on Instagram"
             >
               <FaInstagram className="cursor-pointer hover:text-gray-400 transition-all duration-300 hover:-translate-y-1" />
             </a>
             <a
               href="https://www.facebook.com/profile.php?id=61576211886817&mibextid=wwXIfr&rdid=GHHTkWX86rqdvYY8&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Da79KmHou%2F%3Fmibextid%3DwwXIfr#"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Elite Motor Cars on Facebook"
             >
               <FaFacebookF className="cursor-pointer hover:text-gray-400 transition-all duration-300 hover:-translate-y-1" />
             </a>

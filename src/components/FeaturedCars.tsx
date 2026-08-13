@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Gauge, Settings, Cog } from "lucide-react";
 import { useFeaturedCars } from "@/hooks/useCars";
 import { getCarDetailRoute, getInventoryRoute, isSoldCar } from "@/lib/carRoutes";
+import { optimizeCloudinaryImage } from "@/lib/images";
 
 const cardClassName = "border border-[#E5E5E5] rounded-2xl p-4 mb-4";
 
@@ -53,7 +54,7 @@ export default function FeaturedCars() {
               <div key={car.id} className={cardClassName}>
                 <div className="flex items-center gap-3 mb-4">
                   <div className="relative w-12 h-12 rounded-lg overflow-hidden bg-zinc-900 shrink-0">
-                    <img src={car.images[0]} alt={car.name} className="w-full h-full object-cover object-center" />
+                    <img src={optimizeCloudinaryImage(car.images[0], 96)} alt={car.name} width={48} height={48} loading="lazy" decoding="async" className="w-full h-full object-cover object-center" />
                   </div>
                   <div>
                     <h3 className="font-semibold orb text-base sm:text-lg leading-none text-white">{car.name}</h3>
@@ -63,8 +64,12 @@ export default function FeaturedCars() {
 
                 <div className="relative h-[400px] sm:h-[450px] w-full mb-4 rounded-xl overflow-hidden group bg-zinc-900">
                   <img
-                    src={car.images[0]}
+                    src={optimizeCloudinaryImage(car.images[0], 720)}
                     alt={car.name}
+                    width={720}
+                    height={900}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover object-center transition-transform duration-500 ease-out group-hover:scale-105 cursor-pointer"
                   />
                 </div>

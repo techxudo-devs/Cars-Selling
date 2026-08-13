@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import heroImg1 from "@/assets/hero1.webp"; // MUST BE RED TRUCK
-import heroImg2 from "@/assets/hero2.webp"; // MUST BE LIGHT BLUE SUV
-import heroImg3 from "@/assets/hero3.webp"; // MUST BE DARK BLUE SUV
+import heroImg1 from "@/assets/hero1-optimized.webp"; // MUST BE RED TRUCK
+import heroImg2 from "@/assets/hero2-optimized.webp"; // MUST BE LIGHT BLUE SUV
+import heroImg3 from "@/assets/hero3-optimized.webp"; // MUST BE DARK BLUE SUV
 
 const Hero3 = () => {
     return (
@@ -36,7 +36,7 @@ const Hero3 = () => {
                             src={heroImg1}
                             alt="Red Truck"
                             className="w-auto h-auto max-w-[150%] sm:max-w-[120%] md:max-w-none md:h-[280px] lg:h-[280px] object-contain object-right scale-x-[-1]"
-                            priority
+                            loading="eager"
                         />
                     </div>
 
@@ -46,7 +46,8 @@ const Hero3 = () => {
                             src={heroImg2}
                             alt="Cyan SUV"
                             className="w-auto h-auto max-w-[110%] sm:max-w-[120%] md:max-w-none md:h-[280px] lg:h-[310px] object-contain drop-shadow-xl scale-x-[-1]"
-                            priority
+                            preload
+                            fetchPriority="high"
                         />
                     </div>
 
@@ -56,7 +57,7 @@ const Hero3 = () => {
                             src={heroImg3}
                             alt="Blue SUV"
                             className="w-auto h-auto max-w-[150%] sm:max-w-[120%] md:max-w-none md:h-[280px] lg:h-[280px] object-contain object-left scale-x-[-1]"
-                            priority
+                            loading="eager"
                         />
                     </div>
 

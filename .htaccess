@@ -1,6 +1,40 @@
 RewriteEngine On
 RewriteBase /
+
+# Serve modern image formats with the correct MIME type.
+AddType image/avif .avif
+AddType image/webp .webp
+
+# Hashed Next.js assets are immutable. Keep them in the browser cache so repeat
+# visits do not download the same images, fonts, CSS and JavaScript again.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(?:avif|webp|png|jpe?g|gif|svg|ico|woff2?|css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Cross-Origin-Opener-Policy "same-origin-allow-popups"
+</IfModule>
+
+# Permanently consolidate legacy URLs that Google still crawls.
+RewriteCond %{QUERY_STRING} (^|&)type=sold(&|$) [NC]
+RewriteRule ^car-details/?$ /sold-cars/? [R=301,L,NE]
+
+RewriteCond %{QUERY_STRING} (^|&)type=available(&|$) [NC]
+RewriteRule ^car-details/?$ /available-cars/? [R=301,L,NE]
+
+RewriteRule ^car-details/?$ /all-cars/? [R=301,L,NE]
+RewriteRule ^cars?/list/?$ /list-of-cars/? [R=301,L,NE]
+
+# Old blog query URLs now resolve to the canonical blog index. Individual blog
+# slug URLs are linked from there and included in sitemap.xml.
+RewriteCond %{QUERY_STRING} (^|&)title= [NC]
+RewriteRule ^blogs/?$ /blogs/? [R=301,L,NE]
+
 RewriteRule ^index\.html$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.html [L]
+
+# Static export routes exist as files/directories. Do not turn unknown URLs into
+# a 200 homepage response; let Apache return the exported 404 page and status.
+ErrorDocument 404 /404.html

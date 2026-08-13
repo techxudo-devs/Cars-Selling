@@ -5,10 +5,10 @@ import { ArrowUpRight, Gauge, DollarSign } from 'lucide-react';
 import carBack from '@/assets/carBack.png';
 
 import cardCard1 from "@/assets/mercedes.png"
-import cardCard2 from "@/assets/toyota.png"
-import cardCard3 from "@/assets/lexus.png"
+import cardCard2 from "@/assets/toyota.webp"
+import cardCard3 from "@/assets/lexus.webp"
 import cardCard4 from "@/assets/mitsubishi.png"
-import cardCard5 from "@/assets/honda.png"
+import cardCard5 from "@/assets/honda.webp"
 import cardCard6 from "@/assets/suzuki.png"
 import { FaFire } from 'react-icons/fa';
 

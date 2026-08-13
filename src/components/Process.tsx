@@ -12,6 +12,8 @@ const Process = () => {
                         loading='lazy'
                         src={processImg.src}
                         alt="Finance Process Illustration"
+                        width={400}
+                        height={400}
                         className="w-full max-w-[350px] h-auto object-contain"
                     />
                 </div>
