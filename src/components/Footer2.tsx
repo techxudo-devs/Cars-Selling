@@ -14,6 +14,7 @@ const Footer2 = () => {
 
   const navigationItems = [
     { label: "Home", href: "/" },
+    { label: "Import Brokering", href: "/import-brokering" },
     { label: "How We Deliver", href: "/how-we-deliver" },
     { label: "Why Choose Us", href: "/why-choose-us" },
     { label: "FAQ's", href: "/faqs" },
