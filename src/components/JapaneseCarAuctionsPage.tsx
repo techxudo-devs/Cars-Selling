@@ -386,7 +386,7 @@ const JapaneseCarAuctionsPage = ({
 
                     <div className="flex flex-wrap items-center justify-center gap-4 mb-14">
                         <CtaButton href="/contact-us/">
-                            Request an Auction Vehicle Search
+                            Request an Auction Vehicle
                         </CtaButton>
                         <CtaButton href="/browse-cars/" variant="outline">
                             Browse Cars We Can Import
@@ -476,7 +476,7 @@ const JapaneseCarAuctionsPage = ({
                                 inspections and import handled end to end.
                             </p>
                             <CtaButton href="/contact-us/">
-                                Request an Auction Vehicle Search
+                                Request an Auction Vehicle
                             </CtaButton>
                         </div>
                     </div>

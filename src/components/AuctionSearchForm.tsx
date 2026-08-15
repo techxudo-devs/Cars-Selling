@@ -296,12 +296,13 @@ const AuctionSearchForm = () => {
 
                         <button
                             disabled={isSubmitting}
-                            className="w-full bg-[#F23410] hover:bg-[#E01D00] text-white font-bold py-3.5 rounded-full shadow-lg shadow-[#F23410]/30 transition-all duration-300 hover:shadow-[#F23410]/50 active:scale-95 flex justify-center items-center gap-2 orb uppercase tracking-wider disabled:opacity-70 disabled:cursor-not-allowed cursor-pointer"
+                            className="w-full bg-[#F23410] hover:bg-[#E01D00] text-white font-medium py-3.5 rounded-full shadow-lg shadow-[#F23410]/30 transition-all duration-300 hover:shadow-[#F23410]/50 active:scale-95 flex justify-center items-center gap-2 orb uppercase tracking-wide disabled:opacity-70 disabled:cursor-not-allowed cursor-pointer"
                         >
                             {isSubmitting ? (
                                 <>
                                     <Loader2 className="animate-spin" /> Searching...
                                 </>
+                            
                             ) : (
                                 <>
                                     Start My Japan Vehicle Search <Search size={18} />
