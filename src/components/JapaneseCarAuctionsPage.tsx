@@ -946,6 +946,15 @@ const JapaneseCarAuctionsPage = ({
                             Call +61 466 318 074
                         </CtaButton>
                     </div>
+                    <div className="mt-8">
+                        <Link
+                            href="/japanese-import-cars-sydney/"
+                            className="inline-flex items-center gap-2 text-sm font-semibold text-[#F23410] hover:text-[#ff6c3f] transition-colors"
+                        >
+                            Browse Japanese import cars Sydney
+                            <ArrowRight className="w-4 h-4" />
+                        </Link>
+                    </div>
                 </div>
             </section>
 

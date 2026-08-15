@@ -302,7 +302,6 @@ const AuctionSearchForm = () => {
                                 <>
                                     <Loader2 className="animate-spin" /> Searching...
                                 </>
-                            
                             ) : (
                                 <>
                                     Start My Japan Vehicle Search <Search size={18} />

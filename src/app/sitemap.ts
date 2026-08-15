@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contact-us",
     "/import-cars-from-japan-to-australia",
     "/japanese-car-auctions-australia",
+    "/japanese-import-cars-sydney",
     "/japanese-imported-cars-for-sale-australia",
     "/japanese-used-cars-australia",
     "/jdm-imports-australia",

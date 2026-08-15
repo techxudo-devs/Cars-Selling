@@ -21,6 +21,7 @@ const Footer2 = () => {
     { label: "Blogs", href: "/blogs" },
     { label: "Browse Cars We Import", href: "/browse-cars" },
     { label: "Japanese Car Auctions", href: "/japanese-car-auctions-australia" },
+    { label: "Japanese Import Cars Sydney", href: "/japanese-import-cars-sydney" },
     { label: "List Of Cars We Import", href: "/list-of-cars" },
   ];
 
