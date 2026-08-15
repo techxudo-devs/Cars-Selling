@@ -21,12 +21,12 @@ export default function ImportCalculator() {
   const totalLandedCost = carCostAud + shippingAud + dutyAmount + gstAmount + complianceAud + brokerageAud;
 
   return (
-    <div id="calculator" className="w-full max-w-xl mx-auto my-12 px-4 scroll-mt-24">
-      <div className="bg-white rounded-3xl shadow-2xl border border-gray-100 overflow-hidden">
-        {/* Yellow Header Banner matching screenshot */}
-        <div className="bg-[#FBBF24] px-6 py-6 text-center text-black">
+    <div id="calculator" className="w-full max-w-3xl mx-auto my-10 px-4 scroll-mt-24">
+      <div className="bg-white rounded-3xl shadow-sm border border-gray-200 overflow-hidden">
+        {/* Brand Header Banner */}
+        <div className="bg-[#f23410] px-6 py-6 text-center text-white">
           <div className="flex items-center justify-center gap-2 mb-1">
-            <Calculator size={24} className="text-black" />
+            <Calculator size={24} className="text-white" />
             <h3 className="text-2xl font-black orb uppercase tracking-tight">Import Calculator</h3>
           </div>
           <p className="text-xs md:text-sm font-semibold opacity-90">
@@ -132,7 +132,7 @@ export default function ImportCalculator() {
           {/* CTA Action Button */}
           <a
             href="/contact-us"
-            className="w-full bg-black text-white hover:bg-[#f23410] transition-colors duration-300 font-bold py-3.5 px-6 rounded-xl flex items-center justify-center gap-2 text-sm orb uppercase tracking-wider cursor-pointer shadow-lg"
+            className="w-full bg-black text-white hover:bg-[#f23410] transition-colors duration-300 font-medium py-3.5 px-6 rounded-xl flex items-center justify-center gap-2 text-sm orb uppercase tracking-wide cursor-pointer shadow-lg"
           >
             <span>Get A Quote</span>
             <ArrowRight size={16} />
