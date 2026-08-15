@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/compliance-and-customs-handling-australia",
     "/contact-us",
     "/import-cars-from-japan-to-australia",
+    "/japanese-car-auctions-australia",
     "/japanese-imported-cars-for-sale-australia",
     "/japanese-used-cars-australia",
     "/jdm-imports-australia",

@@ -56,7 +56,13 @@ const SixSteps = () => {
                                 }}
                             >
                                 <p className="text-[#333] text-xs md:text-[11px] lg:text-xs font-medium leading-tight pr-2">
-                                    {step.title}
+                                    {step.id === 2 ? (
+                                        <Link href="/japanese-car-auctions-australia/" className="hover:text-[#F23410] transition-colors">
+                                            {step.title}
+                                        </Link>
+                                    ) : (
+                                        step.title
+                                    )}
                                 </p>
                             </div>
 

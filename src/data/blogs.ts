@@ -20,6 +20,7 @@ import blog16Img from "@/assets/eliteBlog11.png"
 import blog17Img from "@/assets/eliteBlog12.png"
 import blog18Img from "@/assets/heroCarMain1.jpg"
 import blog19Img from "@/assets/blog17.png"
+import blog20Img from "@/assets/blog18.png"
 
 export type BlogParagraph =
     | string

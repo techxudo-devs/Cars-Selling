@@ -1,5 +1,58 @@
 [
   {
+    "_id": "6a80708b84d23dfafb9caf20",
+    "name": "2021 TOYOTA CAMRY  HYBRID",
+    "tagline": "Warranty",
+    "description": "The 2021 Toyota Camry Hybrid is a refined and fuel-efficient sedan that combines Toyota’s renowned hybrid technology with comfortable performance and everyday practicality. Powered by a responsive 2.5L hybrid petrol engine paired with a smooth e-CVT automatic transmission, it delivers excellent fuel economy without compromising driving comfort. With only 97,100 kms, two keys, and a service history with complete log books, this Camry has been well maintained and presents as an excellent choice for daily driving. It also comes with a GST invoice, allowing eligible business buyers to claim back approximately $2,680, subject to their tax circumstances. Combining reliability, efficiency, spacious comfort, and modern Toyota engineering, this Camry Hybrid is an ideal choice for commuters, families, and anyone looking for a practical yet premium daily sedan.",
+    "priceAUD": 2680,
+    "status": "available",
+    "specs": {
+      "mileageKm": 97100,
+      "engineDisplacement": "2.5",
+      "transmission": "Automatic",
+      "fuelType": "Hybrid",
+      "year": 2021,
+      "color": "White",
+      "driveType": "FWD"
+    },
+    "highlights": [
+      "✔️2x keys",
+      "✔️Service history & log books",
+      "✔️Comes with GST Invoice claim back approx"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802186/elite-motor-cars/2021-toyota-camry-hybrid/n0cgb5qqlyirulpdfner.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802187/elite-motor-cars/2021-toyota-camry-hybrid/x6xihbqbmwwo5xikxaf2.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802184/elite-motor-cars/2021-toyota-camry-hybrid/l8u1tsi9nepdffqkseiy.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802182/elite-motor-cars/2021-toyota-camry-hybrid/eofbb65whsn8ic1rtvmr.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802183/elite-motor-cars/2021-toyota-camry-hybrid/izclkjunsoezj0ccnayk.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802169/elite-motor-cars/2021-toyota-camry-hybrid/fgtnvarhdaunhd936m7o.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802180/elite-motor-cars/2021-toyota-camry-hybrid/bfwkbroufm3byujgdaur.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802181/elite-motor-cars/2021-toyota-camry-hybrid/casflbgvgrvrqrnesjp9.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802173/elite-motor-cars/2021-toyota-camry-hybrid/gkbn1i9w3swiyn1lg4mt.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802172/elite-motor-cars/2021-toyota-camry-hybrid/eqhd3uys6xyk2qnokagc.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802178/elite-motor-cars/2021-toyota-camry-hybrid/le7xsuqjbijqmkduzhr2.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802188/elite-motor-cars/2021-toyota-camry-hybrid/zmppm7czgdmgub1okevq.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802179/elite-motor-cars/2021-toyota-camry-hybrid/svagxpilg94cqtmydwo8.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802176/elite-motor-cars/2021-toyota-camry-hybrid/hjysx9pwohyb5hspqx9d.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802171/elite-motor-cars/2021-toyota-camry-hybrid/vz5zsfnfrbmiwky99efe.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802167/elite-motor-cars/2021-toyota-camry-hybrid/cfqtcmupe4jc7fd5gym2.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802175/elite-motor-cars/2021-toyota-camry-hybrid/gxneitvgtafhzmum3ond.jpg"
+    ],
+    "thumbnailUrl": "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802186/elite-motor-cars/2021-toyota-camry-hybrid/n0cgb5qqlyirulpdfner.jpg",
+    "tags": [
+      "Featured"
+    ],
+    "isFeatured": true,
+    "dealer": "Elite Motor Cars",
+    "dealerLocation": "Sydney, Australia",
+    "licenseNumber": "MD100405",
+    "sortOrder": -25,
+    "createdAt": "2026-08-15T13:58:35.840Z",
+    "updatedAt": "2026-08-15T13:58:35.840Z",
+    "slug": "2021-toyota-camry-hybrid"
+  },
+  {
     "_id": "6a6b41d3fd1d1317d5d7a02a",
     "name": "2007 LEXUS LS600H V8 5000CC",
     "tagline": "6 months rego & Ctp",
@@ -800,58 +853,6 @@
     "slug": "2018-toyota-c-hr-hybrid-g-led-edition"
   },
   {
-    "_id": "6a103fe083aa0f22e29139ec",
-    "name": "2012 Toyota Prius Hybrid",
-    "tagline": "3 months Rego + CTP Included",
-    "description": "The 2012 Toyota Prius Hybrid is a dependable and fuel-efficient hatchback designed for smooth and economical everyday driving. Equipped with Toyota’s proven 1.8L hybrid engine and a seamless e-CVT automatic transmission, it delivers outstanding fuel economy while maintaining a quiet and comfortable ride. With only 78,400 kms and a complete service history with full log books, this Prius has been well maintained and presents in excellent condition. Features such as keyless entry with push-button start, dual-zone climate control, automatic folding mirrors, and selectable driving modes including Power, Eco, and EV provide both convenience and versatility. Combining reliability, low running costs, and practical hybrid technology, this Prius is an ideal choice for commuters, small families, or anyone seeking an efficient daily driver.",
-    "priceAUD": null,
-    "status": "sold",
-    "specs": {
-      "mileageKm": 78400,
-      "engineDisplacement": "1.8",
-      "transmission": "Automatic",
-      "fuelType": "Hybrid",
-      "year": 2012,
-      "color": "Purple Gradient",
-      "driveType": "FWD"
-    },
-    "highlights": [
-      "1.8L Hybrid Engine – reliable and fuel efficient",
-      "Keyless Entry with Push Button Start",
-      "Dual-Zone Climate Control",
-      "Automatic Folding Mirrors",
-      "3 Driving Modes: Power Eco & EV",
-      "Full Log Books & Complete Service History"
-    ],
-    "images": [
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449362/elite-motor-cars/2012-toyota-prius-hybrid/bqz2ehpe1ahdwwumjnbj.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449360/elite-motor-cars/2012-toyota-prius-hybrid/kqj9rbacom7zyjuiiqf7.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449356/elite-motor-cars/2012-toyota-prius-hybrid/hibcy7ggt7acyogtgxnv.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449353/elite-motor-cars/2012-toyota-prius-hybrid/jrfzv3fobzo4eogcsk7t.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449339/elite-motor-cars/2012-toyota-prius-hybrid/xm2njeec2rqu4h328vjw.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449347/elite-motor-cars/2012-toyota-prius-hybrid/fe5u1fvi9bnltkhl6i7r.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449349/elite-motor-cars/2012-toyota-prius-hybrid/ttqjqrfjugwoy5wrswhr.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449337/elite-motor-cars/2012-toyota-prius-hybrid/opedoroau3hedcufoqqn.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449343/elite-motor-cars/2012-toyota-prius-hybrid/yktqaruagcpsg0nwu1ie.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449329/elite-motor-cars/2012-toyota-prius-hybrid/basms5py65xiixtipzoz.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449325/elite-motor-cars/2012-toyota-prius-hybrid/rag8jvdgohr7txtwmoji.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449341/elite-motor-cars/2012-toyota-prius-hybrid/gfavsskuee0d3vssrw5h.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449333/elite-motor-cars/2012-toyota-prius-hybrid/tmvem83sr2b7sxbyxekd.jpg"
-    ],
-    "thumbnailUrl": "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449362/elite-motor-cars/2012-toyota-prius-hybrid/bqz2ehpe1ahdwwumjnbj.jpg",
-    "tags": [
-      "Featured"
-    ],
-    "isFeatured": true,
-    "dealer": "Elite Motor Cars",
-    "dealerLocation": "Sydney, Australia",
-    "licenseNumber": "MD100405",
-    "sortOrder": -11,
-    "createdAt": "2026-05-22T11:37:04.889Z",
-    "updatedAt": "2026-06-04T03:09:56.482Z",
-    "slug": "2012-toyota-prius-hybrid"
-  },
-  {
     "_id": "6a3a85ce7801b9fea7be1b70",
     "name": "2015 Honda vezel / Hrv Hybrid",
     "tagline": "6 Months rego & Ctp",
@@ -910,6 +911,118 @@
     "createdAt": "2026-06-23T13:10:38.514Z",
     "updatedAt": "2026-07-15T13:08:06.702Z",
     "slug": "2015-honda-vezel-hrv-hybrid"
+  },
+  {
+    "_id": "6a103fe083aa0f22e29139ec",
+    "name": "2012 Toyota Prius Hybrid",
+    "tagline": "3 months Rego + CTP Included",
+    "description": "The 2012 Toyota Prius Hybrid is a dependable and fuel-efficient hatchback designed for smooth and economical everyday driving. Equipped with Toyota’s proven 1.8L hybrid engine and a seamless e-CVT automatic transmission, it delivers outstanding fuel economy while maintaining a quiet and comfortable ride. With only 78,400 kms and a complete service history with full log books, this Prius has been well maintained and presents in excellent condition. Features such as keyless entry with push-button start, dual-zone climate control, automatic folding mirrors, and selectable driving modes including Power, Eco, and EV provide both convenience and versatility. Combining reliability, low running costs, and practical hybrid technology, this Prius is an ideal choice for commuters, small families, or anyone seeking an efficient daily driver.",
+    "priceAUD": null,
+    "status": "sold",
+    "specs": {
+      "mileageKm": 78400,
+      "engineDisplacement": "1.8",
+      "transmission": "Automatic",
+      "fuelType": "Hybrid",
+      "year": 2012,
+      "color": "Purple Gradient",
+      "driveType": "FWD"
+    },
+    "highlights": [
+      "1.8L Hybrid Engine – reliable and fuel efficient",
+      "Keyless Entry with Push Button Start",
+      "Dual-Zone Climate Control",
+      "Automatic Folding Mirrors",
+      "3 Driving Modes: Power Eco & EV",
+      "Full Log Books & Complete Service History"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449362/elite-motor-cars/2012-toyota-prius-hybrid/bqz2ehpe1ahdwwumjnbj.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449360/elite-motor-cars/2012-toyota-prius-hybrid/kqj9rbacom7zyjuiiqf7.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449356/elite-motor-cars/2012-toyota-prius-hybrid/hibcy7ggt7acyogtgxnv.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449353/elite-motor-cars/2012-toyota-prius-hybrid/jrfzv3fobzo4eogcsk7t.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449339/elite-motor-cars/2012-toyota-prius-hybrid/xm2njeec2rqu4h328vjw.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449347/elite-motor-cars/2012-toyota-prius-hybrid/fe5u1fvi9bnltkhl6i7r.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449349/elite-motor-cars/2012-toyota-prius-hybrid/ttqjqrfjugwoy5wrswhr.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449337/elite-motor-cars/2012-toyota-prius-hybrid/opedoroau3hedcufoqqn.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449343/elite-motor-cars/2012-toyota-prius-hybrid/yktqaruagcpsg0nwu1ie.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449329/elite-motor-cars/2012-toyota-prius-hybrid/basms5py65xiixtipzoz.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449325/elite-motor-cars/2012-toyota-prius-hybrid/rag8jvdgohr7txtwmoji.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449341/elite-motor-cars/2012-toyota-prius-hybrid/gfavsskuee0d3vssrw5h.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449333/elite-motor-cars/2012-toyota-prius-hybrid/tmvem83sr2b7sxbyxekd.jpg"
+    ],
+    "thumbnailUrl": "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779449362/elite-motor-cars/2012-toyota-prius-hybrid/bqz2ehpe1ahdwwumjnbj.jpg",
+    "tags": [
+      "Featured"
+    ],
+    "isFeatured": true,
+    "dealer": "Elite Motor Cars",
+    "dealerLocation": "Sydney, Australia",
+    "licenseNumber": "MD100405",
+    "sortOrder": -11,
+    "createdAt": "2026-05-22T11:37:04.889Z",
+    "updatedAt": "2026-06-04T03:09:56.482Z",
+    "slug": "2012-toyota-prius-hybrid"
+  },
+  {
+    "_id": "6a1037b69a1c5d8ad056704d",
+    "name": "2015 Toyota Aqua / Prius C Hyrbid",
+    "tagline": "3 months rego & ctp",
+    "description": "The 2015 Toyota Aqua / Prius C Hybrid is a compact and ultra fuel-efficient hatchback perfect for daily commuting, rideshare driving, and city use. Powered by Toyota’s reliable 1.5L hybrid engine with a smooth e-CVT automatic transmission, it delivers excellent fuel economy and low running costs while remaining comfortable and easy to drive. With only 58,000 kms, full service history, and eligibility for Uber X, DiDi, and Uber Eats, this Aqua is a practical and dependable choice for both personal and commercial use. It features a stylish Modelista body kit and wheels, brand-new Dunlop tyres, keyless entry with push-button start, cruise control, multimedia steering wheel, reverse camera, 360 parking sensors, and selectable driving modes including Sport, Eco, and EV—making it a smart blend of efficiency, comfort, and modern JDM styling.",
+    "priceAUD": null,
+    "status": "sold",
+    "specs": {
+      "mileageKm": 58000,
+      "engineDisplacement": "1.5",
+      "transmission": "Automatic",
+      "fuelType": "Hybrid",
+      "year": 2015,
+      "color": "Purple",
+      "driveType": "FWD"
+    },
+    "highlights": [
+      "Keyless entry + Push Start",
+      "Modelista Body kit",
+      "Modelista Wheels",
+      "Brand new dunlop tyre’s",
+      "Full service history & log books",
+      "Cruise control",
+      "2x keys",
+      "Hybrid",
+      "Multimedia Steering wheel",
+      "360 Parking sensors",
+      "Auto mirrors",
+      "driving modes (Sports Eco Ev)",
+      "Reverse camera",
+      "Alot more"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447133/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/dsd0w8ot5f5mhmzt940i.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447148/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/uzvf5flzkujwcuq5anel.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447147/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/remuhc6mwixpo6sdofyi.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447146/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/otdti5x5vtpxcyhnp3ro.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447141/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/buacvl5avgdcwjnc4q0o.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447131/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/rnvhdtj1elgnuukx9mcr.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447144/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/mhf2u9hvwdkc2c8aiozd.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447142/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/giv34yxqbqri4szrudzh.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447143/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/ewtfmjxs23ggq5jr9hd0.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447138/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/gmgbanyzr56s8wlexf9e.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447134/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/pyvypxuncsqssyp2noa6.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447136/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/sswr8pfmf2rmoicb7prf.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447137/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/q0od358chxuy3nvezb7q.jpg"
+    ],
+    "thumbnailUrl": "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447133/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/dsd0w8ot5f5mhmzt940i.jpg",
+    "tags": [
+      "Featured"
+    ],
+    "isFeatured": true,
+    "dealer": "Elite Motor Cars",
+    "dealerLocation": "Sydney, Australia",
+    "licenseNumber": "MD100405",
+    "sortOrder": -10,
+    "createdAt": "2026-05-22T11:02:14.021Z",
+    "updatedAt": "2026-06-10T19:05:57.445Z",
+    "slug": "2015-toyota-aqua-prius-c-hyrbid"
   },
   {
     "_id": "6a2fb76c5760b05504a10dd7",
@@ -981,66 +1094,6 @@
     "createdAt": "2026-06-15T08:27:24.167Z",
     "updatedAt": "2026-08-03T08:34:33.044Z",
     "slug": "2008-mitsubishi-lancer-evolution-x-gsr-ryushon-evo-10-sst-twin-clutch-1"
-  },
-  {
-    "_id": "6a1037b69a1c5d8ad056704d",
-    "name": "2015 Toyota Aqua / Prius C Hyrbid",
-    "tagline": "3 months rego & ctp",
-    "description": "The 2015 Toyota Aqua / Prius C Hybrid is a compact and ultra fuel-efficient hatchback perfect for daily commuting, rideshare driving, and city use. Powered by Toyota’s reliable 1.5L hybrid engine with a smooth e-CVT automatic transmission, it delivers excellent fuel economy and low running costs while remaining comfortable and easy to drive. With only 58,000 kms, full service history, and eligibility for Uber X, DiDi, and Uber Eats, this Aqua is a practical and dependable choice for both personal and commercial use. It features a stylish Modelista body kit and wheels, brand-new Dunlop tyres, keyless entry with push-button start, cruise control, multimedia steering wheel, reverse camera, 360 parking sensors, and selectable driving modes including Sport, Eco, and EV—making it a smart blend of efficiency, comfort, and modern JDM styling.",
-    "priceAUD": null,
-    "status": "sold",
-    "specs": {
-      "mileageKm": 58000,
-      "engineDisplacement": "1.5",
-      "transmission": "Automatic",
-      "fuelType": "Hybrid",
-      "year": 2015,
-      "color": "Purple",
-      "driveType": "FWD"
-    },
-    "highlights": [
-      "Keyless entry + Push Start",
-      "Modelista Body kit",
-      "Modelista Wheels",
-      "Brand new dunlop tyre’s",
-      "Full service history & log books",
-      "Cruise control",
-      "2x keys",
-      "Hybrid",
-      "Multimedia Steering wheel",
-      "360 Parking sensors",
-      "Auto mirrors",
-      "driving modes (Sports Eco Ev)",
-      "Reverse camera",
-      "Alot more"
-    ],
-    "images": [
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447133/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/dsd0w8ot5f5mhmzt940i.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447148/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/uzvf5flzkujwcuq5anel.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447147/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/remuhc6mwixpo6sdofyi.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447146/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/otdti5x5vtpxcyhnp3ro.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447141/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/buacvl5avgdcwjnc4q0o.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447131/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/rnvhdtj1elgnuukx9mcr.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447144/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/mhf2u9hvwdkc2c8aiozd.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447142/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/giv34yxqbqri4szrudzh.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447143/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/ewtfmjxs23ggq5jr9hd0.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447138/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/gmgbanyzr56s8wlexf9e.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447134/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/pyvypxuncsqssyp2noa6.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447136/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/sswr8pfmf2rmoicb7prf.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447137/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/q0od358chxuy3nvezb7q.jpg"
-    ],
-    "thumbnailUrl": "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447133/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/dsd0w8ot5f5mhmzt940i.jpg",
-    "tags": [
-      "Featured"
-    ],
-    "isFeatured": true,
-    "dealer": "Elite Motor Cars",
-    "dealerLocation": "Sydney, Australia",
-    "licenseNumber": "MD100405",
-    "sortOrder": -10,
-    "createdAt": "2026-05-22T11:02:14.021Z",
-    "updatedAt": "2026-06-10T19:05:57.445Z",
-    "slug": "2015-toyota-aqua-prius-c-hyrbid"
   },
   {
     "_id": "6a29beaf97f4752a9050ce45",
