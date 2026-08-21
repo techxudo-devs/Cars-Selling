@@ -1,10 +1,72 @@
 [
   {
+    "_id": "6a885d70e1381c3fdc709a00",
+    "name": "TOYOTA MR-S V SPEC",
+    "tagline": "6 Months rego & Ctp",
+    "description": "The Toyota MR-S V Spec is a lightweight, mid-engine sports roadster designed for pure driving enjoyment, combining sharp handling with an engaging rear-wheel-drive layout. Powered by a naturally aspirated 1.8L 1ZZ-FE engine producing 140 hp and 171 Nm of torque, it delivers responsive performance through its 5-speed SMT sequential transmission and helical limited-slip differential. This example comes equipped with paddle shifters, Kakimoto muffler, four brand-new tyres, ventilated disc brakes, air conditioning, and power windows, while its lightweight mid-engine configuration provides excellent balance and agile cornering. With six months registration, two keys, and a full service history from new, this MR-S V Spec is an appealing JDM convertible for enthusiasts looking for an affordable, fun, and distinctive sports car.",
+    "priceAUD": 18499,
+    "status": "available",
+    "specs": {
+      "mileageKm": 110000,
+      "engineDisplacement": "1.8",
+      "transmission": "Manual",
+      "fuelType": "Petrol",
+      "year": 2001,
+      "color": "Gray",
+      "driveType": "RWD"
+    },
+    "highlights": [
+      "1.8L 1ZZ-FE engine",
+      "All 4 Brand new Tyres",
+      "Helical LSD",
+      "Kakimoto Muffler",
+      "Paddle shifters",
+      "MacPherson ventilated disc brakes",
+      "Convertible",
+      "5 Speed SMT transmission",
+      "Lightweight mid-engine",
+      "Sharp handling",
+      "Air Conditioning",
+      "Power Windows"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321550/elite-motor-cars/toyota-mr-s-v-spec/y8xkll7gjgs53a1tpwwm.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321549/elite-motor-cars/toyota-mr-s-v-spec/ifkxopkcbmnrrglxeca4.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321547/elite-motor-cars/toyota-mr-s-v-spec/rqn8at8jo2tqis5hfmnf.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321546/elite-motor-cars/toyota-mr-s-v-spec/adwldzwyp2nbawukzl60.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321532/elite-motor-cars/toyota-mr-s-v-spec/tvc4yobeligwttyhi5ly.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321545/elite-motor-cars/toyota-mr-s-v-spec/pkwp5smacxpquedwdula.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321544/elite-motor-cars/toyota-mr-s-v-spec/yr2bcnkkkhlxyz4rlv34.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321540/elite-motor-cars/toyota-mr-s-v-spec/ne7kxjc7fon3dinmv3fk.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321542/elite-motor-cars/toyota-mr-s-v-spec/jpqsy93hfuzu9eb3tv7c.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321535/elite-motor-cars/toyota-mr-s-v-spec/cjhrxkcgehk5u6wvlpp1.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321530/elite-motor-cars/toyota-mr-s-v-spec/vp1i4zaiqegkvpjyydfe.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321543/elite-motor-cars/toyota-mr-s-v-spec/oqegcvy4mm4j5k96ri0j.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321539/elite-motor-cars/toyota-mr-s-v-spec/ghewbdf1ylnnjni8bk70.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321534/elite-motor-cars/toyota-mr-s-v-spec/ovmmaowfhijohdrixuvs.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321537/elite-motor-cars/toyota-mr-s-v-spec/jcnklbuv8eon04mcipic.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321550/elite-motor-cars/toyota-mr-s-v-spec/ccgtv2zvktcct1ufvero.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321551/elite-motor-cars/toyota-mr-s-v-spec/wpn7ndbqsyyp0iwumgze.jpg"
+    ],
+    "thumbnailUrl": "https://res.cloudinary.com/dozwtxbw8/image/upload/v1787321550/elite-motor-cars/toyota-mr-s-v-spec/y8xkll7gjgs53a1tpwwm.jpg",
+    "tags": [
+      "Featured"
+    ],
+    "isFeatured": true,
+    "dealer": "Elite Motor Cars",
+    "dealerLocation": "Sydney, Australia",
+    "licenseNumber": "MD100405",
+    "sortOrder": -26,
+    "createdAt": "2026-08-21T14:15:12.819Z",
+    "updatedAt": "2026-08-21T14:15:12.819Z",
+    "slug": "toyota-mr-s-v-spec"
+  },
+  {
     "_id": "6a80708b84d23dfafb9caf20",
     "name": "2021 TOYOTA CAMRY  HYBRID",
     "tagline": "Warranty",
     "description": "The 2021 Toyota Camry Hybrid is a refined and fuel-efficient sedan that combines Toyota’s renowned hybrid technology with comfortable performance and everyday practicality. Powered by a responsive 2.5L hybrid petrol engine paired with a smooth e-CVT automatic transmission, it delivers excellent fuel economy without compromising driving comfort. With only 97,100 kms, two keys, and a service history with complete log books, this Camry has been well maintained and presents as an excellent choice for daily driving. It also comes with a GST invoice, allowing eligible business buyers to claim back approximately $2,680, subject to their tax circumstances. Combining reliability, efficiency, spacious comfort, and modern Toyota engineering, this Camry Hybrid is an ideal choice for commuters, families, and anyone looking for a practical yet premium daily sedan.",
-    "priceAUD": 2680,
+    "priceAUD": 29499,
     "status": "available",
     "specs": {
       "mileageKm": 97100,
@@ -18,7 +80,7 @@
     "highlights": [
       "✔️2x keys",
       "✔️Service history & log books",
-      "✔️Comes with GST Invoice claim back approx"
+      "✔️Comes with GST Invoice claim back approx $2680"
     ],
     "images": [
       "https://res.cloudinary.com/dozwtxbw8/image/upload/v1786802186/elite-motor-cars/2021-toyota-camry-hybrid/n0cgb5qqlyirulpdfner.jpg",
@@ -49,7 +111,7 @@
     "licenseNumber": "MD100405",
     "sortOrder": -25,
     "createdAt": "2026-08-15T13:58:35.840Z",
-    "updatedAt": "2026-08-15T13:58:35.840Z",
+    "updatedAt": "2026-08-17T12:28:54.978Z",
     "slug": "2021-toyota-camry-hybrid"
   },
   {
@@ -121,8 +183,8 @@
     "name": "2019 Toyota C-HR Hybrid G MODE NERO",
     "tagline": "6 Months rego & Ctp",
     "description": "The 2019 Toyota C-HR Hybrid G Mode Nero is a top-of-the-line premium compact SUV that combines bold styling, outstanding fuel efficiency, and advanced safety technology. Powered by Toyota’s proven 1.8L hybrid powertrain paired with a smooth e-CVT automatic transmission, it delivers an exceptionally economical and refined driving experience. With 101,000 kms, two keys, a full service history with log books, and a hardwired dashcam, this well-maintained Mode Nero edition offers excellent value and reliability. Premium features include brand-new tyres, smart key entry with push-button start, blind spot monitoring, 360° parking sensors, reverse camera with touchscreen infotainment, heated front seats, dual-zone climate control, LED headlights and taillights, and stylish alloy wheels. Toyota Safety Sense adds adaptive cruise control, lane departure warning, and pre-collision braking, ensuring confidence on every journey. Combining premium comfort, modern technology, and exceptional hybrid efficiency, this C-HR Hybrid G Mode Nero is an ideal SUV for daily commuting, weekend adventures, and family use.",
-    "priceAUD": 25990,
-    "status": "available",
+    "priceAUD": null,
+    "status": "sold",
     "specs": {
       "mileageKm": 101000,
       "engineDisplacement": "1.8",
@@ -167,7 +229,7 @@
     "licenseNumber": "MD100405",
     "sortOrder": -23,
     "createdAt": "2026-07-29T16:41:32.899Z",
-    "updatedAt": "2026-07-29T16:41:32.899Z",
+    "updatedAt": "2026-08-17T12:52:27.979Z",
     "slug": "2019-toyota-c-hr-hybrid-g-mode-nero"
   },
   {
@@ -965,66 +1027,6 @@
     "slug": "2012-toyota-prius-hybrid"
   },
   {
-    "_id": "6a1037b69a1c5d8ad056704d",
-    "name": "2015 Toyota Aqua / Prius C Hyrbid",
-    "tagline": "3 months rego & ctp",
-    "description": "The 2015 Toyota Aqua / Prius C Hybrid is a compact and ultra fuel-efficient hatchback perfect for daily commuting, rideshare driving, and city use. Powered by Toyota’s reliable 1.5L hybrid engine with a smooth e-CVT automatic transmission, it delivers excellent fuel economy and low running costs while remaining comfortable and easy to drive. With only 58,000 kms, full service history, and eligibility for Uber X, DiDi, and Uber Eats, this Aqua is a practical and dependable choice for both personal and commercial use. It features a stylish Modelista body kit and wheels, brand-new Dunlop tyres, keyless entry with push-button start, cruise control, multimedia steering wheel, reverse camera, 360 parking sensors, and selectable driving modes including Sport, Eco, and EV—making it a smart blend of efficiency, comfort, and modern JDM styling.",
-    "priceAUD": null,
-    "status": "sold",
-    "specs": {
-      "mileageKm": 58000,
-      "engineDisplacement": "1.5",
-      "transmission": "Automatic",
-      "fuelType": "Hybrid",
-      "year": 2015,
-      "color": "Purple",
-      "driveType": "FWD"
-    },
-    "highlights": [
-      "Keyless entry + Push Start",
-      "Modelista Body kit",
-      "Modelista Wheels",
-      "Brand new dunlop tyre’s",
-      "Full service history & log books",
-      "Cruise control",
-      "2x keys",
-      "Hybrid",
-      "Multimedia Steering wheel",
-      "360 Parking sensors",
-      "Auto mirrors",
-      "driving modes (Sports Eco Ev)",
-      "Reverse camera",
-      "Alot more"
-    ],
-    "images": [
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447133/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/dsd0w8ot5f5mhmzt940i.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447148/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/uzvf5flzkujwcuq5anel.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447147/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/remuhc6mwixpo6sdofyi.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447146/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/otdti5x5vtpxcyhnp3ro.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447141/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/buacvl5avgdcwjnc4q0o.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447131/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/rnvhdtj1elgnuukx9mcr.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447144/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/mhf2u9hvwdkc2c8aiozd.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447142/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/giv34yxqbqri4szrudzh.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447143/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/ewtfmjxs23ggq5jr9hd0.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447138/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/gmgbanyzr56s8wlexf9e.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447134/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/pyvypxuncsqssyp2noa6.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447136/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/sswr8pfmf2rmoicb7prf.jpg",
-      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447137/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/q0od358chxuy3nvezb7q.jpg"
-    ],
-    "thumbnailUrl": "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447133/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/dsd0w8ot5f5mhmzt940i.jpg",
-    "tags": [
-      "Featured"
-    ],
-    "isFeatured": true,
-    "dealer": "Elite Motor Cars",
-    "dealerLocation": "Sydney, Australia",
-    "licenseNumber": "MD100405",
-    "sortOrder": -10,
-    "createdAt": "2026-05-22T11:02:14.021Z",
-    "updatedAt": "2026-06-10T19:05:57.445Z",
-    "slug": "2015-toyota-aqua-prius-c-hyrbid"
-  },
-  {
     "_id": "6a2fb76c5760b05504a10dd7",
     "name": "2008 Mitsubishi Lancer Evolution X GSR RYUSHON – EVO 10 SST TWIN CLUTCH",
     "tagline": "6 months rego + Ctp",
@@ -1094,6 +1096,66 @@
     "createdAt": "2026-06-15T08:27:24.167Z",
     "updatedAt": "2026-08-03T08:34:33.044Z",
     "slug": "2008-mitsubishi-lancer-evolution-x-gsr-ryushon-evo-10-sst-twin-clutch-1"
+  },
+  {
+    "_id": "6a1037b69a1c5d8ad056704d",
+    "name": "2015 Toyota Aqua / Prius C Hyrbid",
+    "tagline": "3 months rego & ctp",
+    "description": "The 2015 Toyota Aqua / Prius C Hybrid is a compact and ultra fuel-efficient hatchback perfect for daily commuting, rideshare driving, and city use. Powered by Toyota’s reliable 1.5L hybrid engine with a smooth e-CVT automatic transmission, it delivers excellent fuel economy and low running costs while remaining comfortable and easy to drive. With only 58,000 kms, full service history, and eligibility for Uber X, DiDi, and Uber Eats, this Aqua is a practical and dependable choice for both personal and commercial use. It features a stylish Modelista body kit and wheels, brand-new Dunlop tyres, keyless entry with push-button start, cruise control, multimedia steering wheel, reverse camera, 360 parking sensors, and selectable driving modes including Sport, Eco, and EV—making it a smart blend of efficiency, comfort, and modern JDM styling.",
+    "priceAUD": null,
+    "status": "sold",
+    "specs": {
+      "mileageKm": 58000,
+      "engineDisplacement": "1.5",
+      "transmission": "Automatic",
+      "fuelType": "Hybrid",
+      "year": 2015,
+      "color": "Purple",
+      "driveType": "FWD"
+    },
+    "highlights": [
+      "Keyless entry + Push Start",
+      "Modelista Body kit",
+      "Modelista Wheels",
+      "Brand new dunlop tyre’s",
+      "Full service history & log books",
+      "Cruise control",
+      "2x keys",
+      "Hybrid",
+      "Multimedia Steering wheel",
+      "360 Parking sensors",
+      "Auto mirrors",
+      "driving modes (Sports Eco Ev)",
+      "Reverse camera",
+      "Alot more"
+    ],
+    "images": [
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447133/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/dsd0w8ot5f5mhmzt940i.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447148/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/uzvf5flzkujwcuq5anel.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447147/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/remuhc6mwixpo6sdofyi.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447146/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/otdti5x5vtpxcyhnp3ro.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447141/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/buacvl5avgdcwjnc4q0o.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447131/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/rnvhdtj1elgnuukx9mcr.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447144/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/mhf2u9hvwdkc2c8aiozd.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447142/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/giv34yxqbqri4szrudzh.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447143/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/ewtfmjxs23ggq5jr9hd0.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447138/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/gmgbanyzr56s8wlexf9e.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447134/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/pyvypxuncsqssyp2noa6.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447136/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/sswr8pfmf2rmoicb7prf.jpg",
+      "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447137/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/q0od358chxuy3nvezb7q.jpg"
+    ],
+    "thumbnailUrl": "https://res.cloudinary.com/dozwtxbw8/image/upload/v1779447133/elite-motor-cars/2015-toyota-aqua-prius-c-hyrbid/dsd0w8ot5f5mhmzt940i.jpg",
+    "tags": [
+      "Featured"
+    ],
+    "isFeatured": true,
+    "dealer": "Elite Motor Cars",
+    "dealerLocation": "Sydney, Australia",
+    "licenseNumber": "MD100405",
+    "sortOrder": -10,
+    "createdAt": "2026-05-22T11:02:14.021Z",
+    "updatedAt": "2026-06-10T19:05:57.445Z",
+    "slug": "2015-toyota-aqua-prius-c-hyrbid"
   },
   {
     "_id": "6a29beaf97f4752a9050ce45",
@@ -1440,8 +1502,8 @@
     "name": "2008 Mitsubishi Lancer Evolution X GSR Ryushon - Evo 10 SST TWIN CLUTCH",
     "tagline": "6 months rego + CTP",
     "description": "This 2008 Mitsubishi Lancer Evolution X GSR is a clean, stock example of the legendary Evo built on the renowned CZ4A chassis, offering pure turbocharged performance and everyday usability. With a low 89K kms, full service history, and a verified Japanese inspection report, this Evo combines reliability with serious driving excitement. The 4B11T turbo engine paired with the lightning-fast SST twin-clutch transmission delivers rapid acceleration, while Mitsubishi’s advanced AWC AWD system ensures maximum grip in all conditions. Featuring Apple CarPlay, front and rear hardwired dashcams, lightweight aggressive wheels, and race-inspired Recaro bucket seats, this Evo X blends modern comfort with iconic JDM performance and sharp handling—perfect for enthusiasts who want a clean, well-kept performance sedan.",
-    "priceAUD": 31499,
-    "status": "available",
+    "priceAUD": null,
+    "status": "sold",
     "specs": {
       "mileageKm": 89000,
       "engineDisplacement": "2.0",
@@ -1492,7 +1554,7 @@
     "licenseNumber": "MD100405",
     "sortOrder": -5,
     "createdAt": "2026-05-06T12:44:03.670Z",
-    "updatedAt": "2026-05-06T12:44:03.670Z",
+    "updatedAt": "2026-08-20T18:24:35.378Z",
     "slug": "2008-mitsubishi-lancer-evolution-x-gsr-ryushon---evo-10-sst-twin-clutch"
   },
   {
