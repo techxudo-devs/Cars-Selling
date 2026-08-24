@@ -40,6 +40,14 @@ export function isSoldCar(car: Pick<FrontendCar, "status" | "price">) {
   return car.status === "sold" || car.price === "SOLD";
 }
 
+export function matchesCarSlug(slug: string, car: Pick<FrontendCar, "name" | "id">) {
+  return (
+    slug === slugifyCarRoute(car.name, car.id) ||
+    car.id === slug ||
+    slug.endsWith(`-${car.id}`)
+  );
+}
+
 export function slugifyCarRoute(name: string, id: string) {
   const slugBase = name
     .toLowerCase()

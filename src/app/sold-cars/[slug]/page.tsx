@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
 import CarDetailsContent from "@/app/cars/[id]/CarDetailsContent";
 import { getSoldCars } from "@/lib/inventory";
-import { slugifyCarRoute, toFrontendCar } from "@/lib/cars";
+import { matchesCarSlug, slugifyCarRoute, toFrontendCar } from "@/lib/cars";
 import { buildBreadcrumbListSchema, buildVehicleSchema } from "@/lib/structuredData";
 
 type Params = {
@@ -15,12 +15,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const car = (await getSoldCars())
     .map(toFrontendCar)
-    .find(
-      (item) =>
-        slug === slugifyCarRoute(item.name, item.id) ||
-        item.id === slug ||
-        slug.endsWith(`-${item.id}`),
-    );
+    .find((item) => matchesCarSlug(slug, item));
 
   if (!car) {
     return {};
@@ -46,12 +41,7 @@ export default async function SoldCarPage({ params }: Params) {
   const { slug } = await params;
   const car = (await getSoldCars())
     .map(toFrontendCar)
-    .find(
-      (item) =>
-        slug === slugifyCarRoute(item.name, item.id) ||
-        item.id === slug ||
-        slug.endsWith(`-${item.id}`),
-    );
+    .find((item) => matchesCarSlug(slug, item));
 
   if (!car) {
     notFound();
